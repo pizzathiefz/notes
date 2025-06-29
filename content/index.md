@@ -6,7 +6,15 @@
 - Data | 🍕🎮✍️📚🧘
 - [mail](mailto:pizzathief0@gamil.com) | [linkedin](https://www.linkedin.com/in/youngshin-son-a03386218/) | [github](https://github.com/pizzathiefz)
 
+<br>
 
+## recent 📄
+
+| File                                                                                                                 | tags                                                 |
+| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [[note/Harnessing the universal geometry of embeddings\|Harnessing the universal geometry of embeddings]] | <ul><li>machine-learning</li><li>embedding</li></ul> |
+
+<br>
 
 ## recent 📚
 | File                                             | author                            |
@@ -20,6 +28,7 @@
 | [[book/블랙케이크\|블랙케이크]]                 | <ul><li>샤메인 윌커슨</li></ul>         |
 
 
+<br>
 
 ## recent 🎬 
 
@@ -34,17 +43,18 @@
 | [[film/Straume; Flow\|Straume; Flow]]                     | 애니메이션의 본질을 잊지 말라고 디즈니 픽사 등등의 뺨을 때리는 다윗 같다.                                                                 |
 
 
+<br>
 
 ## yearly archive
 
 | books        | films        |
 | ------------ | ------------ |
-| [[yearly/2025 📚]]  | [[yearly/2025 🎬]]  |
-| [[yearly/2024 📚]]  | [[yearly/2024 🎬]]  |
-| [[yearly/2023 📚]]  | [[yearly/2023 🎬]]  |
-| [[yearly/2022 📚]]  | [[yearly/2022 🎬]]  |
-| [[yearly/2021 📚]]  | [[yearly/2021 🎬]]  |
-| [[yearly/2020 📚]]  | [[yearly/2020 🎬]]  |
-| [[yearly/2019 📚]]  | [[yearly/2019 🎬]]  |
-| [[yearly/2018 📚]]  | [[yearly/2018 🎬]]  |
-| [[yearly/~2017 📚]] | [[yearly/~2017 🎬]] |
+| [2025 📚](yearly/2025%20📚.md)  | [2025 🎬](yearly/2025%20🎬.md)  |
+| [2024 📚](yearly/2024%20📚.md)  | [2024 🎬](yearly/2024%20🎬.md)  |
+| [2023 📚](yearly/2023%20📚.md)  | [2023 🎬](yearly/2023%20🎬.md)  |
+| [2022 📚](yearly/2022%20📚.md)  | [2022 🎬](yearly/2022%20🎬.md)  |
+| [2021 📚](yearly/2021%20📚.md)  | [2021 🎬](yearly/2021%20🎬.md)  |
+| [2020 📚](yearly/2020%20📚.md)  | [2020 🎬](yearly/2020%20🎬.md)  |
+| [2019 📚](yearly/2019%20📚.md)  | [2019 🎬](yearly/2019%20🎬.md)  |
+| [2018 📚](yearly/2018%20📚.md)  | [2018 🎬](yearly/2018%20🎬.md)  |
+| [\~2017 📚](yearly/~2017%20📚.md) | [\~2017 🎬](yearly/~2017%20🎬.md) |
