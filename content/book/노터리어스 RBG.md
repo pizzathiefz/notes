@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"노터리어스 RBG","cssclasses":""}
+{"publish":true,"title":"노터리어스 RBG","created":"2019-11-06","cssclasses":""}
 ---
 
 

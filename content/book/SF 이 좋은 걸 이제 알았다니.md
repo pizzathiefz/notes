@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"SF, 이 좋은 걸 이제 알았다니","cssclasses":""}
+{"publish":true,"title":"SF, 이 좋은 걸 이제 알았다니","created":"2020-10-12","cssclasses":""}
 ---
 
 
