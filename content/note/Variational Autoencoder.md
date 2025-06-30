@@ -25,7 +25,9 @@
 
 - 아이디어는 MLE랑 유사하게 출발 -  우리의 관찰된 데이터 $x$ 가 발생할 (Log) Likelihood를 가장 높도록 하고 싶다
 
-$$\begin{align} \log(p(x)) & = \int \log(p(x))q_{\Phi}(z \vert x) dz & \because \int q_{\Phi} (z \vert x) dz = 1 \\ & = \int \log (\frac{p(x,z)}{p(z \vert x)}) q_{\Phi}(z \vert x)dz  & \because p(x) = \frac{p(x,z)}{p(z \vert x)} \\ & = \int \log ( \frac{p(x,z)}{q_{\Phi}(z \vert x)} \cdot \frac{q_{\Phi}(z \vert x)}{p(z \vert x)}) q_{\Phi}(z \vert x) dz &  \\ & = \int \log ( \frac{p(x,z)}{q_{\Phi}(z \vert x)}) q_{\Phi}(z \vert x) dz + \int \log (\frac{q_{\Phi}(z \vert x)}{p(z \vert x)}) q_{\Phi}(z \vert x) dz &  \end{align} $$
+$$
+\begin{align} \log(p(x)) & = \int \log(p(x))q_{\Phi}(z \vert x) dz & \because \int q_{\Phi} (z \vert x) dz = 1 \\ & = \int \log (\frac{p(x,z)}{p(z \vert x)}) q_{\Phi}(z \vert x)dz  & \because p(x) = \frac{p(x,z)}{p(z \vert x)} \\ & = \int \log ( \frac{p(x,z)}{q_{\Phi}(z \vert x)} \cdot \frac{q_{\Phi}(z \vert x)}{p(z \vert x)}) q_{\Phi}(z \vert x) dz &  \\ & = \int \log ( \frac{p(x,z)}{q_{\Phi}(z \vert x)}) q_{\Phi}(z \vert x) dz + \int \log (\frac{q_{\Phi}(z \vert x)}{p(z \vert x)}) q_{\Phi}(z \vert x) dz &  \end{align} 
+$$
 
 
 - 첫번째 term : $\int \log ( \frac{p(x,z)}{q_{\Phi}(z \vert x)}) q_{\Phi}(z \vert x) dz$ **= Evidence Lower Bound**
