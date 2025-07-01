@@ -129,7 +129,7 @@ def __iter__(self):
 	- 여러 줄로 걸칠 거면 그냥 제너레이터 함수 쓰자
 
 
-### 표준 라이브러리 제너레이터
+### 표준 라이브러리 제너레이터
 
 
 ####  Filtering 
@@ -211,7 +211,7 @@ def __iter__(self):
 def package_receiver():
     while True:
         package = yield 
-        print(f"택배를 받았다: {package}")
+        print(f"택배를 받았다: {package}")
 
 receiver = package_receiver()
 next(receiver) # 코루틴 가동 (yield까지 실행)

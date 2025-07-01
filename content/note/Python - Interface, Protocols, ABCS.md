@@ -33,7 +33,7 @@ print(add(3, 5))   # 정상 작동
 print(add("3", "5"))  # mypy 검사 시 오류 발생
 ```
 
-```sh
+```sh
 $ mypy script.py
 error: Argument 1 to "add" has incompatible type "str"; expected "int"
 ```
@@ -132,7 +132,7 @@ print(multiply("3", 4))  # "3333"
 
 def multiply(x: int, y: int) -> int:
     if not isinstance(x, int) or not isinstance(y, int):
-        raise TypeError("x와 y는 정수여야 합니다.")  #조기실패
+        raise TypeError("x와 y는 정수여야 합니다.")  #조기실패
     return x * y
 
 ```
@@ -197,7 +197,7 @@ def make_sound(animal: Animal):
     if isinstance(animal, Animal):
         return animal.speak()
     else:
-        raise TypeError("Animal이 아닙니다!")
+        raise TypeError("Animal이 아닙니다!")
 ```
 - 추상 메서드와 일반 메서드 차이
 	- 추상 메서드(`@abstractmethod`)는 서브클래스에서 반드시 구현해야 함, `speak`을 구현하지 않고 상속한 뒤 객체를 생성하면 TypeError 발생

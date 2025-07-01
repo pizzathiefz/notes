@@ -129,7 +129,7 @@ def factorial(n):
 
 <br>
 
-## functools 헬퍼들
+## functools 헬퍼들
 
 
 - **functools.wraps**
@@ -169,7 +169,7 @@ def fibonacci(n):
 ```
 
 
-- **functools.singledispatch()**
+- **functools.singledispatch()**
 	- 파이썬은 함수 오버로딩을 기본적으로 지원하지 않지만, singledispatch()를 사용해서 입력 타입에 따라 다른 함수가 실행되도록 구현할 수 있음
 ```python
 @functools.singledispatch
