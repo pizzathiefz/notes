@@ -2,7 +2,9 @@
 {"publish":true,"title":"main","cssclasses":""}
 ---
 
-## about
+
+![[assets/index/index.gif|325]]
+  👋
 - [mail](mailto:pizzathief0@gamil.com) | [linkedin](https://www.linkedin.com/in/youngshin-son-a03386218/) | [blog](https://pizzathiefz.github.io/)
 
 <br>
@@ -34,7 +36,7 @@
 - [[book/성냥과 버섯구름\|성냥과 버섯구름]]
 - [[book/블랙케이크\|블랙케이크]]
 
-> [!question ]- archive
+> [!question ]- archive
 >  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
 <br>
@@ -49,7 +51,7 @@
 | [[film/All We Imagine As Light\|All We Imagine As Light]] | 4      | 이 대도시에서 우리는 외롭고 우기의 기후는 숨 막혀, 그럼에도 낭만은 상상 가능한 것. 마지막 음악이 미쳤음                                         |
 | [[film/Doubt\|Doubt]]                                     | 3.5    | 확신만 있고 의심이 없다면.                                                                                      |
 
-> [!question ]- archive
+> [!question ]- archive
 >   [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
 <br>
