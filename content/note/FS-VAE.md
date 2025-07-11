@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"FS-VAE","created":"2025-02-07","tags":["ai-ml","recsys"],"cssclasses":""}
+{"publish":true,"title":"FS-VAE","created":"2025-02-07","tags":["recsys"],"cssclasses":""}
 ---
 
 >  [**Modeling Users According to Their Slow and Fast-Moving Interests**](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/) (2022)

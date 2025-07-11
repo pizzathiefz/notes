@@ -9,26 +9,12 @@
   👋 이곳은 [손영신](https://www.linkedin.com/in/youngshin-son/)의 메모 저장소입니다. 
 
 > [!question]- about
-> 머신러닝 엔지니어로 일하고 있습니다. 지금까지는 게임과 음악 스트리밍 앱을 만드는 회사에 다녔습니다. 일에서는 재미를 가장 중요하게 생각하는데 저의 재미는 대체로 실용주의에 기반합니다.
-> 
-> 시간이 나면 책을 읽는 나쁜 습관이 있습니다. 다행히 어떤 책들은 제 과거와 미래를 아주 조금씩은 바꿔 놓았습니다. 예를 들면,
-> - [[book/눈 먼 암살자]],  *마거릿 애트우드*
-> - [[book/랩 걸]], *호프 자런*
-> - [[book/그로칼랭]], *로맹 가리*
-> - [[book/타인의 고통에 응답하는 공부]], *김승섭*
-> - [[book/키르케]], *매들린 밀러*
-> - [[book/철학자와 늑대]], *마크 롤랜즈*
-> - [[book/오렌지만이 과일은 아니다]], *지넷 윈터슨*
-> - [[book/누가 버지니아 울프를 두려워하랴]], *에드워드 올비*
->
-> 영화는 닥치는 대로 보고 굳이 고르자면 [Star Wars: The Last Jedi](https://www.imdb.com/title/tt2527336/) 나 [비밀은 없다](https://www.imdb.com/title/tt5768474/) 같은 영화들을 소중하게 여깁니다. 그 외에는 간헐적으로 게임과 요가를 즐겁게 합니다.
-> 싫어하는 것은 모든 종류의 외출, 대부분의 종류의 불확실성, 그리고 귀가했을 때 꼬리를 흔드는 개가 없는 삶입니다.
+> 머신러닝 엔지니어로 일하고 있습니다. 지금까지는 게임과 음악 스트리밍 앱을 만드는 회사에 다녔습니다. 사람들을 즐겁게 하는 일을 하면서 그 과정에서 저도 즐거우려고 노력합니다. 시간이 나면 닥치는 대로 책을 읽고 영화를 보는 나쁜 습관이 있고 그 외에는 간헐적으로 게임과 요가를 합니다. 싫어하는 것은 모든 종류의 외출, 대부분의 종류의 불확실성, 그리고 귀가했을 때 꼬리를 흔드는 개가 없는 삶입니다.  
 
 <br>
 
 ## recent 📄
-- [[note/추천 편향 완화를 위한 Choice Model, Re-ranking\|추천 편향 완화를 위한 Choice Model, Re-ranking]]
-- [[note/따로 학습된 임베딩 번역하기\|따로 학습된 임베딩 번역하기]]
+- [[note/따로 학습된 임베딩 번역하기 (vec2vec)\|따로 학습된 임베딩 번역하기 (vec2vec)]]
 - [[note/Text2Tracks\|Text2Tracks]]
 - [[note/Python - Iterators, Generators, Classic Coroutines\|Python - Iterators, Generators, Classic Coroutines]]
 - [[note/Python - Decorators, Closures\|Python - Decorators, Closures]]
@@ -58,13 +44,13 @@
 
 ## recent 🎬 
 
-| File                                                                                                                       | rating | comment                                                                                              |
-| -------------------------------------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------- |
-| [[film/Lahn Mah; How to Make Millions Before Grandma Dies\|Lahn Mah; How to Make Millions Before Grandma Dies]] | 3      | \-                                                                                                   |
-| [[film/Old Guard 2\|Old Guard 2]]                                                                               | \-     | \-                                                                                                   |
-| [[film/Sinners\|Sinners]]                                                                                       | 4      | 야 블루스가 사람 잡는다 (좋다는 뜻)                                                                                |
-| [[film/K-Pop Demon Hunters\|K-Pop Demon Hunters]]                                                               | 3.5    | 시작 십분만에 그 사자보이스 기획안 올릴 때 디몬들 반응처럼 아 이건 된다. 이건 되지.                                                    |
-| [[film/Memoir of a Snail\|Memoir of a Snail]]                                                                   | 3.5    | 달팽이는 지난 길마다 끈적한 점액을 남길 수밖에 없지만 그것에 붙잡히지는 않는다. 캐릭터가 눈물을 흘릴 때 그것의 물리적인 존재가 주는 감각을 가능하게 하는 장르의 힘을 생각했다. |
+| File                                                                                                                       | rating | comment                                                             |
+| -------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------- |
+| [[film/Mufasa The Lion King\|Mufasa The Lion King]]                                                             | 2.5    | 어떤 악역은 전사가 없을 때가 더 나은 법이다. 다 보고 감독 이름 보고 너무 놀람. 이딴 걸 만든 사람이 배리 젠킨스? |
+| [[film/Lahn Mah; How to Make Millions Before Grandma Dies\|Lahn Mah; How to Make Millions Before Grandma Dies]] | 3      | 예상된 길을 예상된 방식으로 무난하게.                                               |
+| [[film/Old Guard 2\|Old Guard 2]]                                                                               | 2.5    | 1편 솔직히 샤를리즈 테론 얼굴이 재밌었던 건 줄 알았는데 2편 보니까 아니었네 영화도 재밌었던 거였네..         |
+| [[film/Sinners\|Sinners]]                                                                                       | 4      | 야 블루스가 사람 잡는다 (좋다는 뜻)                                               |
+| [[film/K-Pop Demon Hunters\|K-Pop Demon Hunters]]                                                               | 3.5    | 시작 십분만에 그 사자보이스 기획안 올릴 때 디몬들 반응처럼 아 이건 된다. 이건 되지.                   |
 
 > [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
