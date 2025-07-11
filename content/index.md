@@ -14,6 +14,7 @@
 <br>
 
 ## recent 📄
+- [[note/Repeat-aware Sequential Music Recommendation\|Repeat-aware Sequential Music Recommendation]]
 - [[note/따로 학습된 임베딩 번역하기 (vec2vec)\|따로 학습된 임베딩 번역하기 (vec2vec)]]
 - [[note/Text2Tracks\|Text2Tracks]]
 - [[note/Python - Iterators, Generators, Classic Coroutines\|Python - Iterators, Generators, Classic Coroutines]]
