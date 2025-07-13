@@ -14,14 +14,13 @@
 <br>
 
 ## recent 📄
-- [[note/Repeat-aware Sequential Music Recommendation\|Repeat-aware Sequential Music Recommendation]]
+- [[note/Repeat-Aware Sequential Music Recommendation\|Repeat-Aware Sequential Music Recommendation]]
 - [[note/따로 학습된 임베딩 번역하기 (vec2vec)\|따로 학습된 임베딩 번역하기 (vec2vec)]]
 - [[note/Text2Tracks\|Text2Tracks]]
 - [[note/Recsys in the Era of LLM\|Recsys in the Era of LLM]]
 - [[note/FS-VAE\|FS-VAE]]
 - [[note/Python - Interface, Protocols, ABCS\|Python - Interface, Protocols, ABCS]]
 - [[note/GPU OOM날 때\|GPU OOM날 때]]
-- [[note/SASRec\|SASRec]]
 - [[note/Variational Autoencoder\|Variational Autoencoder]]
 - [[note/라벨이 불균형한 데이터에서 오버샘플링의 효과\|라벨이 불균형한 데이터에서 오버샘플링의 효과]]
 
