@@ -14,7 +14,7 @@
 <br>
 
 ## recent 📄
-- [[note/Repeat-Aware Sequential Music Recommendation\|Repeat-Aware Sequential Music Recommendation]]
+- [[note/음악의 반복 소비 성향을 이용한 Sequential Recommendation\|음악의 반복 소비 성향을 이용한 Sequential Recommendation]]
 - [[note/따로 학습된 임베딩 번역하기 (vec2vec)\|따로 학습된 임베딩 번역하기 (vec2vec)]]
 - [[note/Text2Tracks\|Text2Tracks]]
 - [[note/Recsys in the Era of LLM\|Recsys in the Era of LLM]]
@@ -27,6 +27,8 @@
 <br>
 
 ## recent 📚
+- [[book/제7의 인간\|제7의 인간]]
+- [[book/죽은 다음\|죽은 다음]]
 - [[book/죽은 이들의 뼈 위로 쟁기를 끌어라\|죽은 이들의 뼈 위로 쟁기를 끌어라]]
 - [[book/면역에 관하여\|면역에 관하여]]
 - [[book/검은 머리 짐승 사전\|검은 머리 짐승 사전]]
@@ -35,8 +37,6 @@
 - [[book/못해 그리고 안 할 거야\|못해 그리고 안 할 거야]]
 - [[book/즐거운 어른\|즐거운 어른]]
 - [[book/치치새가 사는 숲\|치치새가 사는 숲]]
-- [[book/아연 소년들\|아연 소년들]]
-- [[book/성냥과 버섯구름\|성냥과 버섯구름]]
 
 >  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
@@ -44,13 +44,13 @@
 
 ## recent 🎬 
 
-| File                                                                                                                       | rating | comment                                                             |
-| -------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------- |
-| [[film/Mufasa The Lion King\|Mufasa The Lion King]]                                                             | 2.5    | 어떤 악역은 전사가 없을 때가 더 나은 법이다. 다 보고 감독 이름 보고 너무 놀람. 이딴 걸 만든 사람이 배리 젠킨스? |
-| [[film/Lahn Mah; How to Make Millions Before Grandma Dies\|Lahn Mah; How to Make Millions Before Grandma Dies]] | 3      | 예상된 길을 예상된 방식으로 무난하게.                                               |
-| [[film/Old Guard 2\|Old Guard 2]]                                                                               | 2.5    | 1편 솔직히 샤를리즈 테론 얼굴이 재밌었던 건 줄 알았는데 2편 보니까 아니었네 영화도 재밌었던 거였네..         |
-| [[film/Sinners\|Sinners]]                                                                                       | 4      | 야 블루스가 사람 잡는다 (좋다는 뜻)                                               |
-| [[film/K-Pop Demon Hunters\|K-Pop Demon Hunters]]                                                               | 3.5    | 시작 십분만에 그 사자보이스 기획안 올릴 때 디몬들 반응처럼 아 이건 된다. 이건 되지.                   |
+| File                                                                   | rating | comment                                                                           |
+| ---------------------------------------------------------------------- | ------ | --------------------------------------------------------------------------------- |
+| [[film/How to Train Your Dragon\|How to Train Your Dragon]] | 3      | 원작에 대한 애정이 없는 사람이 보면 그냥 왜 또 하는지 모르겠는 실사화 중 하나일 뿐임.                               |
+| [[film/Thunderbolts\|Thunderbolts]]                         | 3      | 문제가 있으면 제발 전문가에게 상담을 받자.                                                          |
+| [[film/84제곱미터\|84제곱미터]]                                     | 2.5    | 이것저것 다 건드리는데 문제를 다루는 방식은 지독하게 피상적이다. 주인공이 결말까지 아무것도 할 수 없다는 것은 어떤 메시지이겠지만.        |
+| [[film/Happyend\|Happyend]]                                 | \-     | \-                                                                                |
+| [[film/Heretic\|Heretic]]                                   | 3      | 이런 교수님형 싸이코가 완전히 새로운 건 아닌데 왜 이 캐릭터가 유독 밉상인지, 아마 휴 그랜트의 연기 내공이 이쪽 방향으로 터져버린 게 아닐까. |
 
 > [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
