@@ -3,7 +3,7 @@
 ---
 
 > [!tip] about
-> 음악 소비 시반복 청취 성향을 Sequential Recommendation에 이용한 논문 2개 / 둘다RecSys'24 / 음악은 원래 꽂히면 무한반복재생이지!
+> 음악 소비 시 반복 청취 성향을 Sequential Recommendation에 이용한 논문 2개 / 둘다 RecSys'24 / 음악은 원래 꽂히면 무한반복재생이지!
 
 # [**Enhancing Sequential Music Recommendation with Personalized Popularity Awareness** ](https://arxiv.org/abs/2409.04329)(2024)
 
@@ -105,12 +105,41 @@ $$
 
 ![[assets/음악의 반복 소비 성향을 이용한 sequential recommendation/transformer-actr-architecture.png|625]]
 
-### ACT-R Framework
+### ACT-R 프레임워크 + Session Embedding
 
-### Session Embedding
+3가지 구성요소
+- **Base-level (BL) 컴포넌트** : 특정 노래  $v$ 를 사용자가 얼마나 자주, 그리고 최근에 들었는지 반영하여 기억 활성화를 모델링
+	- $t_{ref}$ : 참조 시간
+	- $t_k$ : 사용자가 $k$ 번째로 노래를 들은 시간
+	- $\alpha$ : time decay parameter
+$$\text{BL}^{(u)}_v = \text{softmax}_{s^{(u)}} \left( \sum_k (t_{ref} - t^{(u,v)}_k)^{-\alpha} \right)$$
+- **Spreading (SPR) 컴포넌트** : 동일한 세션 내에서 노래들이 함께 나타나는 빈도(공동 발생 패턴)
+	- $C$는 노래의 co-occurence matrix $F$의 정규화된 상관 행렬
+$$\text{SPR}^{(u)}_v = \sum_{v' \in s^{(u)}, v' \neq v} C_{vv'} $$
+
+- **Partial Matching (P) 컴포넌트** : 노래 임베딩 벡터의 내적을 통해 계산되는 음악적 유사성 (SPR과 보완적인 정보를 제공)
+$$\text{P}^{(u)}_v = \sum_{v' \in s^{(u)}, v' \neq v} m_v^\top m_{v'}$$
+
+**최종적으로 세션 임베딩은 각 곡 임베딩의 가중합으로 계산**되고,
+$$m_{s^{(u)}} = \sum_{v \in s^{(u)}} w_v m_v$$
+
+가중치는 각 컴포넌트의 선형조합으로 계산됨. 이때 3종류의 가중치는 learnable global parameter
+$$
+w_v = w_{BL} \text{BL}^{(u)}_v + w_{SPR} \text{SPR}^{(u)}_v + w_P \text{P}^{(u)}_v
+$$
+
 
 ### User Embedding
+각 사용자는 장기 선호도와 단기 선호도의 조합으로 표현
+$$m_u = \beta m^{short}_u + (1 - \beta) m^{long}_u$$
 
+장기 선호도: 사용자의 과거 청취 기록에서 BL값이 가장 높은 상위 20개 노래의 임베딩 벡터의 가중평균
+$$
+m^{long}_u = \sum_{v \in \text{Top-BL}^{(u)}} \text{BL}_u v m_v
+$$
+단기 선호도: Transformer 아키텍쳐 사용
+- 각 세션 임베딩 $m_{s^{(u)}_l}$에 학습 가능한 위치 임베딩 $p_l$을 더한 입력 행렬 $(X^{(0)}$이 $B$개의 스택된 Self-Attention Block (SAB)을 통과하며, 최종 블록의 마지막 위치 출력 $X^{(B)}_L$이 $m^{short}_u$가 됨
+- 이 과정에 세션 임베딩에 ACT-R 구성 요소가 반영되어 단기 선호도에 영향을 미침
 
 
 ## Training
