@@ -14,13 +14,13 @@
 <br>
 
 ## recent 📄
+- [[note/Multi-Embedding Retrieval Framework at Pinterest\|Multi-Embedding Retrieval Framework at Pinterest]]
 - [[note/python uv로 패키지 관리\|python uv로 패키지 관리]]
 - [[note/음악의 반복 소비 성향을 이용한 Sequential Recommendation\|음악의 반복 소비 성향을 이용한 Sequential Recommendation]]
 - [[note/따로 학습된 임베딩 번역하기 (vec2vec)\|따로 학습된 임베딩 번역하기 (vec2vec)]]
 - [[note/Recsys in the Era of LLM\|Recsys in the Era of LLM]]
 - [[note/FS-VAE\|FS-VAE]]
 - [[note/Python - Interface, Protocols, ABCS\|Python - Interface, Protocols, ABCS]]
-- [[note/GPU OOM날 때\|GPU OOM날 때]]
 - [[note/Variational Autoencoder\|Variational Autoencoder]]
 - [[note/라벨이 불균형한 데이터에서 오버샘플링의 효과\|라벨이 불균형한 데이터에서 오버샘플링의 효과]]
 
