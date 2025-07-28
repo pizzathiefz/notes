@@ -23,7 +23,9 @@
 
 
 <br>
+
 ## 히스토리 
+
 ![[assets/recsys in the era of llm/recommender-systems-in-the-era-of-llm-2.png]]
 
 - 초기의 협업 필터링과 콘텐츠 기반 추천
@@ -36,6 +38,7 @@
 
 
 <br>
+
 ## Representation Learning
 
 - 추천은 본질적으로 사용자의 특성을 잘 표현하고, 아이템의 특성을 잘 표현한 다음, 그 둘 사이의 **유사도(또는 상호작용 확률)** 를 계산하는 문제

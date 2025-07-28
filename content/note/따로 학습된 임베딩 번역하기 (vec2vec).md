@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"따로 학습된 임베딩 번역하기 (vec2vec)","created":"2025-05-26","tags":["ai-ml","embedding"],"cssclasses":""}
+{"publish":true,"title":"따로 학습된 임베딩 번역하기 (vec2vec)","created":"2025-05-26","tags":["ai-ml"],"cssclasses":""}
 ---
 
 > [Harnessing the Universal Geometry of Embeddings](https://arxiv.org/html/2505.12540v2)
