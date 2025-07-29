@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"YouTube DNNRecommendation","created":"2024-10-30","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"YouTube DNN Recommendation","created":"2024-10-30","tags":["recsys"],"cssclasses":""}
 ---
 
 
