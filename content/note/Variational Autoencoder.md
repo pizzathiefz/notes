@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Variational Autoencoder","created":"2024-11-30","tags":["ai-ml","recsys"],"cssclasses":""}
+{"publish":true,"title":"Variational Autoencoder","created":"2024-11-01","tags":["ai-ml","recsys"],"cssclasses":""}
 ---
 
 -  VAE는 기본적으로 생성 모델(Generative Model)로, AE와는 달리 입력을 그대로 복원하는 것이 아니라 입력과 비슷하지만 새로운 데이터를 생성하는 것
