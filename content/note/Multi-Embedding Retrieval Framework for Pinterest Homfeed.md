@@ -2,7 +2,7 @@
 {"publish":true,"title":"Multi-Embedding Retrieval Framework at Pinterest","created":"2025-07-28","tags":["recsys"],"cssclasses":""}
 ---
 
-> [!tip] about
+ > [!tip] about
 > [Synergizing Implicit and Explicit User Interests: A Multi-Embedding Retrieval Framework at Pinterest](https://arxiv.org/abs/2506.23060) / KDD '25
 
 # Intro
