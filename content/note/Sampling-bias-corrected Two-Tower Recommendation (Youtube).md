@@ -6,7 +6,7 @@
 > [**Sampling-bias-corrected neural modeling for large corpus item recommendations**](https://research.google/pubs/sampling-bias-corrected-neural-modeling-for-large-corpus-item-recommendations/) (2019)
 
 
-> **Two Tower Model**
+> [!quote] Two Tower Model
 > 
 
 ![[assets/sampling-bias-corrected two-tower recommendation (youtube)/youtube-dnn-two-tower.png|500]]
@@ -21,7 +21,7 @@
 - item (video id, channel id) -> embedding, hashing, average
 - user (최근 본 비디오 id) -> embedding average
 
-> In-batch Negative Sampling 
+> [!quote] In-batch Negative Sampling 
 
 - 임베딩 기반의 대규모 분류/유사도 학습 시 사용되는 트릭으로 **현재 mini-batch 안의 다른 item들을 negative로 재활용**
 	- 별도 negative 샘플링 과정이 불필요하고 메모리 절약, 설정에 따라 hard negative 역할도 가능
