@@ -1,12 +1,13 @@
 ---
-{"publish":true,"title":"YouTube Two Tower DNN Recommendation","created":"2024-10-30","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Sampling-bias-corrected Two-Tower Recommendation (Youtube)","created":"2024-10-30","tags":["recsys"],"cssclasses":""}
 ---
 
 
 > [**Sampling-bias-corrected neural modeling for large corpus item recommendations**](https://research.google/pubs/sampling-bias-corrected-neural-modeling-for-large-corpus-item-recommendations/) (2019)
 
 
-
+> **Two Tower Model**
+> 
 
 ![[assets/sampling-bias-corrected two-tower recommendation (youtube)/youtube-dnn-two-tower.png|500]]
 - **두 개의 입력을 각각 독립된(또는 파라미터를 공유하는) 인코더에 넣어 임베딩을 만든 뒤 임베딩 사이의 유사도 함수를 적용하는 구조**를 뜻함 (NLP쪽에서 처음에 주로 사용)
@@ -15,12 +16,12 @@
 	- inference 시에는 유사도 계산해서 top-k를 리턴
 - 사용자/context -> User Tower
 - 아이템 -> Item Tower
+
 - [[note/YouTube DNN Recommendation]]에서 제시된 retrieval 방식과 거의 유사함 (dot product + negative sampling + softmax)
 - item (video id, channel id) -> embedding, hashing, average
 - user (최근 본 비디오 id) -> embedding average
 
-
-
+> In-batch Negative Sampling 
 
 - 임베딩 기반의 대규모 분류/유사도 학습 시 사용되는 트릭으로 **현재 mini-batch 안의 다른 item들을 negative로 재활용**
 	- 별도 negative 샘플링 과정이 불필요하고 메모리 절약, 설정에 따라 hard negative 역할도 가능
@@ -30,6 +31,7 @@
 - desired items(초록색): 이번 mini-batch에 포함된 **positive item**들
 - sampled negative items(파란색): 해당 쿼리와 상호작용하지 않은 다른 아이템들 중 샘플링된 negative item들
 	- 위 그림에서는 다른 쿼리의 positive만 negative로 샘플링하고 있음 -> hard negatives
+
 
 - 여기서도 positive item들만 사용
 	- 조금 시청하면 0, 다 봤으면 1
