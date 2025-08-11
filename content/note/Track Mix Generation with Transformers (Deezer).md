@@ -2,7 +2,7 @@
 {"publish":true,"title":"Track Mix Generation with Transformers (Deezer)","created":"2025-08-04","tags":["recsys"],"cssclasses":""}
 ---
 
-> Track Mix Generation on Music Streaming Services using Transformers
+> [Track Mix Generation on Music Streaming Services using Transformers](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://arxiv.org/abs/2307.03045&ved=2ahUKEwi1kfXZ8IKPAxURcvUHHZkaIBkQFnoECAkQAQ&usg=AOvVaw1IAhMz0hf2P0Km7-MYuI76) (2023)
 
 - Track Mix
 	- 사용자가 이전에 좋아했거나 정기적으로 들었던 트랙들 중에서 개인화된 최대 12개의 음악 트랙 목록을 제공 -> 그 중 하나를 고르면 해당 트랙을 포함한 총 40곡의 믹스 플레이리스트를 생성
