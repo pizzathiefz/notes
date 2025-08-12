@@ -17,7 +17,7 @@
 - [[note/아이템 임베딩을 평균 낼 때의 일관성\|아이템 임베딩을 평균 낼 때의 일관성]]
 - [[note/Track Mix Generation with Transformers (Deezer)\|Track Mix Generation with Transformers (Deezer)]]
 - [[note/Mood 기반 음악 추천 (Deezer)\|Mood 기반 음악 추천 (Deezer)]]
-- [[note/Multi-Embedding Retrieval Framework for Pinterest Homfeed\|Multi-Embedding Retrieval Framework for Pinterest Homfeed]]
+- [[note/Multi-Embedding Retrieval Framework for Homfeed (Pinterest)\|Multi-Embedding Retrieval Framework for Homfeed (Pinterest)]]
 - [[note/python uv로 패키지 관리\|python uv로 패키지 관리]]
 - [[note/음악의 반복 소비 성향을 이용한 Sequential Recommendation\|음악의 반복 소비 성향을 이용한 Sequential Recommendation]]
 - [[note/따로 학습된 임베딩 번역하기\|따로 학습된 임베딩 번역하기]]
