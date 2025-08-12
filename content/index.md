@@ -14,7 +14,8 @@
 <br>
 
 ## recent 📄
-- [[note/아이템 임베딩을 평균 낼 때의 일관성\|아이템 임베딩을 평균 낼 때의 일관성]]
+- [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
+- [[note/스파크 스트리밍 쿼리 101\|스파크 스트리밍 쿼리 101]]
 - [[note/Track Mix Generation with Transformers (Deezer)\|Track Mix Generation with Transformers (Deezer)]]
 - [[note/Mood 기반 음악 추천 (Deezer)\|Mood 기반 음악 추천 (Deezer)]]
 - [[note/Multi-Embedding Retrieval Framework for Homfeed (Pinterest)\|Multi-Embedding Retrieval Framework for Homfeed (Pinterest)]]
@@ -23,7 +24,6 @@
 - [[note/따로 학습된 임베딩 번역하기\|따로 학습된 임베딩 번역하기]]
 - [[note/Recsys in the Era of LLM\|Recsys in the Era of LLM]]
 - [[note/FS-VAE (Spotify)\|FS-VAE (Spotify)]]
-- [[note/라벨이 불균형한 데이터에서 오버샘플링의 효과\|라벨이 불균형한 데이터에서 오버샘플링의 효과]]
 
 <br>
 
