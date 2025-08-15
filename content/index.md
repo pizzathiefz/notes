@@ -14,7 +14,7 @@
 <br>
 
 ## recent 📄
-- [[note/Short-form Video Needs Long-term Interests\|Short-form Video Needs Long-term Interests]]
+- [[note/유저의 long sequence 모델을 분리하는 서빙 구조 (Youtube)\|유저의 long sequence 모델을 분리하는 서빙 구조 (Youtube)]]
 - [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
 - [[note/스파크 스트리밍 쿼리 101\|스파크 스트리밍 쿼리 101]]
 - [[note/Track Mix Generation with Transformers (Deezer)\|Track Mix Generation with Transformers (Deezer)]]
