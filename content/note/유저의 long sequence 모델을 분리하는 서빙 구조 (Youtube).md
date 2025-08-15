@@ -10,6 +10,7 @@
 	- 일반적으로 실제 추천문제에서는 유저의 long-term interest를 반영하는 게 성공에 매우 중요하고, 많은 sequential 추천 모델에도 이런 장기 히스토리를 모델링하기 위한 테크닉이 많이 나와 있지만 deploy가 너무 빡세다 (extremely costly, latency sensitive)
 
 ![[assets/유저의 long sequence 모델을 분리하는 서빙 구조 (youtube)/long-term-history-dilemma.png|450]]
+
 📈 단순히 모델이 참고하는 유저 히스토리의 양을 늘리기만 해도 메트릭은 좋아지지만 비용과 레이턴시는 더 무서운 양으로 늘어나버린다!
 
 - 제안: **UBS(User Behavior Service)**
