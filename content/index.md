@@ -14,16 +14,16 @@
 <br>
 
 ## recent 📄
-- [[note/유저의 long sequence 모델을 분리하는 서빙 구조 (Youtube)\|유저의 long sequence 모델을 분리하는 서빙 구조 (Youtube)]]
+- [[note/Lifelong User Action Sequence Modeling @Pinterest\|Lifelong User Action Sequence Modeling @Pinterest]]
+- [[note/유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube\|유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube]]
 - [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
 - [[note/스파크 스트리밍 쿼리 101\|스파크 스트리밍 쿼리 101]]
-- [[note/Track Mix Generation with Transformers (Deezer)\|Track Mix Generation with Transformers (Deezer)]]
-- [[note/Mood 기반 음악 추천 (Deezer)\|Mood 기반 음악 추천 (Deezer)]]
-- [[note/Multi-Embedding Retrieval Framework for Homfeed (Pinterest)\|Multi-Embedding Retrieval Framework for Homfeed (Pinterest)]]
+- [[note/Track Mix Generation with Transformers @Deezer\|Track Mix Generation with Transformers @Deezer]]
+- [[note/Mood 기반 음악 추천 @Deezer\|Mood 기반 음악 추천 @Deezer]]
+- [[note/Multi-Embedding Retrieval Framework @Pinterest\|Multi-Embedding Retrieval Framework @Pinterest]]
 - [[note/python uv로 패키지 관리\|python uv로 패키지 관리]]
 - [[note/음악의 반복 소비 성향을 이용한 Sequential Recommendation\|음악의 반복 소비 성향을 이용한 Sequential Recommendation]]
 - [[note/맥 세팅할 때 설치할 앱\|맥 세팅할 때 설치할 앱]]
-- [[note/따로 학습된 임베딩 번역하기\|따로 학습된 임베딩 번역하기]]
 
 <br>
 
