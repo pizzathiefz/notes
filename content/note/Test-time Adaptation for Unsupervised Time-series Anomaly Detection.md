@@ -108,7 +108,7 @@
 
 ### ablation
 
-![[assets/test-time adaptation for unsupervised time-series anomaly detection/ablation.png|450]]
+![[assets/test-time adaptation for unsupervised time-series anomaly detection/tta-ablation.png|525]]
 - 확대된 부분을 잘 보면, MLP+DT+TTA와 그냥 MLP의 비교 - 그냥 MLP(파란색)은 trend shift가 일어난 후에도 복원 오차가 계속적으로 발생함 
 - TTA 없이 DT만 사용한 경우 sensitivity가 떨어져서 새로운 데이터로 모델을 업데이트하는 게 sensitivity에 기여한다는 것을 알 수 있음
 - DT 없이 TTA만 사용한 경우는 trend shift가 일어나기 전 데이터 시퀀스에 오버피팅되어 모델의 강건함이 많이 떨어짐
