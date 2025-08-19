@@ -17,7 +17,7 @@
 - 사용자/context -> User Tower
 - 아이템 -> Item Tower
 
-- [[note/YouTube DNN Recommendation]]에서 제시된 retrieval 방식과 거의 유사함 (dot product + negative sampling + softmax)
+- [[note/DNN Recommendation @Youtube]]에서 제시된 retrieval 방식과 거의 유사함 (dot product + negative sampling + softmax)
 - item (video id, channel id) -> embedding, hashing, average
 - user (최근 본 비디오 id) -> embedding average
 
