@@ -36,19 +36,20 @@
 - Feature Encoding: 행동 유형은 학습 가능한 임베딩 테이블을 통해 저차원 벡터로 투영되어 사용자 행동 임베딩 행렬 $\mathbf{W}_{actions} \in \mathbb{R}^{|S| \times d_{action}}$ 을 형성
 	- 핀 내용은 PinSage 임베딩 행렬 $\mathbf{W}_{\text{pins}} \in \mathbb{R}^{|S| \times d_{PinSage}}$ 로 표현
 	- 최종 인코딩된 시퀀스 특성은 $\text{CONCAT}(\mathbf{W}_{actions}, \mathbf{W}_{pins})$
-- Early fusion: 후보 핀과 사용자가 이전에 상호작용한 핀들 간의 상호작용을 명시적으로 모델
-	- concat 방식이 append 방식보다 우수하다고 판단되어 채택
-	- 사용자 행동 시퀀스의 각 행동에 후보 핀의 PinSage 임베딩을 연결
+- Early fusion: 후보 핀과 사용자가 이전에 상호작용한 핀들 간의 상호작용을 합쳐서 모델에 넣어줌
+	- concat 방식이 append 방식보다 우수했음
+		- append는 후보 핀을 시퀀스의 마지막에 덧붙이는 것
+		- concat은 시퀀스의 모든 행동에 후보 핀을 복사해서 붙이는 것
 - Sequence Aggregation Model: 준비된 $\mathbf{U}$를 입력으로 받아 사용자의 단기 선호도를 효율적으로 집계
 	- 표준 Transformer 인코더 (2개의 인코더 레이어, 1개의 헤드)가 사용
 	- 오프라인 실험 결과 positional encoding은 효과적이지 않아 제외
 - Random Time Window Mask
 	- 모델이 사용자의 최근 상호작용과 유사한 콘텐츠만을 추천하는 rabbit hole 효과를 방지하고 다양성을 향상시키기 위해 도입
-	- 학습 중에만 적용되며, 0에서 24시간 사이의 랜덤 시간 창 $T$가 샘플링되어 요청 타임스탬프 $t_{request}$를 기준으로 $(t_{request} - T, t_{request})$ 내에서 발생한 모든 행동은 마스킹함 
+	- 학습 중에만 적용되며, 0에서 24시간 사이의 랜덤 time window $T$가 샘플링되어 요청 타임스탬프 $t_{request}$를 기준으로 $(t_{request} - T, t_{request})$ 내에서 발생한 모든 행동은 마스킹함 
 - Transformer Output Compression:  과도한 시간 복잡도를 피하기 위함
-	- Transformer 인코더 출력 $\mathbf{O} = (o_0 : o_{|S|-1}) \in \mathbb{R}^{|S| \times d}$ 
-	- 첫 번째 $K$개 열 $(o_0 : o_{K-1})$을 전체 시퀀스에 대한 맥스 풀링 벡터 $\text{MAXPOOL}(\mathbf{O}) \in \mathbb{R}^d$와 연결한 다음 벡터 $\mathbf{z} \in \mathbb{R}^{(K+1) \times d}$로 flatten
-	- 사용자의 가장 최근 관심사(첫 $K$개 열)와 전체 시퀀스의 집계된 장기 선호도(맥스 풀링)를 모두 포착하여 성능과 지연 시간 사이의 균형을 맞출 수 있음 ($K$=10).
+	- 행동 100개 -> transformer 인코더 -> 100개의 벡터 = 너무 많음(다음 단계인 DCN v2에 그대로 넣기에)
+	- Transformer 인코더 출력 $\mathbf{O} = (o_0 : o_{|S|-1}) \in \mathbb{R}^{|S| \times d}$ 에서 첫 번째 $K$개 열 $(o_0 : o_{K-1})$을 전체 시퀀스에 대한 맥스 풀링 벡터 $\text{MAXPOOL}(\mathbf{O}) \in \mathbb{R}^d$와 concat한 다음 벡터 $\mathbf{z} \in \mathbb{R}^{(K+1) \times d}$로 flatten
+		-  $K = 10$개는 사용자의 가장 최근 관심사를 포착하고 맥스 풀링 벡터는 전체 시퀀스의 전반적인 선호도를 포착하여 성능과 지연 시간 사이의 균형을 맞출 수 있음 
 
 # Productionize
 
@@ -56,12 +57,13 @@
 	-  실시간 특성을 사용하는 모델은 사용자 행동 변화에 민감하므로 staleness방지하기 위해 주 2회 전체 재훈련을 수행
 - GPU 서빙
 	- TransAct를 도입하면서 계산 복잡도가 65배 증가했으나 다음 최적화를 통해 latency와 cost를 neutral하게 유지
-		- CUDA 커널 융합: nvFuser 및 cuCollections를 활용한 맞춤형 임베딩 테이블 조회 모듈 구현으로 수백 개의 개별 연산을 하나로 통합
+		- nvFuser 및 cuCollections(ID-> embedding lookup을 효율적으로 할 수 있게 해주는 NVIDIA library) 활용, 맞춤형 임베딩 테이블 조회 모듈 구현으로 수백 개의 개별 연산을 하나로 통합하여 오버헤드 최소화
 		- CPU에서 GPU로의 수백 개의 개별 텐서 복사 오버헤드를 줄이기 위해 여러 텐서를 하나의 연속적인 버퍼로 결합하여 전송
 		- 더 큰 배치를 생성(효율적 추론), 캐시 용량 손실을 보완하기 위해 DRAM과 SSD를 결합한 하이브리드 캐시를 구현
-		- 나머지 작은 연산 오버헤드를 완전히 제거하기 위해 모델 추론 프로세스를 단일 단위로 실행하는 정적 그래프로 캡처하는 CUDA 그래프를 사용
+			- 자주 사용되는 데이터(Hot Data)는 빠른 DRAM에 저장하고, 덜 자주 사용되지만 여전히 필요한 데이터(Warm Data)는 더 크고 저렴한 SSD에 저장
+		- 나머지 작은 연산 오버헤드를 완전히 제거하기 위해 모델 추론 프로세스를 단일 단위로 실행하는 정적 그래프로 캡처하는 CUDA Graphs 사용
 - 실시간 feature 처리
-	- Flink 기반의 애플리케이션이 프론트엔드 이벤트에서 생성된 Kafka 스트림을 소비하여 사용자 행동 기록을 Rockstor에 저장합니다
+	- Flink 기반의 애플리케이션이 프론트엔드 이벤트에서 생성된 Kafka 스트림을 소비하여 사용자 행동 기록을 Rockstore(Pinterest에서 사용하는 key-value store)에 저장
 	- 서빙 시에는 시퀀스 특성을 모델에서 활용 가능한 형식으로 변환
 
 
@@ -72,7 +74,8 @@
 - setting
 	- Pinterest Homefeed View Log(FVL)의 3주치 데이터를 사용하여 2주치 데이터로 모델을 훈련하고 3주치 데이터로 평가
 	- 학습 데이터는 사용자 상태 및 레이블에 따라 샘플링되었으며, 불균형한 데이터셋을 보완하기 위해 음성 샘플을 다운샘플링함
-	- 평가는 HIT@3 지표를 사용했으며, 평가 데이터셋에서는 위치 편향을 제거하기 위해 핀 순서를 무작위화
+	- 평가는 HIT@3 지표를 사용
+	- 평가 데이터셋에서는 위치 편향을 제거하기 위해 핀 순서를 무작위화
 - results
 	- TransAct는 기존의 순차 추천 방식(WDL + 시퀀스, BST)을 크게 능가함
 	- 특히 숨기기 예측에서 TransAct의 성능이 압도적으로 우수했으며, 이는 행동 유형 인코딩 능력 덕분
