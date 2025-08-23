@@ -14,6 +14,9 @@
 <br>
 
 ## recent 📄
+- [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
+- [[note/APPNP (GNN + Personalized PageRank)\|APPNP (GNN + Personalized PageRank)]]
+- [[note/Mondrian Conformal Prediction\|Mondrian Conformal Prediction]]
 - [[note/Lifelong User Action Sequence Modeling @Pinterest\|Lifelong User Action Sequence Modeling @Pinterest]]
 - [[note/유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube\|유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube]]
 - [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
@@ -21,9 +24,6 @@
 - [[note/Track Mix Generation with Transformers @Deezer\|Track Mix Generation with Transformers @Deezer]]
 - [[note/Mood 기반 음악 추천 @Deezer\|Mood 기반 음악 추천 @Deezer]]
 - [[note/Multi-Embedding Retrieval Framework @Pinterest\|Multi-Embedding Retrieval Framework @Pinterest]]
-- [[note/python uv로 패키지 관리\|python uv로 패키지 관리]]
-- [[note/음악의 반복 소비 성향을 이용한 Sequential Recommendation\|음악의 반복 소비 성향을 이용한 Sequential Recommendation]]
-- [[note/맥 세팅할 때 설치할 앱\|맥 세팅할 때 설치할 앱]]
 
 <br>
 
@@ -47,7 +47,7 @@
 
 | File                                                             | rating | comment                                                                          |
 | ---------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------- |
-| [[film/The Phoenician Scheme\|The Phoenician Scheme]] | \-     | \-                                                                               |
+| [[film/The Phoenician Scheme\|The Phoenician Scheme]] | 3      | 죽음과 우연의 갭, 신앙과 진실의 갭.                                                            |
 | [[film/Sideways\|Sideways]]                           | 3.5    | 싸구려 햄버거집에서 61년산 슈발 블랑 따기, 이게 인생 아닌가. 그 장면이 어딘가 좀 낭만 같다면 내 인생이 덜 쓴 건가.            |
 | [[film/막걸리가 알려줄거야\|막걸리가 알려줄거야]]                       | 3      | 다들 이렇게 사는데 왜 이렇게 살아야 되는지 모르겠다는 질문에 대한 답은 그냥 블랙홀 안에 있다고.                          |
 | [[film/How to Have Sex\|How to Have Sex]]             | 3.5    | 친구들과의 미래가 갈라지고, 섹스를 더 이상 낭만화할 수 없어진다. 그 자체로 최악의 휴가인 20대 초반과 지독한 숙취 같은 '어른됨'의 기억. |
