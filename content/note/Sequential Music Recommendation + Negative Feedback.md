@@ -29,6 +29,8 @@
 		- 인코더: 표준적인 트랜스포머 인코더 (multi-head self attention layers, position-wise feedforwards layer)
 		- Prediction layer: 인코더의 hidden  + fully connected layer(GELU activation) = prediction vector
 			- 임베딩 테이블과 내적 계산해서 각 트랙에 대한 확률분포 얻음 + sampled softmax (각 미니배치당 대상 트랙들과 unseen sample 1000개 섞기, 이때 1000개는 각 에폭 마다 새로 샘플링)
+
+
 - Task
 	- (main) sequential recommendation task
 		- NLL (negative log likelihood)
@@ -36,17 +38,19 @@
 			- bidirectional인 경우(~BERT4Rec) : masked language modeling, 마지막에 mask token 추가
 	- **(sub) skip-informed contrastive task**
 		- InfoNCE
-			- $$
-\mathcal{L}_{\text{NCE}} = -\mathbb{E}_{X} (\log \frac{f_k(\mathbf{p}, \mathbf{c})}{\sum_{x_j \in X} f_k(x_j, \mathbf{c})})
-$$
 			- 주어진 컨텍스트 $c$  에 대해 positive 샘플 $p$ (시퀀스 다음에 오는 첫번째 non-skip track) 를 negative 샘플들 (시퀀스 내의 모든 스킵된 track) 과 구별하도록 학습
 				- 여기서 context는 트랜스포머 인코더 출력 벡터 또는 각 원본 트랙 임베딩을 둘다 실험했음
 			- 부정 샘플들과 $p$를 포함하는 집합 $X$ 에 대해 infoNCE를 평균내는 방식
 			- $f_k$는 유사도 scoring function으로 cosine similarity 사용
-	- 최종 Loss
-		- $$
-\mathcal{L} = \alpha \mathcal{L}_{\text{NCE}} + \beta \mathcal{L}_{\text{NLL}}
+
 $$
+\mathcal{L}_{\text{NCE}} = -\mathbb{E}_{X} (\log \frac{f_k(\mathbf{p}, \mathbf{c})}{\sum_{x_j \in X} f_k(x_j, \mathbf{c})})
+$$
+
+
+➡️ 최종 Loss는 $\mathcal{L} = \alpha \mathcal{L}_{\text{NCE}} + \beta \mathcal{L}_{\text{NLL}}$ 가 됨
+
+<br>
 
 ![[assets/sequential music recommendation + negative feedback/results.png]]
 
@@ -72,7 +76,7 @@ $$
 - non-sequential baseline(WRMF, BPR)의 경우 유사한 성능 향상
 - 전반적인 절대 성능은 MSSD에서 가장 높았고, 이어서 LFM-2B, LFM-1K 순서
 	- MSSD(2019)는 스트리밍 기반의 알고리즘 중심 콘텐츠 비중이 높고, LFM-1K (2009)는 사용자 큐레이션 중심이어서 가장 낮은 성능, LFM-2B (2020)는 둘의 혼합된 특성
-- (당연히..) skip 비율이 높을수록 (negative feedback 샘플이 많을수록) 성능 향상에 크게 기여
+- (당연히..) skip 비율이 높을수록 (negative feedback 샘플이 많을수록) 성능 향상에 크게 기여
 
 ![[assets/sequential music recommendation + negative feedback/results-mrr.png|475]]
 - **skip downranking**
