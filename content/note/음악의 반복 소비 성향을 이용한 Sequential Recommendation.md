@@ -73,7 +73,6 @@ $$
 - **Personalized Most Popular** -> 대부분 Best Result
 	- 사용자별 인기도를 기반으로 아이템을 추천하는 것 = 자주 사용되는 베이스라인이며 반복성이 높은 도메인에서는 sota 모델급의 성능을 보여주기도 함
 	- (대충 생각해 봐도 정확도 성능에서만 보면 100%의 exploitation으로 좋은 결과를 낼 것 같음. 다만 실상황에서 / 장기적인 관점에서 선호되는 전략은 아니어서 그렇지)
-- Sequential Recommendation(BERT4Rec, SASRec, gSASRec) 
 - **Sequential Recommendation(BERT4Rec, SASRec, gSASRec) + Personalized Popularity Score** 
 	- PPS를 사용하지 않은 모델보다 25%~70% 사이의 성능 향상 (괄호 안 표기)
 	- 일부 지표에서는 best result
@@ -144,7 +143,35 @@ $$
 
 ## Training
 
+- 데이터 준비
+	- 주어진 훈련 세트 $S$에 있는 각 사용자$u$의 전체 청취 세션 시퀀스 $(s_{1,}s_{2,}\cdots, s_L)$사용
+		- 이 시퀀스로부터 첫 $l$ 개 세션만 포함하는 부분 시퀀스를 생성
+		- $s_{l+1}$ 은 모델이 예측해야 할 "정답" 세션이 되고, $o_{l+1}$은 무작위로 샘플된 "부정" 세션이 됨(부정 세션은 사용자가 실제로 듣지 않은 곡들로 구성)
+- 손실 함수
+
+$$ \mathcal{L}(\Theta) = \lambda \mathcal{L}_{\text{song}}(\Theta) + (1-\lambda)\mathcal{L}_{\text{session}}(\Theta)
+$$
+$$
+\mathcal{L}_{\text{song}}(\Theta) = \sum_{S^{(u)} \in \mathcal{S}} \sum_{l=1}^{L-1} \sum_{v \in s^{(u)}_{l+1}, v' \in o^{(u)}_{l+1}} \ln \left( 1 + e^{- (m_{u,l}^\intercal m_v - m_{u,l}^\intercal m_{v'})} \right)
+$$
+
+$$
+\mathcal{L}_{\text{session}}(\Theta) = \sum_{S^{(u)} \in \mathcal{S}} \sum_{l=1}^{L-1} \left( 1 - m_{u,l}^\intercal m_{s^{(u)}_{l+1}} \right)
+$$
+
+- $\lambda$는 하이퍼파라미터
+	- 첫번째 항: BPR Loss
+		- 사용자의 임베딩 벡터($m_{u,l}$)와 정답 곡($v \in s_{l+1}$)의 임베딩 벡터 내적 값이 부정 샘플 곡($v \in o_{l+1}$)의 임베딩 벡터 내적 값보다 높아지도록 하는 것
+	- 두번째 항: session-level loss
+		- $l$번째 세션까지 처리한 사용자 임베딩 벡터가 그 다음 정답 세션의 임베딩 벡터와 높은 내적 값을 갖도록 하는 것
+
 
 ## Result
 
 ![[assets/음악의 반복 소비 성향을 이용한 sequential recommendation/transformer-actr-result.png|625]]
+
+- PISA는 12개의 NDCG 및 Recall 지표 중 10개에서 가장 높은 점수를 달성
+- repeat-aware 모델들이 대부분의 정확도 지표에서 Non-repeat-aware  모델들을 능가
+- PISA-U와 PISA-P는 반복되는 곡들을 효과적으로 예측할 뿐만 아니라, 사용자가 아직 듣지 않은 새로운 곡들을 추천하는 데 있어서도 베이스라인을 크게 능가
+	- 단순히 반복 패턴을 포착할 뿐만 아니라 사용자의 음악적 취향을 효과적으로 나타내는 곡에 집중하게 하여 탐색 능력을 향상시키는 것
+- PISA-U와 PISA-P는 Negative sampling 을 uniform하게 하느냐 popularity에 따라 확률을 다르게 하느냐에 차이인데 popularity-based negative sampling을 사용했을 때 PISA의 효과성, 탐색 능력, 그리고 인기도 편향 감소가 개선됨
