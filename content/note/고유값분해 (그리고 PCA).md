@@ -215,18 +215,22 @@ $$
 	- 두 벡터의 내적이 0이면 두 벡터가 직교함
 	- $$ \mathbf{v}^T \mathbf{w} = 0$$
 - **왜 대칭 행렬의 고유벡터는 직교할까?**
-	- $$\begin{matrix}
+
+$$\begin{matrix}
 \lambda_1 \mathbf{z}^T_1 \mathbf{z}_2 = (C\mathbf{z}_1)^T \mathbf{z}_2 = \mathbf{z}_1^TC^T\mathbf{z}_2 = \mathbf{z}_1^TC\mathbf{z}_2 = \mathbf{z}^T_1\lambda_2\mathbf{z}_2 = \lambda_2\mathbf{z}^T_1 \mathbf{z}_2 \\
 \lambda_1\mathbf{z}^T_1\mathbf{z}_2 - \lambda_2 \mathbf{z}^T_1 \mathbf{z}_2 = (\lambda_1 - \lambda_2) \mathbf{z}^T_1 \mathbf{z}_2 = 0
 \end{matrix}
 $$
-	-  대칭 행렬의 특성인 $C^T = C$  때문에 C의 서로 다른 고유값 $\lambda_1$, $\lambda_2$와 상응하는 고유벡터 $\mathbf{z}_1$,$\mathbf{z}_2$ 에 대해 이런 식이 도출되는데 
-	- $\lambda_1$, $\lambda_2$ 는 서로 다른 값이어서 그 차이가 0이 될 수 없으므로 $\mathbf{z}_1^T\mathbf{z}_2 = 0$ 라는 직교의 정의를 얻을 수 있다!
+
+- 대칭 행렬의 특성인 $C^T = C$  때문에 C의 서로 다른 고유값 $\lambda_1$, $\lambda_2$와 상응하는 고유벡터 $\mathbf{z}_1$,$\mathbf{z}_2$ 에 대해 이런 식이 도출되는데 
+	- $\lambda_1$, $\lambda_2$ 는 서로 다른 값이어서 그 차이가 0이 될 수 없으므로 $\mathbf{z}_1^T\mathbf{z}_2 = 0$ 라는 직교의 정의를 얻을 수 있다!  
+
 
 
 ![[assets/고유값분해 (그리고 pca)/pca-2.png|450]]
-PC1과 PC2가 2개의 직교하는 축이며, PC1이 더 큰 고유값 = 더 많은 분산을 보존한다! [(그림 출처)](https://wikidocs.net/214112)
 
+PC1과 PC2가 2개의 직교하는 축이며, PC1이 더 큰 고유값 = 더 많은 분산을 보존한다! [(그림 출처)](https://wikidocs.net/214112)
+<br>
 
 - 이제 얻은 축들을 고유값이 큰 순서에 따라 내림차순으로 정렬함(처음 문제를 풀었던 식을 들여다보면 고유값이 클수록 분산이 더 크게 보존될 거라는 걸 알 수 있음)
 - 우리는 1차원으로 축소하고 싶으므로 이 값이 가장 큰 고유벡터를 사용하면 됨
