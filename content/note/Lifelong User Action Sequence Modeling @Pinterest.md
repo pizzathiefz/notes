@@ -101,7 +101,7 @@ $$F = \text{CONCAT}(E_{PinSage}(S_{all}), e_c) + E_{act} + E_{surf} + E_{pos} \i
 		- trained from scratch
 		- evaluation: 학습 데이터 수집 마지막 날로부터 7일 후에 수집된 데이터셋
 	- 평가지표: head-wise HitRate 
-		- 긍정적 head이면 높은 게 좋고 hide처럼 부정적 head이면 낮은 게 좋음ㅇ
+		- 긍정적 head이면 높은 게 좋고 hide처럼 부정적 head이면 낮은 게 좋음
 
 
 ![[assets/lifelong user action sequence modeling @pinterest/results-offline.png|450]]
