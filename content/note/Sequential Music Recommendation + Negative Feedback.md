@@ -37,7 +37,7 @@
 	- **(sub) skip-informed contrastive task**
 		- InfoNCE
 			- $$
-\mathcal{L}_{\text{NCE}} = -\mathbb{E}_{X}\left[\log \frac{f_k(\mathbf{p}, \mathbf{c})}{\sum_{x_j \in X} f_k(x_j, \mathbf{c})}\right]
+\mathcal{L}_{\text{NCE}} = -\mathbb{E}_{X} (\log \frac{f_k(\mathbf{p}, \mathbf{c})}{\sum_{x_j \in X} f_k(x_j, \mathbf{c})})
 $$
 			- 주어진 컨텍스트 $c$  에 대해 positive 샘플 $p$ (시퀀스 다음에 오는 첫번째 non-skip track) 를 negative 샘플들 (시퀀스 내의 모든 스킵된 track) 과 구별하도록 학습
 				- 여기서 context는 트랜스포머 인코더 출력 벡터 또는 각 원본 트랙 임베딩을 둘다 실험했음
