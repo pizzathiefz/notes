@@ -97,10 +97,10 @@
 ![[assets/appnp (gnn + personalized pagerank)/propagation_stage.png]] 
 
 
-- 전파(propagation) 단계가 training과 inference 과정에 각각 어떻게 기여하는지비교
+- 전파(propagation) 단계가 training과 inference 과정에 각각 어떻게 기여하는지
 	- `Never`: 전파를 전혀 사용하지 않음 (표준 MLP처럼 노드 특징만으로 예측)
 	- `Training`: 학습 시에만 전파를 사용하고, 추론 시에는 전파 없이 신경망만 사용
-	- `Inference`: 학습 시에는 전파 없이 신경망만 훈련하고, 추론 시에만 전파를 적용
-	- `Inf. & Training`: 둘다에서 전파를 사용 (표준 APPNP)
+	- `Inference`: 학습 시에는 전파 없이 신경망만 사용하고, 추론 시에만 전파를 적용
+	- `Inf. & Training`: 둘다에서 전파를 사용 (표준 APPNP)
 	- 결과: 표준적인 APPNP(`Inf. & Training`)가 가장 나은데, 신기하게도 학습할 땐 MLP만 학습시키고 추론 시에만 전파를 추가하는 경우(`Inference`)에도 정확도가 나쁘지 않음.
 		- PPNP/APPNP의 전파 스킴이 강력하며, 심지어 사전 훈련된 신경망에도 그래프 정보를 활용하여 성능을 크게 높일 수 있음을 보여줌 = 모델의 modularity
