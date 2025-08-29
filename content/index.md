@@ -45,13 +45,15 @@
 
 ## recent 🎬 
 
-| File                                                                                                                         | rating | comment               |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------ | --------------------- |
-| [[film/The Thursday Murder Club\|The Thursday Murder Club]]                                                       | \-     | \-                    |
-| [[film/Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig\|Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig]] | \-     | \-                    |
-| [[film/The Death of Stalin\|The Death of Stalin]]                                                                 | 3.5    | \-                    |
-| [[film/F1\|F1]]                                                                                                   | 3      | \-                    |
-| [[film/The Phoenician Scheme\|The Phoenician Scheme]]                                                             | 3      | 죽음과 우연의 갭, 신앙과 진실의 갭. |
+| File                                                                                                                         | rating | comment                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------ | --------------------------------------------------------------------- |
+| [[film/The Thursday Murder Club\|The Thursday Murder Club]]                                                       | \-     | \-                                                                    |
+| [[film/Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig\|Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig]] | \-     | \-                                                                    |
+| [[film/The Death of Stalin\|The Death of Stalin]]                                                                 | 3.5    | 역시 앙상블은 블랙코미디의 핵심이다.                                                  |
+| [[film/F1\|F1]]                                                                                                   | 3      | 전작 때랑 똑같이 그냥 할 말이 없음.                                                 |
+| [[film/The Phoenician Scheme\|The Phoenician Scheme]]                                                             | 3      | 죽음과 우연의 갭, 신앙과 진실의 갭.                                                 |
+| [[film/Sideways\|Sideways]]                                                                                       | 3.5    | 싸구려 햄버거집에서 61년산 슈발 블랑 따기, 이게 인생 아닌가. 그 장면이 어딘가 좀 낭만 같다면 내 인생이 덜 쓴 건가. |
+| [[film/막걸리가 알려줄거야\|막걸리가 알려줄거야]]                                                                                   | 3      | 다들 이렇게 사는데 왜 이렇게 살아야 되는지 모르겠다는 질문에 대한 답은 그냥 블랙홀 안에 있다고.               |
 
 > [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
