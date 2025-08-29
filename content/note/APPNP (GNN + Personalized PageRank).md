@@ -37,25 +37,28 @@
 
 ## Class-Sensitive Personalized PageRank
 
--  짚어보면
-	- PageRank
-		- 구글 검색 알고리즘으로 웹 페이지 간의 하이퍼링크 그래프를 통해서 모든 페이지의 **전역적인 중요도**를 알아내기 위한 것 (이 페이지가 전체에서 얼마나 중요한가?)
-		- 랜덤 워크 세팅
-			- 페이지 $n$개와 특정 페이지에서 다른 페이지로 가는 링크가 존재하는지 여부를 나타내는 $A$ (Adjacency Matrix)가 있음
-			- 서퍼는 각 페이지에서 출발하여 해당 페이지에서 나가는 링크 $d_j$개 중 한 개로 랜덤으로 이동(랜덤워크, $1/d_j$의 확률) 
-			- 막다른 곳에서 멈추지 않도록 특정 확률로 랜덤하게 다른 페이지로 ($1/n$ 확률) 빠져나갈 수 있는 텔레포트 옵션이 존재 
-		- Power Iteration
-			- 처음에 모든 페이지의 점수(최종 얻고자 하는 중요도 점수)는 동일하게 초기화됨 $\mathbf{\pi}^{(0)} = \mathbf{v} = \frac{1}{n} \mathbf{1}$
-			- 이 중요도 벡터는 iteration을 반복하면서 계속 업데이트됨 $\mathbf{\pi}^{(k+1)} = d (P^T \mathbf{\pi}^{(k)}) + (1 - d) \mathbf{v}$
-				- $d$는 링크를 따라 이동할지 텔레포트를 할지를 결정하는 확률 파라미터
-				- $P$는 노드 $i$에서 $j$로 갈 확률($1/d_j$)을 나타내는 transition matrix, $\mathbf{v}$는 텔레포트확률이자 초기벡터랑 똑같음
-			- 중요도(=PageRank) 벡터가 수렴하면 stop 
-	- Personalized PageRank
-		- 특정 노드(페이지) 기준으로 한 개별적인 중요도를 알아내기 위한 것 (이 페이지는 A라는 페이지와 얼마나 관련성이 높은가?)
-		- 방식은 PageRank와 비슷하지만, 관심을 가지는 노드가 정해져 있고 (해당 노드에서 시작) 텔레포트할 때 랜덤한 다른 노드가 아닌 시작 노드로 돌아온다는 점이 다름
-		- $\mathbf{\pi}_{ppr}(x) = (1 - \alpha) P^T \mathbf{\pi}_{ppr}(x) + \alpha \mathbf{s}_x$
-			- 이때 이 식을 잘 정리하면, $\mathbf{\pi}_{ppr}(x) = \alpha (I_n - (1 - \alpha) P^T)^{-1} \mathbf{s}_x$ 이런 식으로 역행렬을 통해 (closed-form solution) $\mathbf{\pi}$를 바로 구해버릴 수도 있음 (사실상 power iteration을 무한히 반복했을 때의 최종 결과)
-			- 단 대규모 그래프에서는 역행렬 계산이 비용과 메모리가 매우 빡세서 역시 power iteration으로 가는 게 낫다
+❓ PR, PPR recap
+
+
+- PageRank
+	- 구글 검색 알고리즘으로 웹 페이지 간의 하이퍼링크 그래프를 통해서 모든 페이지의 **전역적인 중요도**를 알아내기 위한 것 (이 페이지가 전체에서 얼마나 중요한가?)
+	- 랜덤 워크 세팅
+		- 페이지 $n$개와 특정 페이지에서 다른 페이지로 가는 링크가 존재하는지 여부를 나타내는 $A$ (Adjacency Matrix)가 있음
+		- 서퍼는 각 페이지에서 출발하여 해당 페이지에서 나가는 링크 $d_j$개 중 한 개로 랜덤으로 이동(랜덤워크, $1/d_j$의 확률) 
+		- 막다른 곳에서 멈추지 않도록 특정 확률로 랜덤하게 다른 페이지로 ($1/n$ 확률) 빠져나갈 수 있는 텔레포트 옵션이 존재 
+	- Power Iteration
+		- 처음에 모든 페이지의 점수(최종 얻고자 하는 중요도 점수)는 동일하게 초기화됨 $\mathbf{\pi}^{(0)} = \mathbf{v} = \frac{1}{n} \mathbf{1}$
+		- 이 중요도 벡터는 iteration을 반복하면서 계속 업데이트됨 $\mathbf{\pi}^{(k+1)} = d (P^T \mathbf{\pi}^{(k)}) + (1 - d) \mathbf{v}$
+			- $d$는 링크를 따라 이동할지 텔레포트를 할지를 결정하는 확률 파라미터
+			- $P$는 노드 $i$에서 $j$로 갈 확률($1/d_j$)을 나타내는 transition matrix, $\mathbf{v}$는 텔레포트확률이자 초기벡터랑 똑같음
+		- 중요도(=PageRank) 벡터가 수렴하면 stop 
+- Personalized PageRank
+	- 특정 노드(페이지) 기준으로 한 개별적인 중요도를 알아내기 위한 것 (이 페이지는 A라는 페이지와 얼마나 관련성이 높은가?)
+	- 방식은 PageRank와 비슷하지만, 관심을 가지는 노드가 정해져 있고 (해당 노드에서 시작) 텔레포트할 때 랜덤한 다른 노드가 아닌 시작 노드로 돌아온다는 점이 다름
+	- $\mathbf{\pi}_{ppr}(x) = (1 - \alpha) P^T \mathbf{\pi}_{ppr}(x) + \alpha \mathbf{s}_x$
+		- 이때 이 식을 잘 정리하면, $\mathbf{\pi}_{ppr}(x) = \alpha (I_n - (1 - \alpha) P^T)^{-1} \mathbf{s}_x$ 이런 식으로 역행렬을 통해 (closed-form solution) $\mathbf{\pi}$를 바로 구해버릴 수도 있음 (사실상 power iteration을 무한히 반복했을 때의 최종 결과)
+		- 단 대규모 그래프에서는 역행렬 계산이 비용과 메모리가 매우 빡세서 역시 power iteration으로 가는 게 낫다
+
 - PPNP는 사실상 propagation 단계에서 personalized page rank를 그대로 사용함
 	- prediction 단계에서 생성된 초기 예측 $H$ ($H_{i,j}$는 노드 $i$가 클래스 $j$에 속할 예측 점수)
 	- personalized pagerank의 closed-form solution을 사용해서 최종 예측을 계산 $Z_{PPNP} = \text{softmax} \left( \alpha (I_n - (1 - \alpha) \hat{A})^{-1} H \right)$
