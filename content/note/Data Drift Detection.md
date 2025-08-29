@@ -10,6 +10,8 @@
 ![[assets/data drift detection/sudden-concept-drift.png|450]]
 
 - 특정 사건으로 인해 사람들의 소비가 변화하면서 모델의 예측과 동떨어지게 됨 [이미지 출처](https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift)
+
+
 ![[assets/data drift detection/drift-retrain.png|225]]
 
 - 그냥 다시 학습시키면 되는 거 아니야?
