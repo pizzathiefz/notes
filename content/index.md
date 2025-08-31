@@ -47,8 +47,8 @@
 
 | File                                                                                                                         | rating | comment                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------ | --------------------------------------------------------------------- |
-| [[film/The Thursday Murder Club\|The Thursday Murder Club]]                                                       | \-     | \-                                                                    |
 | [[film/Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig\|Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig]] | \-     | \-                                                                    |
+| [[film/The Thursday Murder Club\|The Thursday Murder Club]]                                                       | 2.5    | 양로원 판타지가 목적이면 괜찮은 것 같은데 추리물에서 마지막 10분 동안 논리가 망가지면 빈정이 상해버려.           |
 | [[film/The Death of Stalin\|The Death of Stalin]]                                                                 | 3.5    | 역시 앙상블은 블랙코미디의 핵심이다.                                                  |
 | [[film/F1\|F1]]                                                                                                   | 3      | 전작 때랑 똑같이 그냥 할 말이 없음.                                                 |
 | [[film/The Phoenician Scheme\|The Phoenician Scheme]]                                                             | 3      | 죽음과 우연의 갭, 신앙과 진실의 갭.                                                 |
