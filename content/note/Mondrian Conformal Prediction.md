@@ -2,7 +2,7 @@
 {"publish":true,"title":"Mondrian Conformal Prediction","created":"2025-08-21","tags":["ai-ml"],"cssclasses":""}
 ---
 
-- [[note/Conformal Prediction]] (CP)의 확장 
+- [[Conformal Prediction]] (CP)의 확장 
 	- 데이터의 heterogeneity를 다루기 위해 고안됨
 	- MNIST라고 치면 5를 맞히는 게 0을 맞히는 것보다 훨씬 어렵다면? 공통된 신뢰도 레벨을 가정하기 어렵다
 	- 몬드리안 그림처럼 (캔버스를 수직/수평으로 나누고 색상 블록으로 분할된) 데이터를 카테고리화해서 나누고 CP를 적용하자
