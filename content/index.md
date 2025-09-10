@@ -2,6 +2,9 @@
 {"publish":true,"title":"main","created":"2025-06-28T15:48:37.201+09:00","cssclasses":""}
 ---
 
+노트 보관함입니다. 긴 글은 [여기](https://sliceofdata.app)에 씁니다. 
+  📧 `pizzathief0@gmail.com` 
+
 <br>
 
 ## recent 📄
