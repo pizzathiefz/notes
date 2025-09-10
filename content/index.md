@@ -5,6 +5,7 @@
 <br>
 
 ## recent 📄
+- [[note/Hugo  블로그 다국어 지원 (PaperMod Theme)\|Hugo  블로그 다국어 지원 (PaperMod Theme)]]
 - [[note/LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi\|LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi]]
 - [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
 - [[note/APPNP (GNN + Personalized PageRank)\|APPNP (GNN + Personalized PageRank)]]
@@ -14,7 +15,6 @@
 - [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
 - [[note/스파크 스트리밍 쿼리 101\|스파크 스트리밍 쿼리 101]]
 - [[note/Track Mix Generation with Transformers @Deezer\|Track Mix Generation with Transformers @Deezer]]
-- [[note/Mood 기반 음악 추천 @Deezer\|Mood 기반 음악 추천 @Deezer]]
 
 <br>
 
