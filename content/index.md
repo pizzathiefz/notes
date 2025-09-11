@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Empowering Long-tail Item Recommendation through Cross Decoupling Network (CDN)\|Empowering Long-tail Item Recommendation through Cross Decoupling Network (CDN)]]
 - [[note/Hugo  블로그 다국어 지원 (PaperMod Theme)\|Hugo  블로그 다국어 지원 (PaperMod Theme)]]
 - [[note/LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi\|LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi]]
 - [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
@@ -17,7 +18,8 @@
 - [[note/유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube\|유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube]]
 - [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
 - [[note/스파크 스트리밍 쿼리 101\|스파크 스트리밍 쿼리 101]]
-- [[note/Track Mix Generation with Transformers @Deezer\|Track Mix Generation with Transformers @Deezer]]
+
+> **[🕳️more](https://pizzathief.pages.dev/note/)**
 
 <br>
 
