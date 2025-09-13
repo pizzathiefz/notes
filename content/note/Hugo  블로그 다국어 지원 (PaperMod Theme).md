@@ -89,12 +89,20 @@ languages:
 - **latex 수식 기능**
 	- 다음 파일을 생성하고 각 post 파일의 frontmatter에서 `math = True`로 설정
 	- `layouts/partials/extend_head.html`
+	- delimiters 지정 안 하면 block 수식은 되는데 inline 수식은 안 되는 이슈가 있었음
 ```html
 {{- if .Params.math }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/autorender.min.js" onload="renderMathInElement(document.body);"></script>
-
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {
+  delimiters: [
+    {left: '$$', right: '$$', display: true},
+    {left: '$', right: '$', display: false},
+    {left: '\\(', right: '\\)', display: false},
+    {left: '\\[', right: '\\]', display: true}
+  ],
+  throwOnError: false
+});"></script>
 {{- end }}
 ```
 
@@ -167,3 +175,26 @@ sitemap:
   filename: 'sitemap.xml'
   priority: 0.5
 ```
+
+- markup setting
+	- highlight 부분은 chroma highlight
+		- noClass true랑 pygmentsUseClasses true는 충돌하니까 주의해서 하나만
+		- **code block의 theme (syntax highlight) 바꿀 수 있게** 설정
+	- renderer unsafe는 마크다운 파일에서 html 사용할 수 있게 함
+		- 포스팅에서는 안 쓰지만 about 페이지의 세부 스타일 조정하는거나, **subscribe 페이지에 iframe으로 구독모집폼** 넣는 데 필요해서 썼음
+			- subscribe (주소관리, 메일발송) 기능은 [brevo](https://www.brevo.com/) 사용했고 (free plan으로 충분) 유사한 이메일 마케팅 서비스가 많더라 ..
+```
+# pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: true 
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: nord
+  goldmark:
+    renderer:
+      unsafe: true # to allow html in markdown files
+```
+
