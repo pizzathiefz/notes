@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Contextual Personalized Re-Ranking of Music Recommendations\|Contextual Personalized Re-Ranking of Music Recommendations]]
 - [[note/Hugo  블로그 다국어 지원 (PaperMod Theme)\|Hugo  블로그 다국어 지원 (PaperMod Theme)]]
 - [[note/LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi\|LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi]]
 - [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
@@ -17,23 +18,22 @@
 - [[note/유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube\|유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube]]
 - [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
 - [[note/스파크 스트리밍 쿼리 101\|스파크 스트리밍 쿼리 101]]
-- [[note/Track Mix Generation with Transformers @Deezer\|Track Mix Generation with Transformers @Deezer]]
 
-> **[🕳️more](https://pizzathief.pages.dev/note/)**
+> **[more🕳️](https://pizzathief.pages.dev/note/)**
 
 <br>
 
 ## recent 📚
+- [[book/치유의 빛\|치유의 빛]]
+- [[book/세계 끝의 버섯\|세계 끝의 버섯]]
 - [[book/어떤 동사의 멸종\|어떤 동사의 멸종]]
 - [[book/유물멍\|유물멍]]
-- [[book/세계 끝의 버섯\|세계 끝의 버섯]]
 - [[book/위건 부두로 가는 길\|위건 부두로 가는 길]]
 - [[book/아이들의 집\|아이들의 집]]
 - [[book/일하는 사람을 위한 철학\|일하는 사람을 위한 철학]]
 - [[book/납작한 말들\|납작한 말들]]
 - [[book/궤도\|궤도]]
 - [[book/비효율의 사랑\|비효율의 사랑]]
-- [[book/정치 성향은 어떻게 결정되는가\|정치 성향은 어떻게 결정되는가]]
 
 >  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
