@@ -41,15 +41,15 @@
 
 ## recent 🎬 
 
-| File                                                                                                                         | rating | comment                                                                                                    |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------- |
-| [[film/Undine\|Undine]]                                                                                           | \-     | \-                                                                                                         |
-| [[film/Dumb Money\|Dumb Money]]                                                                                   | \-     | \-                                                                                                         |
-| [[film/Bring Her Back\|Bring Her Back]]                                                                           | \-     | \-                                                                                                         |
-| [[film/Aap Jaisa Koi\|Aap Jaisa Koi]]                                                                             | 3      | 이 조합이 성공한 게 아무래도 보수적인 사회 규범에 완전히 순응하기 싫은 여자에게 남자의 "현대적인" 태도의 가점이 너무 크기 때문이라는 것이 제법 현실적임(아름다운 현실은 전혀 아니지만). |
-| [[film/Dark Shadows\|Dark Shadows]]                                                                               | 2      | 상세히 설명하기도 귀찮게 모든 면에서 완벽하게 실패했다.                                                                            |
-| [[film/Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig\|Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig]] | 4      | 씨앗은 셀 수 없으므로 어떻게 막고자 한들 결국은 숙주를 죽이고 홀로 서고 말 것이다. 24년 12월 이후의 한국에서 이 영화를 보는 기분이란.                           |
-| [[film/The Chinese Feast; 金玉滿堂\|The Chinese Feast; 金玉滿堂]]                                                         | 3.5    | 매 순간 어처구니없지만 충분히 사랑스러움.                                                                                    |
+| File                                                                                                                         | rating | comment                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------ |
+| [[film/Undine\|Undine]]                                                                                           | \-     | \-                                                                                                           |
+| [[film/Hard Truths\|Hard Truths]]                                                                                 | \-     | \-                                                                                                           |
+| [[film/Dumb Money\|Dumb Money]]                                                                                   | 3      | 진짜 영화 같은 실화긴 했다.                                                                                             |
+| [[film/Bring Her Back\|Bring Her Back]]                                                                           | 3      | 샐리 호킨스의 연기차력쇼가 아무리 화려한들 마지막 긴장을 끝내버리는 기제가 모성이라면 역시 지루하다.                                                     |
+| [[film/Aap Jaisa Koi\|Aap Jaisa Koi]]                                                                             | 3      | 이 조합이 성공한 사유가 아무래도 보수적인 사회 규범에 완전히 순응하기 싫은 여자에게 남자의 "현대적인" 태도의 가점이 너무 크기 때문이라는 것이 제법 현실적임(아름다운 현실은 전혀 아니지만). |
+| [[film/Dark Shadows\|Dark Shadows]]                                                                               | 2      | 상세히 설명하기도 귀찮게 모든 면에서 완벽하게 실패했다.                                                                              |
+| [[film/Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig\|Dane-ye anjir-e ma'abed; The Seed of the Sacred Fig]] | 4      | 씨앗은 셀 수 없으므로 어떻게 막고자 한들 결국은 숙주를 죽이고 홀로 서고 말 것이다. 24년 12월 이후의 한국에서 이 영화를 보는 기분이란.                             |
 
 > [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
