@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Semantic IDs, Generative Retrieval (TIGER)","created":"2025-07-11","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Semantic IDs, Generative Retrieval (TIGER)","created":"2025-07-12","tags":["recsys"],"cssclasses":""}
 ---
 
 > [Recommender Systems with Generative Retrieval](https://arxiv.org/abs/2305.05065) (2023)
@@ -75,7 +75,7 @@
 - new capabilities
 	- cold-start 대응: 새롭게 추가되거나 사용자 상호작용 기록이 없는 unseen items에 대한 추천 결과를 봤을 때 semantic KNN 대비 지속적으로 높은 Recall@K를 보임
 		- random ID + 상호작용에 의존하는 기존방식 대비 텍스트 설명만 있으면 의미적 표현을 토큰에 담을 수 있기 때문에
-	- 추천 다양성: 디코딩 시 temperature-based sampling을 통해 다양성을 조절할 수 있는데, 예측된 top-k item의 실제 카테고리 분포에 대한 entropy@K를 확인한 결과 temperature를 높일수록 다양성을 향상시킬 수 있음
+	- 추천 다양성: 디코딩 시 temperature-based sampling을 통해 다양성을 조절할 수 있는데([[note/생성 모델의 Temperature]]), 예측된 top-k item의 실제 카테고리 분포에 대한 entropy@K를 확인한 결과 temperature를 높일수록 다양성을 향상시킬 수 있음
 - 모델이 유효하지 않은 semantic ID (추천 데이터셋의 어떤 아이템에도 매핑되지 않는 ID)를 생성할 수도 있나?
 	- Top-10 예측시 invalid ID의 비율은 데이터셋에 따라 약 0.1%에서 1.6% 정도로 매우 낮았음 
 	- 이런 부분은 beam search의 빔 사이즈를 늘리거나, 접두사 매칭(prefix matching)과 같은 방법으로 더 개선될 수 있음
