@@ -6,7 +6,6 @@
 
 이전 [[note/Semantic IDs, Generative Retrieval (TIGER)]]의 접근을 ranking에 확장
 
-> 📋 **Semantic ID 관련 내용**
 ### Semantic ID Generation
 
 - 우선 아이템의 콘텐츠 임베딩이 밑재료가 됨
