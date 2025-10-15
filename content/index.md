@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Foundation Model for Personalized Recommendation @Netflix\|Foundation Model for Personalized Recommendation @Netflix]]
 - [[note/Semantic IDs for ranking @Youtube\|Semantic IDs for ranking @Youtube]]
 - [[note/Contextual Personalized Re-Ranking of Music Recommendations\|Contextual Personalized Re-Ranking of Music Recommendations]]
 - [[note/Hugo  블로그 다국어 지원 (PaperMod Theme)\|Hugo  블로그 다국어 지원 (PaperMod Theme)]]
@@ -17,7 +18,6 @@
 - [[note/Mondrian Conformal Prediction\|Mondrian Conformal Prediction]]
 - [[note/Lifelong User Action Sequence Modeling @Pinterest\|Lifelong User Action Sequence Modeling @Pinterest]]
 - [[note/유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube\|유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube]]
-- [[note/아이템 임베딩 평균의 일관성에 대해\|아이템 임베딩 평균의 일관성에 대해]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
