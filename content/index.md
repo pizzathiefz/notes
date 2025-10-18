@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Extremely Long User History Modeling @Instagram (DV365)\|Extremely Long User History Modeling @Instagram (DV365)]]
 - [[note/Foundation Model for Personalized Recommendation @Netflix\|Foundation Model for Personalized Recommendation @Netflix]]
 - [[note/Semantic IDs for ranking @Youtube\|Semantic IDs for ranking @Youtube]]
 - [[note/Contextual Personalized Re-Ranking of Music Recommendations\|Contextual Personalized Re-Ranking of Music Recommendations]]
@@ -17,7 +18,6 @@
 - [[note/APPNP (GNN + Personalized PageRank)\|APPNP (GNN + Personalized PageRank)]]
 - [[note/Mondrian Conformal Prediction\|Mondrian Conformal Prediction]]
 - [[note/Lifelong User Action Sequence Modeling @Pinterest\|Lifelong User Action Sequence Modeling @Pinterest]]
-- [[note/유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube\|유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
@@ -41,15 +41,15 @@
 
 ## recent 🎬 
 
-| File                                                             | rating | comment                                                                                                      |
-| ---------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------ |
-| [[film/Together\|Together]]                           | 3.5    | 표면적인 바디 호러의 양태보다 그것이 암시하는 의미의 관계가 더 무섭다니. 이제 <사랑의 기원>을 이전처럼 들을 수 없게 되어버림.                                    |
-| [[film/The Woman in Cabin 10\|The Woman in Cabin 10]] | 3      | 유산 사회에 환원한다 하면 무조건 상속자한테 죽는 거 너무 뻔하다 못해 어지러운 전개 아니냐고 진짜.                                                     |
-| [[film/Undine\|Undine]]                               | 3.5    | 물에 잠긴 사랑을 또는 역사를 어떻게 바라볼 것인지.                                                                                |
-| [[film/Hard Truths\|Hard Truths]]                     | 4      | 저 사람은 대체 왜 저럴까? 라는 의문에 대해 불완전한 답. 하지만 불완전할 수밖에 없다는 것이 핵심이고, 그렇기에 조금은 '저 사람'이 나 같기도 하게 되는 그런 풀이법.             |
-| [[film/Dumb Money\|Dumb Money]]                       | 3      | 진짜 영화 같은 실화긴 했다.                                                                                             |
-| [[film/Bring Her Back\|Bring Her Back]]               | 3      | 샐리 호킨스의 연기차력쇼가 아무리 화려한들 마지막 긴장을 끝내버리는 기제가 모성이라면 역시 지루하다.                                                     |
-| [[film/Aap Jaisa Koi\|Aap Jaisa Koi]]                 | 3      | 이 조합이 성공한 사유가 아무래도 보수적인 사회 규범에 완전히 순응하기 싫은 여자에게 남자의 "현대적인" 태도의 가점이 너무 크기 때문이라는 것이 제법 현실적임(아름다운 현실은 전혀 아니지만). |
+| File                                                                                               | rating | comment                                                                                          |
+| -------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------ |
+| [[film/Bacurau\|Bacurau]]                                                               | \-     | \-                                                                                               |
+| [[film/リリイ・シュシュのすべて; All About Lily Chou-Chou\|リリイ・シュシュのすべて; All About Lily Chou-Chou]] | 3.5    | \-                                                                                               |
+| [[film/Together\|Together]]                                                             | 3.5    | 표면적인 바디 호러의 양태보다 그것이 암시하는 의미의 관계가 더 무섭다니. 이제 <사랑의 기원>을 이전처럼 들을 수 없게 되어버림.                        |
+| [[film/The Woman in Cabin 10\|The Woman in Cabin 10]]                                   | 3      | 유산 사회에 환원한다 하면 무조건 상속자한테 죽는 거 너무 뻔하다 못해 어지러운 전개 아니냐고 진짜.                                         |
+| [[film/Undine\|Undine]]                                                                 | 3.5    | 물에 잠긴 사랑을 또는 역사를 어떻게 바라볼 것인지.                                                                    |
+| [[film/Hard Truths\|Hard Truths]]                                                       | 4      | 저 사람은 대체 왜 저럴까? 라는 의문에 대해 불완전한 답. 하지만 불완전할 수밖에 없다는 것이 핵심이고, 그렇기에 조금은 '저 사람'이 나 같기도 하게 되는 그런 풀이법. |
+| [[film/Dumb Money\|Dumb Money]]                                                         | 3      | 진짜 영화 같은 실화긴 했다.                                                                                 |
 
 > [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 

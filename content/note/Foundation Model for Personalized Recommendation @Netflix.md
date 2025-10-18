@@ -72,6 +72,7 @@
 	- **예측 모델로 직접 사용:** 다음 엔티티를 예측하도록 훈련되었으며, 다양한 비즈니스 요구를 충족하기 위해 다양한 예측 헤드를 포함
 	- **임베딩 활용:** 배치 작업을 통해 회원, 비디오, 게임, 장르와 같은 엔티티에 대한 임베딩을 생성하여 다른 모델의 특징으로 사용하거나 candidate generation에 사용
 		- 단 임베딩 공간이 임의적이며 모델 재학습시마다 호환이 안 되는 이슈 ->  orthogonal low-rank transformation을 적용하여 유저/아이템 임베딩 공간을 안정화하고 foundation model이 재학습될 때에도 임베딩 차원의 일관된 의미를 보장
+		- 자세한 내용은 아마 [Orthogonal Low Rank Embedding Stabilization](https://arxiv.org/abs/2508.07574) 이거인듯
 	- **특정 데이터로 Fine-Tuning** : 모델의 전체 또는 서브그래프를 application별 데이터로 미세 조정하여 적은 데이터와 계산 능력으로도 이전 모델과 비슷한 성능을 달성할 수 있음
 
 
