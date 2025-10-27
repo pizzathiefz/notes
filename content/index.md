@@ -8,6 +8,8 @@
 <br>
 
 ## recent 📄
+- [[note/CF + Sentence Transformer (beeFormer)\|CF + Sentence Transformer (beeFormer)]]
+- [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
 - [[note/Extremely Long User History Modeling @Instagram (DV365)\|Extremely Long User History Modeling @Instagram (DV365)]]
 - [[note/Foundation Model for Personalized Recommendation @Netflix\|Foundation Model for Personalized Recommendation @Netflix]]
 - [[note/Semantic IDs for ranking @Youtube\|Semantic IDs for ranking @Youtube]]
@@ -16,8 +18,6 @@
 - [[note/LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi\|LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi]]
 - [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
 - [[note/APPNP (GNN + Personalized PageRank)\|APPNP (GNN + Personalized PageRank)]]
-- [[note/Mondrian Conformal Prediction\|Mondrian Conformal Prediction]]
-- [[note/Lifelong User Action Sequence Modeling @Pinterest\|Lifelong User Action Sequence Modeling @Pinterest]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
@@ -43,13 +43,13 @@
 
 | File                                                                                               | rating | comment                                                                                          |
 | -------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------ |
+| [[film/Close\|Close]]                                                                   | \-     | \-                                                                                               |
 | [[film/Bacurau\|Bacurau]]                                                               | \-     | \-                                                                                               |
 | [[film/リリイ・シュシュのすべて; All About Lily Chou-Chou\|リリイ・シュシュのすべて; All About Lily Chou-Chou]] | 3      | 다들 '그 시절'에 마음을 다 바쳐서 사랑했다가 십 년 지나서 보면 깜짝 놀랄 것 같은 '모든 것'.                                         |
 | [[film/Together\|Together]]                                                             | 3.5    | 표면적인 바디 호러의 양태보다 그것이 암시하는 의미의 관계가 더 무섭다니. 이제 <사랑의 기원>을 이전처럼 들을 수 없게 되어버림.                        |
 | [[film/The Woman in Cabin 10\|The Woman in Cabin 10]]                                   | 3      | 유산 사회에 환원한다 하면 무조건 상속자한테 죽는 거 너무 뻔하다 못해 어지러운 전개 아니냐고 진짜.                                         |
 | [[film/Undine\|Undine]]                                                                 | 3.5    | 물에 잠긴 사랑을 또는 역사를 어떻게 바라볼 것인지.                                                                    |
 | [[film/Hard Truths\|Hard Truths]]                                                       | 4      | 저 사람은 대체 왜 저럴까? 라는 의문에 대해 불완전한 답. 하지만 불완전할 수밖에 없다는 것이 핵심이고, 그렇기에 조금은 '저 사람'이 나 같기도 하게 되는 그런 풀이법. |
-| [[film/Dumb Money\|Dumb Money]]                                                         | 3      | 진짜 영화 같은 실화긴 했다.                                                                                 |
 
 > [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
