@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Transformer-based Realtime User Action Model @Pinterest","created":"2024-11-16","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Transformer-based Realtime User Action Model @Pinterest","created":"2024-11-16","tags":["recsys","sequence-modeling"],"cssclasses":""}
 ---
 
 > **[TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest](https://arxiv.org/abs/2306.00248)** (2023)

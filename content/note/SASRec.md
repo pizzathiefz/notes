@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"SASRec","created":"2024-10-30","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"SASRec","created":"2024-10-30","tags":["recsys","sequential-rec"],"cssclasses":""}
 ---
 
 > **[Self-Attentive Sequential Recommendation](https://arxiv.org/abs/1808.09781)** (2018)

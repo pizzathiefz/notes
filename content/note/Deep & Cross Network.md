@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Deep & Cross Network","created":"2024-10-30","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Deep & Cross Network","created":"2024-10-30","tags":["recsys","ctr-prediction"],"cssclasses":""}
 ---
 
 # DCN

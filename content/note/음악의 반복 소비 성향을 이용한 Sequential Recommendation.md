@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"음악의 반복 소비 성향을 이용한 Sequential Recommendation","created":"2025-07-11","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"음악의 반복 소비 성향을 이용한 Sequential Recommendation","created":"2025-07-11","tags":["recsys","music-rec","sequential-rec"],"cssclasses":""}
 ---
 
 > [!tip] about

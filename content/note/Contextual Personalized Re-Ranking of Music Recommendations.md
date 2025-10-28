@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Contextual Personalized Re-Ranking of Music Recommendations","created":"2025-09-13","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Contextual Personalized Re-Ranking of Music Recommendations","created":"2025-09-13","tags":["recsys","re-ranking","music-rec"],"cssclasses":""}
 ---
 
 > [Contextual Personalized Re-Ranking of Music Recommendations through Audio Features ](https://arxiv.org/abs/2009.02782) (2020)

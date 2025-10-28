@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Lifelong User Action Sequence Modeling @Pinterest","created":"2025-08-15","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Lifelong User Action Sequence Modeling @Pinterest","created":"2025-08-15","tags":["recsys","sequence-modeling"],"cssclasses":""}
 ---
 
 > **[TransAct V2: Lifelong User Action Sequence Modeling on Pinterest Recommendation](https://arxiv.org/abs/2506.02267)** (2025)

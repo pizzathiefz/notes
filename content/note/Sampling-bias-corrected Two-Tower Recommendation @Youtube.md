@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Sampling-bias-corrected Two-Tower Recommendation @Youtube","created":"2024-10-30","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Sampling-bias-corrected Two-Tower Recommendation @Youtube","created":"2024-10-30","tags":["recsys","two-tower","representation-learning"],"cssclasses":""}
 ---
 
 

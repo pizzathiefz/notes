@@ -1,6 +1,8 @@
 ---
-{"publish":true,"title":"\bCF + Sentence Transformer (beeFormer)","created":"2025-10-26","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"CF + Sentence Transformer (beeFormer)","created":"2025-10-26","tags":["recsys","representation-learning"],"cssclasses":""}
 ---
+
+> [beeFormer: Bridging the Gap Between Semantic and Interaction Similarity in Recommender Systems](https://arxiv.org/abs/2409.10309)
 
 
 - 기존의 아이템 설명 텍스트 기반 Sentence Transformer 모델들은 주로 의미론적 유사성 예측에 초점을 맞추느라 사용자 상호작용 데이터에 숨겨진 패턴을 포착하지 못할 수 있음

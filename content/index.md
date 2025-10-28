@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Bootstrapping Conditional Retrieval @Pinterest\|Bootstrapping Conditional Retrieval @Pinterest]]
 - [[note/CF + Sentence Transformer (beeFormer)\|CF + Sentence Transformer (beeFormer)]]
 - [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
 - [[note/Extremely Long User History Modeling @Instagram (DV365)\|Extremely Long User History Modeling @Instagram (DV365)]]
@@ -17,7 +18,6 @@
 - [[note/Hugo  블로그 다국어 지원 (PaperMod Theme)\|Hugo  블로그 다국어 지원 (PaperMod Theme)]]
 - [[note/LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi\|LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi]]
 - [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
-- [[note/APPNP (GNN + Personalized PageRank)\|APPNP (GNN + Personalized PageRank)]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 

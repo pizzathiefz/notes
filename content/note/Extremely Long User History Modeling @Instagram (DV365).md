@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Extremely Long User History Modeling @Instagram (DV365)","created":"2025-10-17","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Extremely Long User History Modeling @Instagram (DV365)","created":"2025-10-17","tags":["recsys","sequence-modeling"],"cssclasses":""}
 ---
 
 > [DV365: Extremely Long User History Modeling at Instagram](https://arxiv.org/abs/2506.00450) (2025)

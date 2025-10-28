@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube","created":"2025-08-14","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube","created":"2025-08-14","tags":["recsys","scalable-rec","sequence-modeling"],"cssclasses":""}
 ---
 
 

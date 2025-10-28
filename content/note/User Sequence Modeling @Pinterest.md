@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"User Sequence Modeling @Pinterest","created":"2024-11-15","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"User Sequence Modeling @Pinterest","created":"2024-11-15","tags":["recsys","sequence-modeling","sequential-rec"],"cssclasses":""}
 ---
 
 > **[PinnerFormer: Sequence Modeling for User Representation at Pinterest](https://arxiv.org/abs/2205.04507)** (2022)

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Multi-Embedding Retrieval Framework @Pinterest","created":"2025-07-28","tags":["recsys"],"cssclasses":""}
+{"publish":true,"title":"Multi-Embedding Retrieval Framework @Pinterest","created":"2025-07-28","tags":["recsys","representation-learning"],"cssclasses":""}
 ---
 
  > [!tip] about
