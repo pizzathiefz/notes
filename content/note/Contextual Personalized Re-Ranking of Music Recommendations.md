@@ -23,7 +23,7 @@
 	- Global Model
 		- 특정 contextual condition $c_k$에서 모든 사용자 $U$의 긍정적인 상호작용을 보인 곡들의 오디오 피처 벡터를 평균 = 모든 사용자에 대한 일반적인 contextual 선호도를 나타내는 벡터
 	- Personlized Model
-		- 특정 contextual condition $c_k에서 특정 사용자 $u$$의 긍정적인 상호작용을 보인 곡들의 오디오 피처 벡터를 평균 = 해당 사용자의 contextual 선호도
+		- 특정 contextual condition $c_k$에서 특정 사용자 $u$의 긍정적인 상호작용을 보인 곡들의 오디오 피처 벡터를 평균 = 해당 사용자의 contextual 선호도
 
 - **Re-ranking score**
 	- 초기 추천 점수에 곡의 오디오 피쳐 벡터와 현재 contextual condition에 대한 Global preference 벡터 또는 personla preference 벡터 간의 유사도를 조합해서 최종 re-ranking score를 얻음 (유사도는 unity-based normalized Euclidean distance)

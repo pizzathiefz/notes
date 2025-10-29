@@ -8,6 +8,8 @@
 <br>
 
 ## recent 📄
+- [[note/Sliding Window Training for Foundation Model @Netflix\|Sliding Window Training for Foundation Model @Netflix]]
+- [[note/Cold Start의 임계값\|Cold Start의 임계값]]
 - [[note/Bootstrapping Conditional Retrieval @Pinterest\|Bootstrapping Conditional Retrieval @Pinterest]]
 - [[note/CF + Sentence Transformer (beeFormer)\|CF + Sentence Transformer (beeFormer)]]
 - [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
@@ -16,8 +18,6 @@
 - [[note/Semantic IDs for ranking @Youtube\|Semantic IDs for ranking @Youtube]]
 - [[note/Contextual Personalized Re-Ranking of Music Recommendations\|Contextual Personalized Re-Ranking of Music Recommendations]]
 - [[note/Hugo  블로그 다국어 지원 (PaperMod Theme)\|Hugo  블로그 다국어 지원 (PaperMod Theme)]]
-- [[note/LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi\|LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi]]
-- [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
