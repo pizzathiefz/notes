@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Cold Start의 임계값\|Cold Start의 임계값]]
 - [[note/Bootstrapping Conditional Retrieval @Pinterest\|Bootstrapping Conditional Retrieval @Pinterest]]
 - [[note/CF + Sentence Transformer (beeFormer)\|CF + Sentence Transformer (beeFormer)]]
 - [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
@@ -17,13 +18,13 @@
 - [[note/Contextual Personalized Re-Ranking of Music Recommendations\|Contextual Personalized Re-Ranking of Music Recommendations]]
 - [[note/Hugo  블로그 다국어 지원 (PaperMod Theme)\|Hugo  블로그 다국어 지원 (PaperMod Theme)]]
 - [[note/LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi\|LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi]]
-- [[note/Sequential Music Recommendation + Negative Feedback\|Sequential Music Recommendation + Negative Feedback]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
 <br>
 
 ## recent 📚
+- [[book/정확한 사랑의 실험\|정확한 사랑의 실험]]
 - [[book/세계 끝의 버섯\|세계 끝의 버섯]]
 - [[book/안녕이라 그랬어\|안녕이라 그랬어]]
 - [[book/자신의 존재에 대해 사과하지 말 것\|자신의 존재에 대해 사과하지 말 것]]
@@ -33,7 +34,6 @@
 - [[book/커뮤니티에 입장하셨습니다\|커뮤니티에 입장하셨습니다]]
 - [[book/악마와 함께 춤을\|악마와 함께 춤을]]
 - [[book/치유의 빛\|치유의 빛]]
-- [[book/어떤 동사의 멸종\|어떤 동사의 멸종]]
 
 >  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
