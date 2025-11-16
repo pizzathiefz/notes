@@ -10,7 +10,6 @@
 ## recent 📄
 - [[note/Long-Term + Multi-Interest Retrieval @Taobao\|Long-Term + Multi-Interest Retrieval @Taobao]]
 - [[note/의도 모델링 기반 추천 결과 다양화 @Youtube\|의도 모델링 기반 추천 결과 다양화 @Youtube]]
-- [[note/여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music\|여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music]]
 - [[note/Cold Start의 임계값\|Cold Start의 임계값]]
 - [[note/Sliding Window Training for Foundation Model @Netflix\|Sliding Window Training for Foundation Model @Netflix]]
 - [[note/Bootstrapping Conditional Retrieval @Pinterest\|Bootstrapping Conditional Retrieval @Pinterest]]
@@ -18,6 +17,7 @@
 - [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
 - [[note/Extremely Long User History Modeling @Instagram (DV365)\|Extremely Long User History Modeling @Instagram (DV365)]]
 - [[note/Foundation Model for Personalized Recommendation @Netflix\|Foundation Model for Personalized Recommendation @Netflix]]
+- [[note/Semantic IDs for ranking @Youtube\|Semantic IDs for ranking @Youtube]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
@@ -25,6 +25,7 @@
 
 ## recent 📚
 - [[book/칸트의 동물원\|칸트의 동물원]]
+- [[book/몸을 두고 왔나 봐\|몸을 두고 왔나 봐]]
 - [[book/절창\|절창]]
 - [[book/정확한 사랑의 실험\|정확한 사랑의 실험]]
 - [[book/세계 끝의 버섯\|세계 끝의 버섯]]
@@ -33,7 +34,6 @@
 - [[book/과학산문\|과학산문]]
 - [[book/힘든 시대를 위한 좋은 경제학\|힘든 시대를 위한 좋은 경제학]]
 - [[book/존 버거의 글로 쓴 사진\|존 버거의 글로 쓴 사진]]
-- [[book/커뮤니티에 입장하셨습니다\|커뮤니티에 입장하셨습니다]]
 
 >  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
