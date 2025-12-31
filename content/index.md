@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/범용 유저 임베딩 @Spotify\|범용 유저 임베딩 @Spotify]]
 - [[note/Long-Term + Multi-Interest Retrieval @Taobao\|Long-Term + Multi-Interest Retrieval @Taobao]]
 - [[note/의도 모델링 기반 추천 결과 다양화 @Youtube\|의도 모델링 기반 추천 결과 다양화 @Youtube]]
 - [[note/Cold Start의 임계값\|Cold Start의 임계값]]
@@ -17,40 +18,39 @@
 - [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
 - [[note/Extremely Long User History Modeling @Instagram (DV365)\|Extremely Long User History Modeling @Instagram (DV365)]]
 - [[note/Foundation Model for Personalized Recommendation @Netflix\|Foundation Model for Personalized Recommendation @Netflix]]
-- [[note/Semantic IDs for ranking @Youtube\|Semantic IDs for ranking @Youtube]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
 <br>
 
 ## recent 📚
+- [[book/일은 당신을 사랑하지 않는다\|일은 당신을 사랑하지 않는다]]
+- [[book/뭐 사랑도 있겠고, 인간 고유의 특성\|뭐 사랑도 있겠고, 인간 고유의 특성]]
+- [[book/최소한의 삼국지\|최소한의 삼국지]]
+- [[book/모순\|모순]]
+- [[book/숫자 한국\|숫자 한국]]
+- [[book/정신병을 만드는 사람들\|정신병을 만드는 사람들]]
+- [[book/저소비 생활\|저소비 생활]]
+- [[book/멋진 실리콘 세계\|멋진 실리콘 세계]]
 - [[book/칸트의 동물원\|칸트의 동물원]]
 - [[book/몸을 두고 왔나 봐\|몸을 두고 왔나 봐]]
-- [[book/절창\|절창]]
-- [[book/정확한 사랑의 실험\|정확한 사랑의 실험]]
-- [[book/세계 끝의 버섯\|세계 끝의 버섯]]
-- [[book/안녕이라 그랬어\|안녕이라 그랬어]]
-- [[book/자신의 존재에 대해 사과하지 말 것\|자신의 존재에 대해 사과하지 말 것]]
-- [[book/과학산문\|과학산문]]
-- [[book/힘든 시대를 위한 좋은 경제학\|힘든 시대를 위한 좋은 경제학]]
-- [[book/존 버거의 글로 쓴 사진\|존 버거의 글로 쓴 사진]]
 
->  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
+> [[yearly/2026 📚]] |  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
 <br>
 
 ## recent 🎬 
 
-| File                                                                                               | rating | comment                                                                                          |
-| -------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------ |
-| [[film/Close\|Close]]                                                                   | \-     | \-                                                                                               |
-| [[film/Bacurau\|Bacurau]]                                                               | \-     | \-                                                                                               |
-| [[film/リリイ・シュシュのすべて; All About Lily Chou-Chou\|リリイ・シュシュのすべて; All About Lily Chou-Chou]] | 3      | 다들 '그 시절'에 마음을 다 바쳐서 사랑했다가 십 년 지나서 보면 깜짝 놀랄 것 같은 '모든 것'.                                         |
-| [[film/Together\|Together]]                                                             | 3.5    | 표면적인 바디 호러의 양태보다 그것이 암시하는 의미의 관계가 더 무섭다니. 이제 <사랑의 기원>을 이전처럼 들을 수 없게 되어버림.                        |
-| [[film/The Woman in Cabin 10\|The Woman in Cabin 10]]                                   | 3      | 유산 사회에 환원한다 하면 무조건 상속자한테 죽는 거 너무 뻔하다 못해 어지러운 전개 아니냐고 진짜.                                         |
-| [[film/Undine\|Undine]]                                                                 | 3.5    | 물에 잠긴 사랑을 또는 역사를 어떻게 바라볼 것인지.                                                                    |
-| [[film/Hard Truths\|Hard Truths]]                                                       | 4      | 저 사람은 대체 왜 저럴까? 라는 의문에 대해 불완전한 답. 하지만 불완전할 수밖에 없다는 것이 핵심이고, 그렇기에 조금은 '저 사람'이 나 같기도 하게 되는 그런 풀이법. |
+| File                                                                                                           | rating | comment                                                             |
+| -------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------- |
+| [[film/Bugonia\|Bugonia]]                                                                           | \-     | \-                                                                  |
+| [[film/Yek tasadof-e sadeh; It Was Just an Accident\|Yek tasadof-e sadeh; It Was Just an Accident]] | \-     | \-                                                                  |
+| [[film/세이브 더 게임\|세이브 더 게임]]                                                                         | 3.5    | 오 낭만의 시절..                                                          |
+| [[film/Weapons\|Weapons]]                                                                           | 3.5    | 전작(바바리안)과 비슷한 결이었고 중간중간 꽤 웃었다는 걸 부정할 수 없고 신작 나오면 웬만하면 볼 것 같은 감독이 됨. |
+| [[film/Wake Up Dead Man-A Knives Out Mystery\|Wake Up Dead Man-A Knives Out Mystery]]               | 3.5    | 이렇게까지 종교에 대해 다정한 무신론자 탐정물 왜인지, 근데 지게차 직원 통화 장면은 진짜 잘 썼다.            |
+| [[film/The Roses\|The Roses]]                                                                       | 3.5    | 미친 대본을 받치는 미친 연기합을 볼 수 있다. 마지막 20분이 그냥 너무 웃김.                       |
+| [[film/One Battle After Another\|One Battle After Another]]                                         | 4      | 빵 터뜨리는 폭탄 같은 건 좀 우스워져 버린, 잔잔히 그러나 끝없이 밀려오는 혁명이 필요해진 현대의 미국에서.       |
 
-> [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
+> [[yearly/2026 🎬]] | [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
 <br>
