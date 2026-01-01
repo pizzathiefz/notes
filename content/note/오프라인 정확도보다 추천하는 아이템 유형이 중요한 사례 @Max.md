@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"오프라인 정확도보다 추천하는 아이템 유형이 중요한 사례 @Max","created":"2025-08-21","tags":["recsys-evaluation"],"cssclasses":""}
+{"publish":true,"title":"오프라인 정확도보다 추천하는 아이템 유형이 중요한 사례 @Max","created":"2025-08-16","tags":["recsys-evaluation"],"cssclasses":""}
 ---
 
 > Towards Understanding the Gaps of Offline and Online Evaluation Metrics: Impact of Series vs. Movie Recommendations / RecSys24
