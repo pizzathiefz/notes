@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta\|온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta]]
 - [[note/범용 유저 임베딩 @Spotify\|범용 유저 임베딩 @Spotify]]
 - [[note/Long-Term + Multi-Interest Retrieval @Taobao\|Long-Term + Multi-Interest Retrieval @Taobao]]
 - [[note/의도 모델링 기반 추천 결과 다양화 @Youtube\|의도 모델링 기반 추천 결과 다양화 @Youtube]]
@@ -17,7 +18,6 @@
 - [[note/CF + Sentence Transformer (beeFormer)\|CF + Sentence Transformer (beeFormer)]]
 - [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
 - [[note/Extremely Long User History Modeling @Instagram (DV365)\|Extremely Long User History Modeling @Instagram (DV365)]]
-- [[note/Foundation Model for Personalized Recommendation @Netflix\|Foundation Model for Personalized Recommendation @Netflix]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 

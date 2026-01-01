@@ -6,7 +6,7 @@
 
 - 다양한 사용자/콘텐츠 신호 기반 공통된 사용자 표현을 먼저 학습(오토인코더 기반) -> 다운스트림 태스크에서 재사용 (transfer learning)
 
-![[assets/범용 유저 임베딩 @spotify/generalized-user-representation.png]]
+![[assets/범용 유저 임베딩 @spotify/generalized-user-representation.png|525]]
 
 - 입력
 	- 콘텐츠: audio features, playlist co-occurrence 기반(collaborative) features (Track/Artist Embedding) 
