@@ -24,6 +24,7 @@
 <br>
 
 ## recent 📚
+- [[book/남극\|남극]]
 - [[book/일은 당신을 사랑하지 않는다\|일은 당신을 사랑하지 않는다]]
 - [[book/뭐 사랑도 있겠고, 인간 고유의 특성\|뭐 사랑도 있겠고, 인간 고유의 특성]]
 - [[book/최소한의 삼국지\|최소한의 삼국지]]
@@ -33,7 +34,6 @@
 - [[book/저소비 생활\|저소비 생활]]
 - [[book/멋진 실리콘 세계\|멋진 실리콘 세계]]
 - [[book/칸트의 동물원\|칸트의 동물원]]
-- [[book/몸을 두고 왔나 봐\|몸을 두고 왔나 봐]]
 
 > [[yearly/2026 📚]] |  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
@@ -45,11 +45,11 @@
 | -------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------- |
 | [[film/Bugonia\|Bugonia]]                                                                           | \-     | \-                                                                  |
 | [[film/Yek tasadof-e sadeh; It Was Just an Accident\|Yek tasadof-e sadeh; It Was Just an Accident]] | \-     | \-                                                                  |
+| [[film/Train Dreams\|Train Dreams]]                                                                 | 4      | \-                                                                  |
+| [[film/Scouts Guide to the Zombie Apocalypse\|Scouts Guide to the Zombie Apocalypse]]               | 3      | 웬만한 좀비 코미디 다 봤다고 생각했는데 이걸 놓쳤었다.                                     |
 | [[film/세이브 더 게임\|세이브 더 게임]]                                                                         | 3.5    | 오 진짜 말도 안 되는 이 낭만의 시절..                                             |
 | [[film/Weapons\|Weapons]]                                                                           | 3.5    | 전작(바바리안)과 비슷한 결이었고 중간중간 꽤 웃었다는 걸 부정할 수 없고 신작 나오면 웬만하면 볼 것 같은 감독이 됨. |
 | [[film/Wake Up Dead Man-A Knives Out Mystery\|Wake Up Dead Man-A Knives Out Mystery]]               | 3.5    | 이렇게까지 종교에 대해 다정한 무신론자 탐정물 왜인지, 근데 지게차 직원 통화 장면은 진짜 적절하게 잘 썼다.       |
-| [[film/The Roses\|The Roses]]                                                                       | 3.5    | 미친 대본을 받치는 미친 연기합을 볼 수 있다. 죽는 순간까지 사랑해(그게 지금이야!)                    |
-| [[film/One Battle After Another\|One Battle After Another]]                                         | 4      | 빵 터뜨리는 폭탄 같은 건 좀 우스워져 버린, 잔잔히 그러나 끝없이 밀려오는 혁명이 필요해진 현대의 미국에서.       |
 
 > [[yearly/2026 🎬]] | [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
