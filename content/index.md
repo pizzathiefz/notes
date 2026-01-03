@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Sequential recommendation에서 negative sampling 전략 비교\|Sequential recommendation에서 negative sampling 전략 비교]]
 - [[note/온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta\|온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta]]
 - [[note/범용 유저 임베딩 @Spotify\|범용 유저 임베딩 @Spotify]]
 - [[note/Long-Term + Multi-Interest Retrieval @Taobao\|Long-Term + Multi-Interest Retrieval @Taobao]]
@@ -17,7 +18,6 @@
 - [[note/Sliding Window Training for Foundation Model @Netflix\|Sliding Window Training for Foundation Model @Netflix]]
 - [[note/Bootstrapping Conditional Retrieval @Pinterest\|Bootstrapping Conditional Retrieval @Pinterest]]
 - [[note/CF + Sentence Transformer (beeFormer)\|CF + Sentence Transformer (beeFormer)]]
-- [[note/온라인 결과를 예측하는 오프라인 지표 찾기\|온라인 결과를 예측하는 오프라인 지표 찾기]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
