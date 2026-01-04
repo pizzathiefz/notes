@@ -10,7 +10,7 @@
 
 ![[assets/sequential recommendation에서 negative sampling 전략 비교/structure.png|650]]
 
-- SASRec을 백본으로 사용
+- [[note/SASRec]]을 백본으로 사용
 - split: leakage방지를 위해 전통적인 leave-one-out 방식 대신 Global Temporal Splitting 전략을 사용
 
 ### Negative Samping Methods
