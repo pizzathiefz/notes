@@ -8,6 +8,7 @@
 <br>
 
 ## recent 📄
+- [[note/Zero-shot Cross-domain Knowledge Distillation @YouTube Music\|Zero-shot Cross-domain Knowledge Distillation @YouTube Music]]
 - [[note/Negative feedback sequence를 활용한 추천\|Negative feedback sequence를 활용한 추천]]
 - [[note/Sequential recommendation에서 negative sampling 전략 비교\|Sequential recommendation에서 negative sampling 전략 비교]]
 - [[note/온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta\|온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta]]
@@ -17,7 +18,6 @@
 - [[note/여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music\|여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music]]
 - [[note/Cold Start의 임계값\|Cold Start의 임계값]]
 - [[note/Sliding Window Training for Foundation Model @Netflix\|Sliding Window Training for Foundation Model @Netflix]]
-- [[note/Bootstrapping Conditional Retrieval @Pinterest\|Bootstrapping Conditional Retrieval @Pinterest]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
@@ -41,15 +41,15 @@
 
 ## recent 🎬 
 
-| File                                                                                                           | rating | comment                                                             |
-| -------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------- |
-| [[film/Bugonia\|Bugonia]]                                                                           | \-     | \-                                                                  |
-| [[film/Yek tasadof-e sadeh; It Was Just an Accident\|Yek tasadof-e sadeh; It Was Just an Accident]] | \-     | \-                                                                  |
-| [[film/Train Dreams\|Train Dreams]]                                                                 | 4      | \-                                                                  |
-| [[film/Scouts Guide to the Zombie Apocalypse\|Scouts Guide to the Zombie Apocalypse]]               | 3      | 웬만한 좀비 코미디 다 봤다고 생각했는데 이걸 놓쳤었다.                                     |
-| [[film/세이브 더 게임\|세이브 더 게임]]                                                                         | 3.5    | 오 진짜 말도 안 되는 이 낭만의 시절..                                             |
-| [[film/Weapons\|Weapons]]                                                                           | 3.5    | 전작(바바리안)과 비슷한 결이었고 중간중간 꽤 웃었다는 걸 부정할 수 없고 신작 나오면 웬만하면 볼 것 같은 감독이 됨. |
-| [[film/Wake Up Dead Man-A Knives Out Mystery\|Wake Up Dead Man-A Knives Out Mystery]]               | 3.5    | 이렇게까지 종교에 대해 다정한 무신론자 탐정물 왜인지, 근데 지게차 직원 통화 장면은 진짜 적절하게 잘 썼다.       |
+| File                                                                                                           | rating | comment                                                                  |
+| -------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------ |
+| [[film/Bugonia\|Bugonia]]                                                                           | \-     | \-                                                                       |
+| [[film/Yek tasadof-e sadeh; It Was Just an Accident\|Yek tasadof-e sadeh; It Was Just an Accident]] | \-     | \-                                                                       |
+| [[film/Train Dreams\|Train Dreams]]                                                                 | 4      | 이 거대한 숲에서 아무것도 아니었지만 동시의 모든 것인 삶은, 그 연결은 마침내 살아낸 시간의 끝자락에서야 눈에 들어오는 것이다. |
+| [[film/Scouts Guide to the Zombie Apocalypse\|Scouts Guide to the Zombie Apocalypse]]               | 3      | 웬만한 좀비 코미디 다 봤다고 생각했는데 이걸 놓쳤었다.                                          |
+| [[film/세이브 더 게임\|세이브 더 게임]]                                                                         | 3.5    | 오 진짜 말도 안 되는 이 낭만의 시절..                                                  |
+| [[film/Weapons\|Weapons]]                                                                           | 3.5    | 전작(바바리안)과 비슷한 결이었고 중간중간 꽤 웃었다는 걸 부정할 수 없고 신작 나오면 웬만하면 볼 것 같은 감독이 됨.      |
+| [[film/Wake Up Dead Man-A Knives Out Mystery\|Wake Up Dead Man-A Knives Out Mystery]]               | 3.5    | 이렇게까지 종교에 대해 다정한 무신론자 탐정물 왜인지, 근데 지게차 직원 통화 장면은 진짜 적절하게 잘 썼다.            |
 
 > [[yearly/2026 🎬]] | [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
