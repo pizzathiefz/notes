@@ -32,17 +32,19 @@
 		- 목표는 $S_n$​ 내 각 $j_t$​에 대해 다음 부정적 아이템 $j_{t+1}$ 을 정확하게 예측하는 것
 	- Contrastive Loss ($L_c$) : 현재 예측된 긍정적 아이템($\hat{i}_t$​)의 임베딩이 실제 다음 긍정적 아이템($i_{t+1​}$)에 가깝고, 동시에 해당 사용자의 부정적 시퀀스($S_n$​)에 있는 부정적 아이템($j$)들과는 멀리 떨어지도록 학습
 		- $f$는 cosine simularity
-$$L_c = - \sum_{u \in U} \sum_{i_t \in S_p} \log \frac{\exp(f(\hat{i}_t, i_{t+1}))}{\exp(f(\hat{i}_t, i_{t+1})) + \sum_{j \in S_n} \exp(f(\hat{i}_t, j))}$$
+   
+$$L_c = - \sum_{u \in U} \sum_{i_t \in S_p} \log \frac{\exp(f(\hat{i}_t, i_{t+1}))}{\exp(f(\hat{i}_t, i_{t+1})) + \sum_{j \in S_n} \exp(f(\hat{i}_t, j))}$$  
+
 전체 손실은 $L = L_{CE_p} + \alpha L_{CE_n} + \beta L_c$ 이고, $\alpha$와 $\beta$는 hyperparameter
 
 
 ### Result
 - experiment setup
-	- MovieLens-1M, MovieLens-20M (명시적 피드백), Amazon Toys&Games (명시적 피드백), Kion (암시적 피드백)의 네 가지 데이터셋을 사용
+	- MovieLens-1M, MovieLens-20M (명시적 피드백), Amazon Toys&Games (명시적 피드백), Kion. (암시적 피드백)의 네 가지 데이터셋을 사용
 	- 명시적 데이터셋에서는 median 평점을 기준으로, Kion 데이터셋에서는 시청 완료율 15%를 기준으로 부정적 피드백을 정의
 - evaluation
 	- $\text{HR@}k$, $\text{NDCG@k}$ (negative/positive 각각)
-	- 핵심 목표는 $\text{NDCG}_p\text{@}k$를 최대화하고, 동시에 $\Delta \text{NDCG@k} = \text{NDCG}_p\text{@}k - \text{NDCG_n@}k$를 최대화하여, 긍정적 아이템 추천은 늘리고 부정적 아이템 추천은 줄이는 것
+	- 핵심 목표는 $\text{NDCG}_p\text{@}k$를 최대화하고, 동시에 $\Delta \text{NDCG@k} = \text{NDCG}_{p}\text{@} k - \text{NDCG}_n\text{@}k$를 최대화하여, 긍정적 아이템 추천은 늘리고 부정적 아이템 추천은 줄이는 것
 
 ![[assets/negative feedback sequence를 활용한 추천/result-plot.png]]
 
