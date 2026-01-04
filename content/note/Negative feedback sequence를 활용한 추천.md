@@ -41,21 +41,23 @@ $$L_c = - \sum_{u \in U} \sum_{i_t \in S_p} \log \frac{\exp(f(\hat{i}_t, i_{t+1}
 	- MovieLens-1M, MovieLens-20M (명시적 피드백), Amazon Toys&Games (명시적 피드백), Kion (암시적 피드백)의 네 가지 데이터셋을 사용
 	- 명시적 데이터셋에서는 median 평점을 기준으로, Kion 데이터셋에서는 시청 완료율 15%를 기준으로 부정적 피드백을 정의
 - evaluation
-	- $HR@k$, $NDCG@k$ (negative/positive 각각)
-	- 핵심 목표는 $NDCG_p@k$를 최대화하고, 동시에 $\Delta NDCG@k = NDCG_p@k - NDCG_n@k$를 최대화하여, 긍정적 아이템 추천은 늘리고 부정적 아이템 추천은 줄이는 것
+	- $\text{HR@}k$, $\text{NDCG@k}$ (negative/positive 각각)
+	- 핵심 목표는 $\text{NDCG}_p\text{@}k$를 최대화하고, 동시에 $\Delta \text{NDCG@k} = \text{NDCG}_p\text{@}k - \text{NDCG_n@}k$를 최대화하여, 긍정적 아이템 추천은 늘리고 부정적 아이템 추천은 줄이는 것
 
 ![[assets/negative feedback sequence를 활용한 추천/result-plot.png]]
 
 ![[assets/negative feedback sequence를 활용한 추천/result-table.png]]
 PNFRec은 전체 손실함수를 다 사용한 것, PNFRec_pn은 alpha항만, PNFRec_pc는 beta항만 추가
 
-- 대부분의 데이터셋에서 true-positive 지표($HR_p@10$, $NDCG_p@10$)를 유지하거나 개선하면서, 긍정적-부정적 아이템 간의 차이($\Delta HR@10$, $\Delta NDCG@10$)를 증가시키는 데 효과적
+- 대부분의 데이터셋에서 true-positive 지표($\text{HR}_p\text{@}10$, $\text{NDCG}_p\text{@}10$)를 유지하거나 개선하면서, 긍정적-부정적 아이템 간의 차이($\Delta \text{HR@}10$, $\Delta \text{NDCG@}10$)를 증가시키는 데 효과적
 	- 특히 밀도 높은 MovieLens 데이터셋에서 PNFRec의 우수한 성능을 확인
-- $L_{CE_n}$은 주로 $HR_p@10$ 및 $NDCG_p$ 개선에 기여하며, $L_c$은 $\Delta HR@10$ 및 $\Delta NDCG@10$에 큰 영향을 미침 (당연한 결과..)
+- $L_{CE_n}$은 주로 $\text{HR}_p\text{@}10$ 및 $\text{NDCG}_p\text{@}10$ 개선에 기여하며, $L_c$은 $\Delta \text{HR@}10$ 및 $\Delta \text{NDCG@}10$에 큰 영향을 미침 (당연한 결과..)
 - SASRec_c나 SASRec와 같은 기존 모델들은 명시적 피드백 데이터셋에서 긍정적 아이템과 부정적 아이템을 구분하는 데 어려움을 겪는 반면, PNFRec은 이를 더 잘 수행함
 	- 같은 명시적 데이터셋끼리도 차이가 있는데 
 		- movielens는 사용자당 평균 상호작용 수가 훨씬 많고 밀도가 높은 데이터셋으로 긍정적 패턴 학습에 더 많은 정보가 제공됨. 부정 피드백 정보가 가져오는 플러스가 상대적으로 덜한 것으로 보임
 		- toy&games에서는 긍/부정 분리는 크게 개선된 반면 tp 예측은 오히려 감소 (싫어할 것 같은 아이템을 제외하는 것과 좋아하는 것을 잘 맞히는 데 trade-off가 있는 것 같기도 함)
-- $alpha$의 경우 0.1 ~ 0.35 사이의 값이 최적이었음
+- $\alpha$의 경우 0.1 ~ 0.35 사이의 값이 최적이었음
 
-- 🤔 드는 생각은 contrastive loss는 사실 hard negative sampling이랑 거의 같은 역할이라고 보임. alpha값을 보면 negative 반영은 보조 역할 수준일때 적절하다는 것. 그리고 결과를 봤을 때 대규모 데이터셋이나(ML-20M) implicit 데이터셋(kion)에서 업사이드가 크지 않고, 기본적으로 태스크(긍정 아이템 예측)에 손실을 보면서 delta를 올리는 건 좀 논쟁의 여지가 있어 보이는데 delta보다는 '싫어하는 아이템을 추천하지 않는다'를 좀 더 직접적인 지표로 보면 어떨가 싶음.
+<br>
+
+- 🤔 드는 생각은 contrastive loss는 사실 hard negative sampling이랑 거의 같은 역할이라고 보임. alpha값을 보면 negative 반영은 보조 역할 수준일때 적절하다는 것. 그리고 결과를 봤을 때 대규모 데이터셋이나(ML-20M) implicit 데이터셋(kion)에서 업사이드가 크지 않고, 기본적으로 태스크(긍정 아이템 예측)에 손실을 보면서 delta를 올리는 건 좀 논쟁의 여지가 있어 보이는데 delta보다는 '싫어하는 아이템을 추천하지 않는다'를 좀 더 직접적인 지표로 보면 어떨까 싶음.
