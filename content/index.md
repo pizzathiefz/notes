@@ -13,11 +13,11 @@
 - [[note/Sequential recommendation에서 negative sampling 전략 비교\|Sequential recommendation에서 negative sampling 전략 비교]]
 - [[note/온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta\|온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta]]
 - [[note/범용 유저 임베딩 @Spotify\|범용 유저 임베딩 @Spotify]]
+- [[note/AI 엔지니어링\|AI 엔지니어링]]
 - [[note/Long-Term + Multi-Interest Retrieval @Taobao\|Long-Term + Multi-Interest Retrieval @Taobao]]
 - [[note/의도 모델링 기반 추천 결과 다양화 @Youtube\|의도 모델링 기반 추천 결과 다양화 @Youtube]]
 - [[note/여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music\|여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music]]
 - [[note/Cold Start의 임계값\|Cold Start의 임계값]]
-- [[note/Sliding Window Training for Foundation Model @Netflix\|Sliding Window Training for Foundation Model @Netflix]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
