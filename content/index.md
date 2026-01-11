@@ -8,7 +8,7 @@
 <br>
 
 ## recent 📄
-- [[note/Engagement-Aware and MoE-Enhanced Transformers for Sequential Recommendation\|Engagement-Aware and MoE-Enhanced Transformers for Sequential Recommendation]]
+- [[note/Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video\|Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video]]
 - [[note/Negative feedback sequence를 활용한 추천\|Negative feedback sequence를 활용한 추천]]
 - [[note/Sequential recommendation에서 negative sampling 전략 비교\|Sequential recommendation에서 negative sampling 전략 비교]]
 - [[note/온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta\|온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta]]
@@ -25,6 +25,7 @@
 
 ## recent 📚
 - [[book/사실은 의견일 뿐이다\|사실은 의견일 뿐이다]]
+- [[book/책을 덮고 삶을 열다\|책을 덮고 삶을 열다]]
 - [[book/남극\|남극]]
 - [[book/일은 당신을 사랑하지 않는다\|일은 당신을 사랑하지 않는다]]
 - [[book/뭐 사랑도 있겠고, 인간 고유의 특성\|뭐 사랑도 있겠고, 인간 고유의 특성]]
@@ -33,7 +34,6 @@
 - [[book/숫자 한국\|숫자 한국]]
 - [[book/정신병을 만드는 사람들\|정신병을 만드는 사람들]]
 - [[book/저소비 생활\|저소비 생활]]
-- [[book/멋진 실리콘 세계\|멋진 실리콘 세계]]
 
 > [[yearly/2026 📚]] |  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
