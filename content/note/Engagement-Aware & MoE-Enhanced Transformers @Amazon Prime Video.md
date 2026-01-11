@@ -15,7 +15,6 @@
 - 유저별 아이템 시청시 완료율(engagement signal)에 기반해서 개인화된 hard negative sample을 뽑음
 	- 완료율이 낮은 아이템은 유저가 시청하다가 포기한 콘텐츠를 의미하여 모델이 더 어려운 부정 샘플을 잘 구분할 수 있게 함
 	- 완료율 = 전체 런타임 중 유저가 본 시간의 비율 (기준: 0.05 이하)
-$$ \text{Completion Rate}_{u,i} = \frac{\text{Seconds Viewed}_{u,i}}{\text{Runtime}_i \times 60} $$
 - pools
 	- **User-specific Hard Negatives**: 사용자가 부분적으로 시청하고 포기한 콘텐츠
 	- **Globally Trending Negatives**: 전역적으로 인기가 많지만 사용자가 상호작용하지 않은 콘텐츠.
@@ -30,7 +29,7 @@ $$ \text{Completion Rate}_{u,i} = \frac{\text{Seconds Viewed}_{u,i}}{\text{Runti
 	- 사용자 특징, 범주형 특성, 컨텍스트 신호, 수치 입력, 콘텐츠 임베딩을 위한 공유 임베딩 레이어 (모든 experts가 이 임베딩을 공유)
 	- 콘텐츠 특징은 dense 임베딩 공간으로 매핑되며, 각 특징 임베딩 $\mathbf{e}_i = E_i(\mathbf{f}_i)$는 concat되어 통합된 콘텐츠 표현 $\mathbf{t} = [\mathbf{e}_1, \mathbf{e}_2, \dots, \mathbf{e}_k]$를 형성
 - (2) **Behavioral Sequential Transformer**
-	- 주어진 사용자 상호작용 시퀀스 $\mathbf{X} = [\mathbf{x}_1, \mathbf{x}_2, \dots, \mathbf{x}_L]$ (여기서 $\mathbf{x}_t = [\mathbf{t}_t + \mathbf{p}_t]$는 콘텐츠 임베딩과 positional 임베딩의 concat)를 입력으로 받아 contextualized sequence representation $\mathbf{H} = \text{TransformerEncoder}(\mathbf{X})$ 얻음
+	- 주어진 사용자 상호작용 시퀀스 $\mathbf{X} = [\mathbf{x}_1, \mathbf{x}_2, \dots, \mathbf{x}_L]$ (여기서 $\mathbf{x}_t = [\mathbf{t}_t + \mathbf{p}_t]$는 콘텐츠 임베딩과 positional 임베딩의 concat)를 입력으로 받아 트랜스포머 인코더를 거친 contextualized sequence representation $\mathbf{H}$ 얻음
 	- 최종 사용자 시퀀스 표현 $\mathbf{h}_{\text{user}}$는 attention pooling을 통해 얻어짐
 		- $\mathbf{h}_{\text{user}} = \sum_{t=1}^L \alpha_t \mathbf{h}_t$ , $\alpha_t = \frac{\exp(\mathbf{w}^T \mathbf{h}_t)}{\sum_{t'} \exp(\mathbf{w}^T \mathbf{h}_{t'})}$ 
 - (3) **Mixture-of-Experts Module**
@@ -78,7 +77,7 @@ $$ \text{Completion Rate}_{u,i} = \frac{\text{Seconds Viewed}_{u,i}}{\text{Runti
 	- NDCG@1, NDCG@5, Recall@5, MRR@5를 포함한 다양한 랭킹 지표를 통해 모델 성능을 평가
 	- 제안된 S-MoE-BST (PHNS+MTL+PL) 모델은 베이스라인 대비 NDCG@1에서 최대 3.52% 향상된 성능
 
-- ablation에서 PHNS를 비율이나 평가를 좀 자세하게 했는데 궁금했던 부분이라 정리해봄
+- ablation에서 PHNS를 비율이나 평가를 좀 자세하게 했는데 궁금했던 부분이라 정리해보면
 	- PHNS를 아예 안 쓰고 학습한 경우, 테스트할 때 hard negative가 없으면 (PHNS안 쓴 정답지) 성능이 높지만 PHNS가 적용된 정답으로 하면 성능이 `NDCG@1` 기준 0.75 -> 0.36 기준으로 급락
 		- 즉 hard negative가 존재하는 실제 환경에서 개인화되지 않은 negative sampling 전략이 문제가 될 수 있음을 보여줌. 
 	- PHNS를 쓰고 학습할 때도 hard negative의 비중에 따라 HARD (50%), MEDIUM (30%), EASY (20%)로 나눴는데, 
