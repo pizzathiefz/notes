@@ -2,7 +2,7 @@
 {"publish":true,"title":"Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video","created":"2026-01-09","tags":["recsys","sequential-rec"],"cssclasses":""}
 ---
 
-> Beyond Immediate Click: Engagement-Aware and MoE-Enhanced Transformers for Sequential Movie Recommendation
+> [Beyond Immediate Click: Engagement-Aware and MoE-Enhanced Transformers for Sequential Movie Recommendation](https://dl.acm.org/doi/10.1145/3705328.3748076)
 
 - 비디오 스트리밍 서비스에서 sequential recommendation system이 겪는 문제
 	- 유저별로 최적화되지 않은 negative sampling 전략 (단순 랜덤 또는 인기도 기반) = 모델이 false positive를 식별하는 능력을 저해함
