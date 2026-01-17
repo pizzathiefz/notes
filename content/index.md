@@ -7,7 +7,7 @@
 
 <br>
 
-## recent 📄
+## 📄
 - [[note/Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video\|Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video]]
 - [[note/Negative feedback sequence를 활용한 추천\|Negative feedback sequence를 활용한 추천]]
 - [[note/Sequential recommendation에서 negative sampling 전략 비교\|Sequential recommendation에서 negative sampling 전략 비교]]
@@ -23,7 +23,7 @@
 
 <br>
 
-## recent 📚
+## 📚
 - [[book/해변에서\|해변에서]]
 - [[book/사실은 의견일 뿐이다\|사실은 의견일 뿐이다]]
 - [[book/책을 덮고 삶을 열다\|책을 덮고 삶을 열다]]
@@ -35,22 +35,24 @@
 - [[book/숫자 한국\|숫자 한국]]
 - [[book/정신병을 만드는 사람들\|정신병을 만드는 사람들]]
 
-> [[yearly/2026 📚]] |  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
+> [[yearly/2026 📚]]   
+> [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
 
 <br>
 
-## recent 🎬 
+## 🎬 
 
 | File                                                                                                           | rating | comment                                                                  |
 | -------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------ |
-| [[film/Yek tasadof-e sadeh; It Was Just an Accident\|Yek tasadof-e sadeh; It Was Just an Accident]] | \-     | \-                                                                       |
-| [[film/Pulp Fiction\|Pulp Fiction]]                                                                 | \-     | \-                                                                       |
-| [[film/Miséricorde; Misericordia\|Miséricorde; Misericordia]]                                       | \-     | \-                                                                       |
+| [[film/Yek tasadof-e sadeh; It Was Just an Accident\|Yek tasadof-e sadeh; It Was Just an Accident]] | 4      | \-                                                                       |
+| [[film/Pulp Fiction\|Pulp Fiction]]                                                                 | 3.5    | \-                                                                       |
+| [[film/Miséricorde; Misericordia\|Miséricorde; Misericordia]]                                       | 3.5    | \-                                                                       |
 | [[film/Black Bag\|Black Bag]]                                                                       | 3      | 이 영화 섹시하다고들 하던데 주연 배우 둘을 제외한 나머지 부분도 진짜 그런가.                             |
 | [[film/얼굴\|얼굴]]                                                                                     | 3      | 폭력은 아래로 흘러 기적의 한강 밑 백골이 되고 끝내 못 본 체하는 아들로 완성된다.                          |
 | [[film/Train Dreams\|Train Dreams]]                                                                 | 4      | 이 거대한 숲에서 아무것도 아니었지만 동시에 모든 것인 삶은, 그 연결은 마침내 살아낸 시간의 끝자락에서야 눈에 들어오는 것이다. |
 | [[film/Scouts Guide to the Zombie Apocalypse\|Scouts Guide to the Zombie Apocalypse]]               | 3      | 웬만한 좀비 코미디 다 봤다고 생각했는데 이걸 놓쳤었다.                                          |
 
-> [[yearly/2026 🎬]] | [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
+> [[yearly/2026 🎬]].  
+>  [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
 <br>
