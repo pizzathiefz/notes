@@ -123,13 +123,36 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
 
+  // Helper function to get folder from slug
+  const getFolder = (slug: SimpleSlug): string => {
+    const parts = slug.split("/")
+    return parts.length > 1 ? parts[0] : ""
+  }
+
+  // Filter links based on folder
+  const shouldIncludeLink = (sourceSlug: SimpleSlug, destSlug: SimpleSlug): boolean => {
+    // Exclude links to/from index page
+    if (sourceSlug === "index" || destSlug === "index") {
+      return false
+    }
+
+    // Exclude links to/from yearly folder
+    const sourceFolder = getFolder(sourceSlug)
+    const destFolder = getFolder(destSlug)
+    if (sourceFolder === "yearly" || destFolder === "yearly") {
+      return false
+    }
+
+    return true
+  }
+
   const tweens = new Map<string, TweenNode>()
   for (const [source, details] of data.entries()) {
     const outgoing = details.links ?? []
 
     for (const dest of outgoing) {
-      // Exclude links to index page
-      if (validLinks.has(dest) && dest !== "index") {
+      // Use the filter function to decide whether to include this link
+      if (validLinks.has(dest) && shouldIncludeLink(source, dest)) {
         links.push({ source: source, target: dest })
       }
     }
@@ -142,7 +165,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       tags.push(...localTags.filter((tag) => !tags.includes(tag)))
 
       for (const tag of localTags) {
-        links.push({ source: source, target: tag })
+        // Exclude links from index page
+        if (source !== "index") {
+          links.push({ source: source, target: tag })
+        }
       }
     }
   }
