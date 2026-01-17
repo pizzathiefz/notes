@@ -131,8 +131,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // Filter links based on folder
   const shouldIncludeLink = (sourceSlug: SimpleSlug, destSlug: SimpleSlug): boolean => {
-    // Exclude links to/from index page
-    if (sourceSlug === "index" || destSlug === "index") {
+    // Exclude links to/from index page (slug can be "index" or "")
+    if (sourceSlug === "index" || destSlug === "index" || 
+        sourceSlug === "" || destSlug === "") {
       return false
     }
 
@@ -210,6 +211,17 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         source: nodes.find((n) => n.id === l.source)!,
         target: nodes.find((n) => n.id === l.target)!,
       })),
+  }
+
+  // Hide graph if current page has no connections
+  const hasConnections = graphData.links.some(
+    (l) => l.source.id === slug || l.target.id === slug
+  )
+  if (!hasConnections) {
+    graph.style.display = "none"
+    return
+  } else {
+    graph.style.display = ""
   }
 
   const width = graph.offsetWidth
