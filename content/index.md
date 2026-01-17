@@ -35,8 +35,7 @@
 - [[book/숫자 한국\|숫자 한국]]
 - [[book/정신병을 만드는 사람들\|정신병을 만드는 사람들]]
 
-> [[yearly/2026 📚]]   
-> [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] | [[yearly/~2017 📚]]
+> [[yearly/2026 📚]]  |  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] 
 
 <br>
 
@@ -52,7 +51,6 @@
 | [[film/Train Dreams\|Train Dreams]]                                                                 | 4      | 이 거대한 숲에서 아무것도 아니었지만 동시에 모든 것인 삶은, 그 연결은 마침내 살아낸 시간의 끝자락에서야 눈에 들어오는 것이다. |
 | [[film/Scouts Guide to the Zombie Apocalypse\|Scouts Guide to the Zombie Apocalypse]]               | 3      | 웬만한 좀비 코미디 다 봤다고 생각했는데 이걸 놓쳤었다.                                          |
 
-> [[yearly/2026 🎬]].  
->  [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
+> [[yearly/2026 🎬]]  |  [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] | [[yearly/~2017 🎬]]
 
 <br>
