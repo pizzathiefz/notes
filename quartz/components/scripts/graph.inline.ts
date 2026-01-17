@@ -129,11 +129,21 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     return parts.length > 1 ? parts[0] : ""
   }
 
+  // Helper function to check if slug is index page
+  const isIndexPage = (slug: SimpleSlug): boolean => {
+    return slug === "index" || slug === "" || slug === "Index"
+  }
+
   // Filter links based on folder
   const shouldIncludeLink = (sourceSlug: SimpleSlug, destSlug: SimpleSlug): boolean => {
-    // Exclude links to/from index page (slug can be "index" or "")
-    if (sourceSlug === "index" || destSlug === "index" || 
+    // Debug: log slugs to see what they actually are
+    if (sourceSlug.toLowerCase().includes("index") || destSlug.toLowerCase().includes("index") ||
         sourceSlug === "" || destSlug === "") {
+      console.log("Filtering out link:", sourceSlug, "->", destSlug)
+    }
+
+    // Exclude links to/from index page
+    if (isIndexPage(sourceSlug) || isIndexPage(destSlug)) {
       return false
     }
 
