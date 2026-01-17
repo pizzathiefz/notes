@@ -128,7 +128,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const outgoing = details.links ?? []
 
     for (const dest of outgoing) {
-      if (validLinks.has(dest)) {
+      // Exclude links to index page
+      if (validLinks.has(dest) && dest !== "index") {
         links.push({ source: source, target: dest })
       }
     }

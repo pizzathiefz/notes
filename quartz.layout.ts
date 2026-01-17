@@ -40,7 +40,11 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.ConditionalRender({
-      component: Component.Graph(),
+      component: Component.Graph({
+        localGraph: {
+          depth: 2,
+        },
+      }),
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ConditionalRender({
