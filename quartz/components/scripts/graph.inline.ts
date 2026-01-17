@@ -136,14 +136,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   // Filter links based on folder
   const shouldIncludeLink = (sourceSlug: SimpleSlug, destSlug: SimpleSlug): boolean => {
-    // Debug: log slugs to see what they actually are
-    if (sourceSlug.toLowerCase().includes("index") || destSlug.toLowerCase().includes("index") ||
-        sourceSlug === "" || destSlug === "") {
-      console.log("Filtering out link:", sourceSlug, "->", destSlug)
-    }
+    // Debug: log all links
+    console.log("Checking link:", { source: sourceSlug, dest: destSlug })
 
     // Exclude links to/from index page
     if (isIndexPage(sourceSlug) || isIndexPage(destSlug)) {
+      console.log("  -> FILTERED (index page)")
       return false
     }
 
@@ -151,6 +149,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const sourceFolder = getFolder(sourceSlug)
     const destFolder = getFolder(destSlug)
     if (sourceFolder === "yearly" || destFolder === "yearly") {
+      console.log("  -> FILTERED (yearly folder)")
       return false
     }
 
