@@ -1,3 +1,16 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// When right sidebar is empty, expand content area
+body #quartz-root #quartz-body {
+  &:has(.sidebar.right:empty) {
+    @media all and (min-width: 1510px) {
+      grid-template-columns: 375px 1fr !important;
+      
+      .center {
+        max-width: none !important;
+      }
+    }
+  }
+}

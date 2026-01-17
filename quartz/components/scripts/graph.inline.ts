@@ -222,10 +222,16 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     (l) => l.source.id === slug || l.target.id === slug
   )
   if (!hasConnections) {
-    graph.style.display = "none"
+    const graphContainer = graph.closest(".graph")
+    if (graphContainer) {
+      (graphContainer as HTMLElement).style.display = "none"
+    }
     return
   } else {
-    graph.style.display = ""
+    const graphContainer = graph.closest(".graph")
+    if (graphContainer) {
+      (graphContainer as HTMLElement).style.display = ""
+    }
   }
 
   const width = graph.offsetWidth

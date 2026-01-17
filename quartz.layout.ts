@@ -48,15 +48,15 @@ export const defaultContentPageLayout: PageLayout = {
           depth: 2,
         },
       }),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "index" && !page.fileData.slug?.startsWith("yearly/"),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "index" && !page.fileData.slug?.startsWith("yearly/"),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "index" && !page.fileData.slug?.startsWith("yearly/"),
     }),
   ],
 }
