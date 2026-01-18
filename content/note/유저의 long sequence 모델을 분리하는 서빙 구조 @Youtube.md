@@ -18,7 +18,7 @@
 		- 그 결과를 캐싱해서 씀으로써 서빙 비용을 줄임 (감당 가능한 빈도로 refreshing, 많은 유저 리퀘스트에 대해서 재활용)
 	- 무거운 유저 시퀀스 모델을 메인 모델에서 분리하는 역할
 
-![[assets/유저의 long sequence 모델을 분리하는 서빙 구조 @youtube/architecture.png|550]]
+![[assets/ai 엔지니어링 - 아키텍처와 사용자 피드백/architecture.png|550]]
 
 - user model이랑 main model은 학습할 때는 같이 학습되지만 분리해서 export
 - main model을 서빙할 때는 user model 결과를 따로 캐싱하고 (이 부분이 UBS) 결과를 가져다가 씀
