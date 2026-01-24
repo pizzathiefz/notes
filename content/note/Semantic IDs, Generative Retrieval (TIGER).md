@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Semantic IDs, Generative Retrieval (TIGER)","created":"2025-07-12","tags":["recsys","generative-retrieval","llm"],"cssclasses":""}
+{"publish":true,"title":"Semantic IDs, Generative Retrieval (TIGER)","created":"2025-07-12","tags":["recsys","llm","generative-recsys"],"cssclasses":""}
 ---
 
 > [Recommender Systems with Generative Retrieval](https://arxiv.org/abs/2305.05065) (2023)

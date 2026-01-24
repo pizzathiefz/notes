@@ -8,6 +8,7 @@
 <br>
 
 ## 📄
+- [[note/Multimodal & Personalized 대화형 음악 추천\|Multimodal & Personalized 대화형 음악 추천]]
 - [[note/대화형 추천 시스템을 위한 Collaborative RAG\|대화형 추천 시스템을 위한 Collaborative RAG]]
 - [[note/Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video\|Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video]]
 - [[note/Negative feedback sequence를 활용한 추천\|Negative feedback sequence를 활용한 추천]]
@@ -17,7 +18,6 @@
 - [[note/Long-Term + Multi-Interest Retrieval @Taobao\|Long-Term + Multi-Interest Retrieval @Taobao]]
 - [[note/의도 모델링 기반 추천 결과 다양화 @Youtube\|의도 모델링 기반 추천 결과 다양화 @Youtube]]
 - [[note/여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music\|여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music]]
-- [[note/Cold Start의 임계값\|Cold Start의 임계값]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
@@ -43,13 +43,13 @@
 
 | File                                                                                                           | rating | comment                                                                   |
 | -------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------- |
-| [[film/Miroirs No. 3; Mirrors No. 3\|Miroirs No. 3; Mirrors No. 3]]                                 | \-     | \-                                                                        |
+| [[film/Bugonia\|Bugonia]]                                                                           | \-     | \-                                                                        |
+| [[film/Miroirs No. 3; Mirrors No. 3\|Miroirs No. 3; Mirrors No. 3]]                                 | 3      | 상실을 겪은 가족에게 라우라가 왜 필요했는지는 자명하지만 사실 라우라에게 왜 그들이 필요했는지가 어쩌면 더 중요할 것이다.      |
 | [[film/Queer\|Queer]]                                                                               | 3      | 자기혐오와 (늙어서)안팔림과 (예정된)고독(사)의 돌려돌려돌림판. 텔레파시로 그거 읽은 젊은이가 겁에 질려 튈 만도 하지.      |
 | [[film/Yek tasadof-e sadeh; It Was Just an Accident\|Yek tasadof-e sadeh; It Was Just an Accident]] | 4      | 거대한 국가적 폭력이 너무나도 부당했기에 내 손에 칼이 쥐어졌을 때도 이 휘두름이 정말 온당한가를 고통스럽게 고민해야 한다는 역설. |
 | [[film/Pulp Fiction\|Pulp Fiction]]                                                                 | 3.5    | 그렇게 우리는 세 명의 눈사람이 되고..!                                                   |
 | [[film/Miséricorde; Misericordia\|Miséricorde; Misericordia]]                                       | 3.5    | 생기를 얻기 위해서 뻔뻔한 욕망이 (또는 뜻밖의 살인이) 필요한 사람들.                                  |
 | [[film/Black Bag\|Black Bag]]                                                                       | 3      | 이 영화 섹시하다고들 하던데 주연 배우 둘을 제외한 나머지 부분도 진짜 그런가.                              |
-| [[film/얼굴\|얼굴]]                                                                                     | 3      | 폭력은 아래로 흘러 기적의 한강 밑 백골이 되고 끝내 못 본 체하는 아들로 완성된다.                           |
 
 > [[yearly/2026 🎬]]  |  [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] 
 
