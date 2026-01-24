@@ -125,7 +125,7 @@
     *  embedding vocabulary size가 2천만 행에서 1억 6천만 행으로 증가함에 따라 모델 성능이 꾸준히 향상
 *   **Online results**
     * Home Feed (HF) 랭킹 및 I2I 랭킹 모델에 성공적으로 A/B 테스트를 거쳐 배포됨
-        *  **HF 랭킹**: Sitewide Saves +1.20%, Surface Saves +2.60%, Fresh Saves +5.70%의 향상을 보였습니다.
+        *  **HF 랭킹**: Sitewide Saves +1.20%, Surface Saves +2.60%, Fresh Saves +5.70%의 향상
         *  **I2I 랭킹**: Sitewide Saves +0.72%, Surface Saves +2.09%의 향상을 보였지만, Fresh Saves는 -0.82%의 소폭 하락을 보임 (cold-start 완화 기술이 적용되지 않았기 때문)
         *  두 플랫폼 모두에서 feed diversity가 증가
 
