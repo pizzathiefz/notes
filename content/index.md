@@ -8,6 +8,7 @@
 <br>
 
 ## 📄
+- [[note/대화형 추천 시스템을 위한 Collaborative RAG\|대화형 추천 시스템을 위한 Collaborative RAG]]
 - [[note/Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video\|Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video]]
 - [[note/Negative feedback sequence를 활용한 추천\|Negative feedback sequence를 활용한 추천]]
 - [[note/Sequential recommendation에서 negative sampling 전략 비교\|Sequential recommendation에서 negative sampling 전략 비교]]
@@ -17,7 +18,6 @@
 - [[note/의도 모델링 기반 추천 결과 다양화 @Youtube\|의도 모델링 기반 추천 결과 다양화 @Youtube]]
 - [[note/여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music\|여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music]]
 - [[note/Cold Start의 임계값\|Cold Start의 임계값]]
-- [[note/Sliding Window Training for Foundation Model @Netflix\|Sliding Window Training for Foundation Model @Netflix]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
