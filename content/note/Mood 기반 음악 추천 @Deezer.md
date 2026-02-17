@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Mood 기반 음악 추천 @Deezer","created":"2025-08-02","tags":["recsys","music-rec"],"cssclasses":""}
+publish: true
+title: Mood 기반 음악 추천 @Deezer
+created: 2025-08-02
+tags:
+  - recsys
+  - music-rec
+cssclasses: ""
 ---
 
 > [**Flow Moods: Recommending Music by Moods on Deezer (2022)**](https://dl.acm.org/doi/10.1145/3523227.3547378)

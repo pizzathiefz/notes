@@ -1,5 +1,12 @@
 ---
-{"publish":true,"title":"Track Mix Generation with Transformers @Deezer","created":"2025-08-04","tags":["recsys","music-rec","playlist-generation"],"cssclasses":""}
+publish: true
+title: Track Mix Generation with Transformers @Deezer
+created: 2025-08-04
+tags:
+  - recsys
+  - music-rec
+  - playlist-generation
+cssclasses: ""
 ---
 
 > [Track Mix Generation on Music Streaming Services using Transformers](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://arxiv.org/abs/2307.03045&ved=2ahUKEwi1kfXZ8IKPAxURcvUHHZkaIBkQFnoECAkQAQ&usg=AOvVaw1IAhMz0hf2P0Km7-MYuI76) (2023)

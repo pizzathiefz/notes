@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Cold Start의 임계값","created":"2025-11-03","tags":["recsys","cold-start"],"cssclasses":""}
+publish: true
+title: Cold Start의 임계값
+created: 2025-11-03
+tags:
+  - recsys
+  - cold-start
+cssclasses: ""
 ---
 
 > [Recommendation Is a Dish Better Served Warm](https://arxiv.org/abs/2508.07856) (2025)

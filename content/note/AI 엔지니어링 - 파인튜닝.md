@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"AI 엔지니어링 - 파인튜닝","created":"2025-10-13","tags":["ai-ml","llm"],"cssclasses":""}
+publish: true
+title: AI 엔지니어링 - 파인튜닝
+created: 2025-10-13
+tags:
+  - ai-ml
+  - llm
+cssclasses: ""
 ---
 
 ## 파인튜닝을 할 것인가에 대한 의사결정

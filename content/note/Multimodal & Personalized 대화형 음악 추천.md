@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Multimodal & Personalized 대화형 음악 추천","created":"2026-01-25","tags":["recsys","conversational-recsys"],"cssclasses":""}
+publish: true
+title: Multimodal & Personalized 대화형 음악 추천
+created: 2026-01-25
+tags:
+  - recsys
+  - conversational-recsys
+cssclasses: ""
 ---
 
 > [Just Ask for Music (JAM): Multimodal and Personalized Natural Language Music Recommendation](https://arxiv.org/abs/2507.15826), [github](https://github.com/hcai-mms/jam)

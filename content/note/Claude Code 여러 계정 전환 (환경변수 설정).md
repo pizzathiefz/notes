@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"Claude Code 여러 계정 전환 (환경변수 설정)","created":"2026-01-26","tags":["misc"],"cssclasses":""}
+publish: true
+title: Claude Code 여러 계정 전환 (환경변수 설정)
+created: 2026-01-26
+tags:
+  - misc
+cssclasses: ""
 ---
 
 

@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"AI 엔지니어링 - 아키텍처와 사용자 피드백","created":"2025-10-28","tags":["ai-ml","llm"],"cssclasses":""}
+publish: true
+title: AI 엔지니어링 - 아키텍처와 사용자 피드백
+created: 2025-10-28
+tags:
+  - ai-ml
+  - llm
+cssclasses: ""
 ---
 
 

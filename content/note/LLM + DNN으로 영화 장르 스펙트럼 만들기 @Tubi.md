@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi","created":"2025-09-07","tags":["recsys","llm"],"cssclasses":""}
+publish: true
+title: LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi
+created: 2025-09-07
+tags:
+  - recsys
+  - llm
+cssclasses: ""
 ---
 
 > [**Beyond Labels: Leveraging Deep Learning and LLMs for Content Metadata**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://arxiv.org/abs/2309.08787&ved=2ahUKEwj8kP6Qg8mPAxU3jK8BHaAZKkAQFnoECAoQAQ&usg=AOvVaw3lYC1GxWegr4vCrxZ5aUlM) (2023)

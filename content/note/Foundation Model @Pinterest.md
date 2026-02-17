@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Foundation Model @Pinterest","created":"2025-12-11","tags":["recsys","generative-recsys"],"cssclasses":""}
+publish: true
+title: Foundation Model @Pinterest
+created: 2025-12-11
+tags:
+  - recsys
+  - generative-recsys
+cssclasses: ""
 ---
 
 > [PinFM: Foundation Model for User Activity Sequences at a Billion-scale Visual Discovery Platform](https://arxiv.org/abs/2507.12704)

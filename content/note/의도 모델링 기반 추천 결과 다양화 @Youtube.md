@@ -1,5 +1,12 @@
 ---
-{"publish":true,"title":"의도 모델링 기반 추천 결과 다양화 @Youtube","created":"2025-11-09","tags":["recsys","diversity","re-ranking"],"cssclasses":""}
+publish: true
+title: 의도 모델링 기반 추천 결과 다양화 @Youtube
+created: 2025-11-09
+tags:
+  - recsys
+  - diversity
+  - re-ranking
+cssclasses: ""
 ---
 
 > [Beyond Item Dissimilarities: Diversifying by Intent in Recommender Systems](https://arxiv.org/abs/2405.12327)

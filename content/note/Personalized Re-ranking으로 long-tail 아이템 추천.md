@@ -1,5 +1,12 @@
 ---
-{"publish":true,"title":"Personalized Re-ranking으로 long-tail 아이템 추천","created":"2025-06-14","tags":["recsys","long-tail-rec","re-ranking"],"cssclasses":""}
+publish: true
+title: Personalized Re-ranking으로 long-tail 아이템 추천
+created: 2025-06-14
+tags:
+  - recsys
+  - long-tail-rec
+  - re-ranking
+cssclasses: ""
 ---
 
 > [Managing Popularity Bias in Recommender Systems with Personalized Re-ranking](https://arxiv.org/abs/1901.07555) (2019)

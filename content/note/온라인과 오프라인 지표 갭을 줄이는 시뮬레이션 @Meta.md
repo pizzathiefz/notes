@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta","created":"2026-01-01","tags":["recsys-evaluation"],"cssclasses":""}
+publish: true
+title: 온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta
+created: 2026-01-01
+tags:
+  - recsys-evaluation
+cssclasses: ""
 ---
 
 > Closing the Online-Offline Gap: A Scalable Framework for Composed Model Evaluation / Recsys25

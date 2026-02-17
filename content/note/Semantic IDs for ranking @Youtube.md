@@ -1,5 +1,12 @@
 ---
-{"publish":true,"title":"Semantic IDs for ranking @Youtube","created":"2025-10-03","tags":["recsys","representation-learning","generative-recsys"],"cssclasses":""}
+publish: true
+title: Semantic IDs for ranking @Youtube
+created: 2025-10-03
+tags:
+  - recsys
+  - representation-learning
+  - generative-recsys
+cssclasses: ""
 ---
 
 > [Better Generalization with Semantic IDs: A Case Study in Ranking for Recommendations](https://arxiv.org/abs/2306.08121) (2024)

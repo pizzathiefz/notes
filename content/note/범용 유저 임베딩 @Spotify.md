@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"범용 유저 임베딩 @Spotify","created":"2025-12-29","tags":["recsys","representation-learning"],"cssclasses":""}
+publish: true
+title: 범용 유저 임베딩 @Spotify
+created: 2025-12-29
+tags:
+  - recsys
+  - representation-learning
+cssclasses: ""
 ---
 
 > [Generalized User Representations for Large-Scale Recommendations and Downstream Tasks](https://dl.acm.org/doi/10.1145/3705328.3748132) / RecSys2025

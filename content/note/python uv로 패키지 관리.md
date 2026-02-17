@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"python uv로 패키지 관리","created":"2025-07-20","tags":["python"],"cssclasses":""}
+publish: true
+title: python uv로 패키지 관리
+created: 2025-07-20
+tags:
+  - python
+cssclasses: ""
 ---
 
 https://docs.astral.sh/uv/

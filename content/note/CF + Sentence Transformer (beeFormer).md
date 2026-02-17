@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"CF + Sentence Transformer (beeFormer)","created":"2025-10-26","tags":["recsys","representation-learning"],"cssclasses":""}
+publish: true
+title: CF + Sentence Transformer (beeFormer)
+created: 2025-10-26
+tags:
+  - recsys
+  - representation-learning
+cssclasses: ""
 ---
 
 > [beeFormer: Bridging the Gap Between Semantic and Interaction Similarity in Recommender Systems](https://arxiv.org/abs/2409.10309)

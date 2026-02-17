@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"AI 엔지니어링 - 추론 최적화","created":"2025-10-19","tags":["ai-ml","llm"],"cssclasses":""}
+publish: true
+title: AI 엔지니어링 - 추론 최적화
+created: 2025-10-19
+tags:
+  - ai-ml
+  - llm
+cssclasses: ""
 ---
 
 ### 개요

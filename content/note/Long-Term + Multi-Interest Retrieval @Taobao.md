@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Long-Term + Multi-Interest Retrieval @Taobao","created":"2025-11-11","tags":["recsys","representation-learning"],"cssclasses":""}
+publish: true
+title: Long-Term + Multi-Interest Retrieval @Taobao
+created: 2025-11-11
+tags:
+  - recsys
+  - representation-learning
+cssclasses: ""
 ---
 
 > [User Long-Term Multi-Interest Retrieval Model for Recommendation](https://arxiv.org/abs/2507.10097)

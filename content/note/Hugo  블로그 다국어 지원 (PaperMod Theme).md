@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"Hugo  블로그 다국어 지원 (PaperMod Theme)","created":"2025-09-10","tags":["misc"],"cssclasses":""}
+publish: true
+title: Hugo  블로그 다국어 지원 (PaperMod Theme)
+created: 2025-09-10
+tags:
+  - misc
+cssclasses: ""
 ---
 
 

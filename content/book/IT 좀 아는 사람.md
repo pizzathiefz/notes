@@ -1,5 +1,8 @@
 ---
-{"publish":true,"title":"IT 좀 아는 사람","created":"2021-04-06","cssclasses":""}
+publish: true
+title: IT 좀 아는 사람
+created: 2021-04-06
+cssclasses: ""
 ---
 
 

@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Test-time Adaptation for Unsupervised Time-series Anomaly Detection","created":"2024-10-11","tags":["time-series","anomaly-detection"],"cssclasses":""}
+publish: true
+title: Test-time Adaptation for Unsupervised Time-series Anomaly Detection
+created: 2024-10-11
+tags:
+  - time-series
+  - anomaly-detection
+cssclasses: ""
 ---
 
 

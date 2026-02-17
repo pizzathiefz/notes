@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"Mondrian Conformal Prediction","created":"2025-08-21","tags":["ai-ml"],"cssclasses":""}
+publish: true
+title: Mondrian Conformal Prediction
+created: 2025-08-21
+tags:
+  - ai-ml
+cssclasses: ""
 ---
 
 - [[Conformal Prediction]] (CP)의 확장 

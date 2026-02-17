@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Sequential recommendation에서 negative sampling 전략 비교","created":"2026-01-03","tags":["recsys","negative-sampling"],"cssclasses":""}
+publish: true
+title: Sequential recommendation에서 negative sampling 전략 비교
+created: 2026-01-03
+tags:
+  - recsys
+  - negative-sampling
+cssclasses: ""
 ---
 
 > [Evaluating Performance and Bias of Negative Sampling in Large-Scale Sequential Recommendation Models](https://arxiv.org/abs/2410.17276)

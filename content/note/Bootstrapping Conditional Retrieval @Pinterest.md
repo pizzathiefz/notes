@@ -1,5 +1,12 @@
 ---
-{"publish":true,"title":"Bootstrapping Conditional Retrieval for User-to-Item Recommendations","created":"2025-10-27","tags":["recsys","representation-learning","two-tower"],"cssclasses":""}
+publish: true
+title: Bootstrapping Conditional Retrieval for User-to-Item Recommendations
+created: 2025-10-27
+tags:
+  - recsys
+  - representation-learning
+  - two-tower
+cssclasses: ""
 ---
 
 > [Bootstrapping Conditional Retrieval for User-to-Item Recommendations](https://arxiv.org/abs/2508.16793) 

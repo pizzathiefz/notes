@@ -1,5 +1,12 @@
 ---
-{"publish":true,"title":"Sequential Music Recommendation + Negative Feedback","created":"2025-08-23","tags":["recsys","music-rec","sequential-rec"],"cssclasses":""}
+publish: true
+title: Sequential Music Recommendation + Negative Feedback
+created: 2025-08-23
+tags:
+  - recsys
+  - music-rec
+  - sequential-rec
+cssclasses: ""
 ---
 
 

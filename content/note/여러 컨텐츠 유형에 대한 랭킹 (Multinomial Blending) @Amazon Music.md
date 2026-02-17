@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music","created":"2025-11-07","tags":["recsys","re-ranking"],"cssclasses":""}
+publish: true
+title: 여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music
+created: 2025-11-07
+tags:
+  - recsys
+  - re-ranking
+cssclasses: ""
 ---
 
 > [Ranking Across Different Content Types: The Robust Beauty of Multinomial Blending](https://arxiv.org/abs/2408.09168)

@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"Sliding Window Training for Foundation Model @Netflix","created":"2025-11-02","tags":["recsys"],"cssclasses":""}
+publish: true
+title: Sliding Window Training for Foundation Model @Netflix
+created: 2025-11-02
+tags:
+  - recsys
+cssclasses: ""
 ---
 
 > [Sliding Window Training - Utilizing Historical Recommender Systems Data for Foundation Models](https://arxiv.org/abs/2409.14517) (2024)

@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Recsys in the Era of LLM","created":"2025-03-08","tags":["recsys","llm"],"cssclasses":""}
+publish: true
+title: Recsys in the Era of LLM
+created: 2025-03-08
+tags:
+  - recsys
+  - llm
+cssclasses: ""
 ---
 
 > **[Recommender Systems in the Era of Large Language Models](https://arxiv.org/abs/2307.02046)** 

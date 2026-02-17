@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Negative Samping 전략 (Review Paper)","created":"2025-09-09","tags":["recsys","negative-sampling"],"cssclasses":""}
+publish: true
+title: Negative Samping 전략 (Review Paper)
+created: 2025-09-09
+tags:
+  - recsys
+  - negative-sampling
+cssclasses: ""
 ---
 
 > [Negative Sampling in Recommendation: A Survey and Future Directions](https://arxiv.org/abs/2409.07237)

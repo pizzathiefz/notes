@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video","created":"2026-01-09","tags":["recsys","sequential-rec"],"cssclasses":""}
+publish: true
+title: Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video
+created: 2026-01-09
+tags:
+  - recsys
+  - sequential-rec
+cssclasses: ""
 ---
 
 > [Beyond Immediate Click: Engagement-Aware and MoE-Enhanced Transformers for Sequential Movie Recommendation](https://dl.acm.org/doi/10.1145/3705328.3748076)

@@ -1,5 +1,8 @@
 ---
-{"publish":true,"title":"Lo-fi","created":"2021-03-29","cssclasses":""}
+publish: true
+title: Lo-fi
+created: 2021-03-29
+cssclasses: ""
 ---
 
 

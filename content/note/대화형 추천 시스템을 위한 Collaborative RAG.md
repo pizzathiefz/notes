@@ -1,5 +1,12 @@
 ---
-{"publish":true,"title":"대화형 추천 시스템을 위한 Collaborative RAG","created":"2026-01-24","tags":["recsys","llm","conversational-recsys"],"cssclasses":""}
+publish: true
+title: 대화형 추천 시스템을 위한 Collaborative RAG
+created: 2026-01-24
+tags:
+  - recsys
+  - llm
+  - conversational-recsys
+cssclasses: ""
 ---
 
 > [Collaborative Retrieval for Large Language Model-based Conversational Recommender Systems](https://arxiv.org/abs/2502.14137) (2025), [github](https://github.com/yaochenzhu/CRAG)

@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"APPNP (GNN + Personalized PageRank)","created":"2025-08-22","tags":["graph","ai-ml"],"cssclasses":""}
+publish: true
+title: APPNP (GNN + Personalized PageRank)
+created: 2025-08-22
+tags:
+  - graph
+  - ai-ml
+cssclasses: ""
 ---
 
 > **[Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://arxiv.org/abs/1810.05997)** / ICLR 2019

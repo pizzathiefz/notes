@@ -1,5 +1,11 @@
 ---
-{"publish":true,"title":"Negative feedback sequence를 활용한 추천","created":"2026-01-04","tags":["recsys","sequential-rec"],"cssclasses":""}
+publish: true
+title: Negative feedback sequence를 활용한 추천
+created: 2026-01-04
+tags:
+  - recsys
+  - sequential-rec
+cssclasses: ""
 ---
 
 > [Benefiting from Negative yet Informative Feedback by Contrasting Opposing Sequential Patterns](https://arxiv.org/abs/2508.14786)

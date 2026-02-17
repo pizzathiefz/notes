@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"Foundation Model for Personalized Recommendation @Netflix","created":"2025-10-11","tags":["recsys"],"cssclasses":""}
+publish: true
+title: Foundation Model for Personalized Recommendation @Netflix
+created: 2025-10-11
+tags:
+  - recsys
+cssclasses: ""
 ---
 
 
