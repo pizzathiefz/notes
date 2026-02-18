@@ -38,9 +38,15 @@ ArticleTitle.css = `
   margin: 2rem 0 0 0;
 }
 .book-meta {
-  margin: 0.25rem 0 0 0;
-  font-size: 0.85em;
+  margin: 0.5rem 0 0 0;
+  padding: 0.4rem 0.75rem;
+  font-size: 1em;
   color: var(--gray);
+  text-align: right;
+  letter-spacing: 0.04em;
+  border-top: 1px solid var(--gray);
+  background-color: var(--light);
+  border-radius: 0 0 4px 4px;
 }
 `
 
