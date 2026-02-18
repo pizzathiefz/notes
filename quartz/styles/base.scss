@@ -101,12 +101,8 @@ a {
     line-height: 1.4rem;
 
     &.broken {
-      color: var(--secondary);
-      opacity: 0.5;
-      transition: opacity 0.2s ease;
-      &:hover {
-        opacity: 0.8;
-      }
+      pointer-events: none;
+      cursor: default;
     }
 
     &:has(> img) {
@@ -119,6 +115,13 @@ a {
         content: "#";
       }
     }
+  }
+
+  &.external {
+    background-color: var(--highlight);
+    padding: 0 0.1rem;
+    border-radius: 5px;
+    line-height: 1.4rem;
   }
 
   &.external .external-icon {
