@@ -2,13 +2,10 @@
 publish: true
 title: main
 created: 2025-06-28T15:48:37.000+09:00
-modified: 2026-02-18T19:04:05.882+09:00
-published: 2026-02-18T19:04:05.882+09:00
+modified: 2026-02-18T20:50:55.198+09:00
+published: 2026-02-18T20:50:55.198+09:00
 cssclasses: ""
 ---
-
-노트 보관함입니다. 긴 글은 [여기](https://sliceofdata.app)에 씁니다. 
-  📧 `pizzathief0@gmail.com` 
 
 <br>
 
