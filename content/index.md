@@ -11,6 +11,7 @@ cssclasses: ""
 <br>
 
 ## 📄
+- [[note/터미널 세팅\|터미널 세팅]]
 - [[note/Claude Code 여러 계정 전환 (환경변수 설정)\|Claude Code 여러 계정 전환 (환경변수 설정)]]
 - [[note/Multimodal & Personalized 대화형 음악 추천\|Multimodal & Personalized 대화형 음악 추천]]
 - [[note/대화형 추천 시스템을 위한 Collaborative RAG\|대화형 추천 시스템을 위한 Collaborative RAG]]
@@ -20,7 +21,6 @@ cssclasses: ""
 - [[note/온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta\|온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta]]
 - [[note/범용 유저 임베딩 @Spotify\|범용 유저 임베딩 @Spotify]]
 - [[note/Foundation Model @Pinterest\|Foundation Model @Pinterest]]
-- [[note/Long-Term + Multi-Interest Retrieval @Taobao\|Long-Term + Multi-Interest Retrieval @Taobao]]
 
 > **[more🕳️](https://pizzathief.pages.dev/note/)**
 
