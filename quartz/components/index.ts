@@ -23,6 +23,9 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import HomeButton from "./HomeButton"
+import EmailLink from "./EmailLink"
+import BlogLink from "./BlogLink"
 
 export {
   ArticleTitle,
@@ -50,4 +53,7 @@ export {
   Comments,
   Flex,
   ConditionalRender,
+  HomeButton,
+  EmailLink,
+  BlogLink,
 }

@@ -27,19 +27,18 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.HomeButton() },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
+        { Component: Component.EmailLink() },
+        { Component: Component.BlogLink() },
       ],
+      gap: "0.75rem",
     }),
-
   ],
   right: [
     Component.ConditionalRender({
@@ -65,16 +64,17 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.HomeButton() },
         { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
+        { Component: Component.EmailLink() },
+        { Component: Component.BlogLink() },
       ],
+      gap: "0.75rem",
     }),
   ],
   right: [],

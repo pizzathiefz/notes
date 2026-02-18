@@ -1,0 +1,25 @@
+.sidebar-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--darkgray);
+  flex-shrink: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--dark);
+  }
+
+  & svg {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+  }
+}
