@@ -56,7 +56,7 @@ async function mouseEnterHandler(
     console.error(err)
   })
 
-  if (!response) return
+  if (!response || !response.ok) return
   const [contentType] = response.headers.get("Content-Type")!.split(";")
   const [contentTypeCategory, typeInfo] = contentType.split("/")
 
