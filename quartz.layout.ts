@@ -31,9 +31,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Flex({
       components: [
-        { Component: Component.HomeButton() },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
         { Component: Component.EmailLink() },
         { Component: Component.BlogLink() },
       ],
@@ -68,9 +66,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Search(),
     Component.Flex({
       components: [
-        { Component: Component.HomeButton() },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
         { Component: Component.EmailLink() },
         { Component: Component.BlogLink() },
       ],
