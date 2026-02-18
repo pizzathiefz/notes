@@ -8,14 +8,18 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
   const isBook = fileData.slug?.startsWith("book/")
 
   if (isBook) {
-    const fm = fileData.frontmatter as Record<string, string | undefined>
-    const author = fm["author"]
+    const fm = fileData.frontmatter as Record<string, string | string[] | undefined>
+    const authorRaw = fm["author"]
     const publisher = fm["publisher"]
     const year = fm["year of publication"]
     const originalTitle = fm["original title"]
 
+    const author = Array.isArray(authorRaw)
+      ? authorRaw.map((a) => a.trim()).join(" · ")
+      : authorRaw?.split(",").map((a) => a.trim()).join(" · ")
+
     const metaParts: string[] = []
-    if (author) metaParts.push(author.split(",").map((a) => a.trim()).join(" · "))
+    if (author) metaParts.push(author)
     if (publisher) metaParts.push(publisher)
     if (year) metaParts.push(String(year))
     if (originalTitle && originalTitle !== title) metaParts.push(originalTitle)
