@@ -18,17 +18,22 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
       ? authorRaw.map((a) => a.trim()).join(" · ")
       : authorRaw?.split(",").map((a) => a.trim()).join(" · ")
 
-    const metaParts: string[] = []
+    const metaParts: (string | JSX.Element)[] = []
     if (author) metaParts.push(author)
     if (publisher) metaParts.push(publisher)
     if (year) metaParts.push(String(year))
-    if (originalTitle && originalTitle !== title) metaParts.push(originalTitle)
+    if (originalTitle && originalTitle !== title) metaParts.push(<em>{originalTitle}</em>)
+
+    const sep = "  |  "
+    const metaNodes = metaParts.flatMap((part, i) =>
+      i < metaParts.length - 1 ? [part, sep] : [part],
+    )
 
     return (
       <>
         <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
         {metaParts.length > 0 && (
-          <p class="book-meta">{metaParts.join("  |  ")}</p>
+          <p class="book-meta">{metaNodes}</p>
         )}
       </>
     )

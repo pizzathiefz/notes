@@ -2,14 +2,13 @@
 
 // put your custom CSS here!
 
-// When right sidebar is empty, expand content area
+// When right sidebar is empty, limit center content width
 body #quartz-root #quartz-body {
-  &:has(.sidebar.right:empty) {
-    @media all and (min-width: 1510px) {
-      grid-template-columns: 375px 1fr !important;
-      
+  &:has(.sidebar.right:not(:has(*))) {
+    @media all and (min-width: 1200px) {
       .center {
         max-width: 950px !important;
+        min-width: unset !important;
       }
     }
   }
