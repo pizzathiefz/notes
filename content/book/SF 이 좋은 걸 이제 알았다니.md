@@ -2,7 +2,14 @@
 publish: true
 title: SF, 이 좋은 걸 이제 알았다니
 created: 2020-10-12
+modified: 2025-07-04T10:54:14.000+09:00
+published: 2025-07-04T10:54:14.000+09:00
 cssclasses: ""
+author: 이경희
+publisher: 구픽
+year of publication: 2020
+category: 인문/철학
+original title: SF, 이 좋은 걸 이제 알았다니
 ---
 
 

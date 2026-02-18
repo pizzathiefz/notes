@@ -2,6 +2,8 @@
 publish: true
 title: AI 엔지니어링 - 추론 최적화
 created: 2025-10-19
+modified: 2026-01-18T21:28:24.000+09:00
+published: 2026-01-18T21:28:24.000+09:00
 tags:
   - ai-ml
   - llm

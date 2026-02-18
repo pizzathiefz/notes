@@ -2,6 +2,8 @@
 publish: true
 title: python uv로 패키지 관리
 created: 2025-07-20
+modified: 2025-08-09T21:13:55.000+09:00
+published: 2025-08-09T21:13:55.000+09:00
 tags:
   - python
 cssclasses: ""

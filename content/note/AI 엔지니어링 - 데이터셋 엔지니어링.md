@@ -2,6 +2,8 @@
 publish: true
 title: AI 엔지니어링 - 데이터셋 엔지니어링
 created: 2025-10-18
+modified: 2026-01-18T13:42:49.000+09:00
+published: 2026-01-18T13:42:49.000+09:00
 tags:
   - ai-ml
   - llm

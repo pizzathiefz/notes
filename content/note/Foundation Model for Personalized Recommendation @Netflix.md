@@ -2,6 +2,8 @@
 publish: true
 title: Foundation Model for Personalized Recommendation @Netflix
 created: 2025-10-11
+modified: 2025-10-15T22:42:53.000+09:00
+published: 2025-10-15T22:42:53.000+09:00
 tags:
   - recsys
 cssclasses: ""

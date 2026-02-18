@@ -2,6 +2,8 @@
 publish: true
 title: Lifelong User Action Sequence Modeling @Pinterest
 created: 2025-08-15
+modified: 2025-10-28T18:52:01.000+09:00
+published: 2025-10-28T18:52:01.000+09:00
 tags:
   - recsys
   - sequence-modeling

@@ -2,6 +2,8 @@
 publish: true
 title: Long-Term + Multi-Interest Retrieval @Taobao
 created: 2025-11-11
+modified: 2025-11-14T15:51:03.000+09:00
+published: 2025-11-14T15:51:03.000+09:00
 tags:
   - recsys
   - representation-learning

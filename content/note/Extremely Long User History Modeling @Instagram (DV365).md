@@ -2,6 +2,8 @@
 publish: true
 title: Extremely Long User History Modeling @Instagram (DV365)
 created: 2025-10-17
+modified: 2025-10-28T18:55:58.000+09:00
+published: 2025-10-28T18:55:58.000+09:00
 tags:
   - recsys
   - sequence-modeling

@@ -2,6 +2,8 @@
 publish: true
 title: Negative Samping 전략 (Review Paper)
 created: 2025-09-09
+modified: 2026-01-01T21:26:36.000+09:00
+published: 2026-01-01T21:26:36.000+09:00
 tags:
   - recsys
   - negative-sampling

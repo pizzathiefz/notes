@@ -2,6 +2,8 @@
 publish: true
 title: Multimodal & Personalized 대화형 음악 추천
 created: 2026-01-25
+modified: 2026-01-24T21:51:53.000+09:00
+published: 2026-01-24T21:51:53.000+09:00
 tags:
   - recsys
   - conversational-recsys

@@ -2,6 +2,8 @@
 publish: true
 title: Negative feedback sequence를 활용한 추천
 created: 2026-01-04
+modified: 2026-01-04T20:28:13.000+09:00
+published: 2026-01-04T20:28:13.000+09:00
 tags:
   - recsys
   - sequential-rec

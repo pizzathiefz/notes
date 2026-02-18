@@ -2,6 +2,8 @@
 publish: true
 title: Transformer-based Realtime User Action Model @Pinterest
 created: 2024-11-16
+modified: 2025-10-28T18:46:25.000+09:00
+published: 2025-10-28T18:46:25.000+09:00
 tags:
   - recsys
   - sequence-modeling

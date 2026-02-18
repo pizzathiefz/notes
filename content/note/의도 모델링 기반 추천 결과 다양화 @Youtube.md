@@ -2,6 +2,8 @@
 publish: true
 title: 의도 모델링 기반 추천 결과 다양화 @Youtube
 created: 2025-11-09
+modified: 2025-11-16T17:44:06.000+09:00
+published: 2025-11-16T17:44:06.000+09:00
 tags:
   - recsys
   - diversity

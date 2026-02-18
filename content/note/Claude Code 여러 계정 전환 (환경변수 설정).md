@@ -2,6 +2,8 @@
 publish: true
 title: Claude Code 여러 계정 전환 (환경변수 설정)
 created: 2026-01-26
+modified: 2026-01-26T17:14:17.000+09:00
+published: 2026-01-26T17:14:17.000+09:00
 tags:
   - misc
 cssclasses: ""

@@ -2,6 +2,8 @@
 publish: true
 title: 음악의 반복 소비 성향을 이용한 Sequential Recommendation
 created: 2025-07-11
+modified: 2025-10-28T18:53:35.000+09:00
+published: 2025-10-28T18:53:35.000+09:00
 tags:
   - recsys
   - music-rec

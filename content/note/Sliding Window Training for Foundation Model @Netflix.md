@@ -2,6 +2,8 @@
 publish: true
 title: Sliding Window Training for Foundation Model @Netflix
 created: 2025-11-02
+modified: 2025-11-03T19:21:00.000+09:00
+published: 2025-11-03T19:21:00.000+09:00
 tags:
   - recsys
 cssclasses: ""

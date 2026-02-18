@@ -2,6 +2,8 @@
 publish: true
 title: 유저의 long sequence 모델을 분리하는 서빙 구조 @Youtube
 created: 2025-08-14
+modified: 2025-10-28T18:57:34.000+09:00
+published: 2025-10-28T18:57:34.000+09:00
 tags:
   - recsys
   - scalable-rec

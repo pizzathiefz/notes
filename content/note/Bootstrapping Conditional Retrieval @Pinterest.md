@@ -2,6 +2,8 @@
 publish: true
 title: Bootstrapping Conditional Retrieval for User-to-Item Recommendations
 created: 2025-10-27
+modified: 2025-10-28T19:27:38.000+09:00
+published: 2025-10-28T19:27:38.000+09:00
 tags:
   - recsys
   - representation-learning

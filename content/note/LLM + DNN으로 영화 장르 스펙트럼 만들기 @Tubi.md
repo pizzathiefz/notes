@@ -2,6 +2,8 @@
 publish: true
 title: LLM + DNN으로 영화 장르 스펙트럼 만들기 @Tubi
 created: 2025-09-07
+modified: 2025-09-08T20:28:46.000+09:00
+published: 2025-09-08T20:28:46.000+09:00
 tags:
   - recsys
   - llm

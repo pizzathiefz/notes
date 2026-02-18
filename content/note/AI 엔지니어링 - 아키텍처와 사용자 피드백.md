@@ -2,6 +2,8 @@
 publish: true
 title: AI 엔지니어링 - 아키텍처와 사용자 피드백
 created: 2025-10-28
+modified: 2026-01-18T20:06:31.000+09:00
+published: 2026-01-18T20:06:31.000+09:00
 tags:
   - ai-ml
   - llm

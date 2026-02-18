@@ -2,6 +2,8 @@
 publish: true
 title: Hugo  블로그 다국어 지원 (PaperMod Theme)
 created: 2025-09-10
+modified: 2025-09-13T12:35:04.000+09:00
+published: 2025-09-13T12:35:04.000+09:00
 tags:
   - misc
 cssclasses: ""

@@ -2,6 +2,8 @@
 publish: true
 title: APPNP (GNN + Personalized PageRank)
 created: 2025-08-22
+modified: 2025-08-29T12:33:51.000+09:00
+published: 2025-08-29T12:33:51.000+09:00
 tags:
   - graph
   - ai-ml

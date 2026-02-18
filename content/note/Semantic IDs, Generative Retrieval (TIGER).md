@@ -2,6 +2,8 @@
 publish: true
 title: Semantic IDs, Generative Retrieval (TIGER)
 created: 2025-07-12
+modified: 2026-01-24T21:00:46.000+09:00
+published: 2026-01-24T21:00:46.000+09:00
 tags:
   - recsys
   - llm

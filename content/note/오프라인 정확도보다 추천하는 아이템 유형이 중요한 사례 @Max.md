@@ -2,6 +2,8 @@
 publish: true
 title: 오프라인 정확도보다 추천하는 아이템 유형이 중요한 사례 @Max
 created: 2025-08-16
+modified: 2026-01-01T21:37:49.000+09:00
+published: 2026-01-01T21:37:49.000+09:00
 tags:
   - recsys-evaluation
 cssclasses: ""

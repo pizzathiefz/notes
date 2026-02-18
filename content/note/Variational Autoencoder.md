@@ -2,6 +2,8 @@
 publish: true
 title: Variational Autoencoder
 created: 2024-11-01
+modified: 2025-10-28T18:43:30.000+09:00
+published: 2025-10-28T18:43:30.000+09:00
 tags:
   - ai-ml
   - unsupervised-learning

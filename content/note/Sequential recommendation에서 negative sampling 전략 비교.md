@@ -2,6 +2,8 @@
 publish: true
 title: Sequential recommendation에서 negative sampling 전략 비교
 created: 2026-01-03
+modified: 2026-01-04T17:36:28.000+09:00
+published: 2026-01-04T17:36:28.000+09:00
 tags:
   - recsys
   - negative-sampling

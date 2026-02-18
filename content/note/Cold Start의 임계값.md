@@ -2,6 +2,8 @@
 publish: true
 title: Cold Start의 임계값
 created: 2025-11-03
+modified: 2025-11-03T19:09:44.000+09:00
+published: 2025-11-03T19:09:44.000+09:00
 tags:
   - recsys
   - cold-start

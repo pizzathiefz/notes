@@ -2,7 +2,14 @@
 publish: true
 title: 젊은 ADHD의 슬픔
 created: 2022-02-22
+modified: 2025-07-04T10:54:16.000+09:00
+published: 2025-07-04T10:54:16.000+09:00
 cssclasses: ""
+author: 정지음
+publisher: 민음사
+year of publication: 2021
+category: 에세이
+original title: 젊은 ADHD의 슬픔
 ---
 
 🔖 마음만 먹으면, 글 속의 나는 천사나 돌고래가 될 수 있었다. 스님이나 노숙자, 다음 대선의 서른 살 대통령도 가능했다. 반대로 대통령이 되길 거부한 서른 살도 쉬울 거였다.

@@ -1,6 +1,8 @@
 ---
 publish: true
 created: 2024-09-28
+modified: 2025-07-12T15:23:01.000+09:00
+published: 2025-07-12T15:23:01.000+09:00
 tags:
   - python
 cssclasses: ""

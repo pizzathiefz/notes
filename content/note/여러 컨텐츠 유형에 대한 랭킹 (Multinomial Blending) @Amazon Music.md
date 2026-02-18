@@ -2,6 +2,8 @@
 publish: true
 title: 여러 컨텐츠 유형에 대한 랭킹 (Multinomial Blending) @Amazon Music
 created: 2025-11-07
+modified: 2026-01-01T21:45:13.000+09:00
+published: 2026-01-01T21:45:13.000+09:00
 tags:
   - recsys
   - re-ranking

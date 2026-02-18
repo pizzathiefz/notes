@@ -2,6 +2,8 @@
 publish: true
 title: Semantic IDs for ranking @Youtube
 created: 2025-10-03
+modified: 2026-01-24T21:00:59.000+09:00
+published: 2026-01-24T21:00:59.000+09:00
 tags:
   - recsys
   - representation-learning

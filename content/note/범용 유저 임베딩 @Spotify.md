@@ -2,6 +2,8 @@
 publish: true
 title: 범용 유저 임베딩 @Spotify
 created: 2025-12-29
+modified: 2026-01-01T12:52:14.000+09:00
+published: 2026-01-01T12:52:14.000+09:00
 tags:
   - recsys
   - representation-learning

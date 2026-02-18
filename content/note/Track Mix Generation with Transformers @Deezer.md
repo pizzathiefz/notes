@@ -2,6 +2,8 @@
 publish: true
 title: Track Mix Generation with Transformers @Deezer
 created: 2025-08-04
+modified: 2025-10-28T18:45:54.000+09:00
+published: 2025-10-28T18:45:54.000+09:00
 tags:
   - recsys
   - music-rec

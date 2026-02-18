@@ -2,6 +2,8 @@
 publish: true
 title: Foundation Model @Pinterest
 created: 2025-12-11
+modified: 2026-01-24T23:54:10.000+09:00
+published: 2026-01-24T23:54:10.000+09:00
 tags:
   - recsys
   - generative-recsys

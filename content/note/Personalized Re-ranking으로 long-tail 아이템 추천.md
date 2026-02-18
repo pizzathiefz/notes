@@ -2,6 +2,8 @@
 publish: true
 title: Personalized Re-ranking으로 long-tail 아이템 추천
 created: 2025-06-14
+modified: 2025-10-28T18:49:31.000+09:00
+published: 2025-10-28T18:49:31.000+09:00
 tags:
   - recsys
   - long-tail-rec

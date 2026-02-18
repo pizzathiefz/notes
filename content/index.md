@@ -2,6 +2,8 @@
 publish: true
 title: main
 created: 2025-06-28T15:48:37.000+09:00
+modified: 2026-01-17T21:30:09.000+09:00
+published: 2026-01-17T21:30:09.000+09:00
 cssclasses: ""
 ---
 

@@ -2,6 +2,8 @@
 publish: true
 title: Mondrian Conformal Prediction
 created: 2025-08-21
+modified: 2025-08-25T23:08:52.000+09:00
+published: 2025-08-25T23:08:52.000+09:00
 tags:
   - ai-ml
 cssclasses: ""

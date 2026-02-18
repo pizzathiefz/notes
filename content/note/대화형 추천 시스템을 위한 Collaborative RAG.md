@@ -2,6 +2,8 @@
 publish: true
 title: 대화형 추천 시스템을 위한 Collaborative RAG
 created: 2026-01-24
+modified: 2026-01-24T17:26:09.000+09:00
+published: 2026-01-24T17:26:09.000+09:00
 tags:
   - recsys
   - llm

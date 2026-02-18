@@ -2,6 +2,8 @@
 publish: true
 title: Multi-Embedding Retrieval Framework @Pinterest
 created: 2025-07-28
+modified: 2025-10-28T18:52:56.000+09:00
+published: 2025-10-28T18:52:56.000+09:00
 tags:
   - recsys
   - representation-learning

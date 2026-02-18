@@ -2,6 +2,8 @@
 publish: true
 title: 온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta
 created: 2026-01-01
+modified: 2026-01-01T14:56:25.000+09:00
+published: 2026-01-01T14:56:25.000+09:00
 tags:
   - recsys-evaluation
 cssclasses: ""

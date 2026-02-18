@@ -2,6 +2,8 @@
 publish: true
 title: Mood 기반 음악 추천 @Deezer
 created: 2025-08-02
+modified: 2025-10-28T18:52:23.000+09:00
+published: 2025-10-28T18:52:23.000+09:00
 tags:
   - recsys
   - music-rec
