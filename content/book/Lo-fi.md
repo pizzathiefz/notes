@@ -2,10 +2,11 @@
 publish: true
 title: Lo-fi
 created: 2021-03-29
-modified: 2025-07-04T10:54:14.000+09:00
-published: 2025-07-04T10:54:14.000+09:00
+modified: 2026-02-18T18:26:43.381+09:00
+published: 2026-02-18T18:26:43.381+09:00
 cssclasses: ""
-author: 강성은
+author:
+  - 강성은
 publisher: 문학과지성사
 year of publication: 2018
 category: 시

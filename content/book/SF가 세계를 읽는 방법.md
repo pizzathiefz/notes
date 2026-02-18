@@ -2,8 +2,8 @@
 publish: true
 title: SF가 세계를 읽는 방법
 created: 2020-07-30
-modified: 2025-07-04T10:54:14.000+09:00
-published: 2025-07-04T10:54:14.000+09:00
+modified: 2026-02-18T18:09:37.224+09:00
+published: 2026-02-18T18:09:37.224+09:00
 cssclasses: ""
 author:
   - 김창규

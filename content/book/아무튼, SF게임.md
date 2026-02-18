@@ -2,8 +2,8 @@
 publish: true
 title: 아무튼, SF게임
 created: 2024-07-14
-modified: 2025-07-04T10:54:15.000+09:00
-published: 2025-07-04T10:54:15.000+09:00
+modified: 2026-02-18T18:09:37.200+09:00
+published: 2026-02-18T18:09:37.200+09:00
 cssclasses: ""
 author:
   - 김초엽

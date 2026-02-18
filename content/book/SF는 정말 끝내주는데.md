@@ -2,10 +2,11 @@
 publish: true
 title: SF는 정말 끝내주는데
 created: 2020-11-08
-modified: 2025-07-04T10:54:14.000+09:00
-published: 2025-07-04T10:54:14.000+09:00
+modified: 2026-02-18T18:26:43.383+09:00
+published: 2026-02-18T18:26:43.383+09:00
 cssclasses: ""
-author: 심완선
+author:
+  - 심완선
 publisher: 에이플랫
 year of publication: 2019
 category: 인문/철학

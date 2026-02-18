@@ -2,8 +2,8 @@
 publish: true
 title: IT 좀 아는 사람
 created: 2021-04-06
-modified: 2025-07-04T10:54:14.000+09:00
-published: 2025-07-04T10:54:14.000+09:00
+modified: 2026-02-18T18:09:37.222+09:00
+published: 2026-02-18T18:09:37.222+09:00
 cssclasses: ""
 author:
   - 닐 메타

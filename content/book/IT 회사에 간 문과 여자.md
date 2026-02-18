@@ -2,10 +2,11 @@
 publish: true
 title: IT 회사에 간 문과 여자
 created: 2022-05-01
-modified: 2025-07-04T10:54:14.000+09:00
-published: 2025-07-04T10:54:14.000+09:00
+modified: 2026-02-18T18:26:43.335+09:00
+published: 2026-02-18T18:26:43.335+09:00
 cssclasses: ""
-author: 염지원
+author:
+  - 염지원
 publisher: 모로
 year of publication: 2022
 category: 에세이

@@ -2,10 +2,11 @@
 publish: true
 title: 젊은 ADHD의 슬픔
 created: 2022-02-22
-modified: 2025-07-04T10:54:16.000+09:00
-published: 2025-07-04T10:54:16.000+09:00
+modified: 2026-02-18T18:26:43.370+09:00
+published: 2026-02-18T18:26:43.370+09:00
 cssclasses: ""
-author: 정지음
+author:
+  - 정지음
 publisher: 민음사
 year of publication: 2021
 category: 에세이
