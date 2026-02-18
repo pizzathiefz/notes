@@ -15,7 +15,7 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
     const originalTitle = fm["original title"]
 
     const metaParts: string[] = []
-    if (author) metaParts.push(author)
+    if (author) metaParts.push(author.split(",").map((a) => a.trim()).join(" · "))
     if (publisher) metaParts.push(publisher)
     if (year) metaParts.push(String(year))
     if (originalTitle && originalTitle !== title) metaParts.push(originalTitle)
@@ -24,7 +24,7 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
       <>
         <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
         {metaParts.length > 0 && (
-          <p class="book-meta">{metaParts.join(" | ")}</p>
+          <p class="book-meta">{metaParts.join("  |  ")}</p>
         )}
       </>
     )
@@ -40,11 +40,11 @@ ArticleTitle.css = `
 .book-meta {
   margin: 0.5rem 0 0 0;
   padding: 0.4rem 0.75rem;
-  font-size: 1em;
+  font-size: 0.95em;
   color: var(--gray);
   text-align: right;
   letter-spacing: 0.04em;
-  border-top: 1px solid var(--gray);
+  border-top: 1px solid var(--lightgray);
   background-color: var(--light);
   border-radius: 0 0 4px 4px;
 }
