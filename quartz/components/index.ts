@@ -26,6 +26,7 @@ import ConditionalRender from "./ConditionalRender"
 import HomeButton from "./HomeButton"
 import EmailLink from "./EmailLink"
 import BlogLink from "./BlogLink"
+import FloatingButtons from "./FloatingButtons"
 
 export {
   ArticleTitle,
@@ -56,4 +57,5 @@ export {
   HomeButton,
   EmailLink,
   BlogLink,
+  FloatingButtons,
 }
