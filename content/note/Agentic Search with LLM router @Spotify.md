@@ -2,11 +2,11 @@
 publish: true
 title: Agentic Search with LLM router @Spotify
 created: 2026-03-22
-modified: 2026-03-22T15:33:46.180+09:00
-published: 2026-03-22T15:33:46.180+09:00
+modified: 2026-03-22T15:36:43.490+09:00
+published: 2026-03-22T15:36:43.490+09:00
 tags:
-  - recsys
-  - search
+  - "#recsys"
+  - "#search"
 cssclasses: ""
 ---
 
@@ -18,7 +18,7 @@ cssclasses: ""
 - Search와 Recommendation은 이론적으로 "같은 동전의 양면"이지만, 실제로는 별개 시스템으로 운영되어 왔음
 - **Exploratory search** (탐색형 쿼리): 좁은 intents (특정 곡/아티스트)가 아닌, 폭넓은 선호를 표현하는 쿼리
     -  "italian 80s nostalgia", "new podcasts for me", "composers like Mozart"
-    - 이런 쿼리는 추천 태스크에 가까움 — 넓은 후보군 + 유저 선호 기반 shortlist
+    - 이런 쿼리는 추천 태스크에 가까움 (넓은 후보군 + 유저 선호 기반 shortlist)
 - 전통적인 검색 시스템의 한계
     - lexical/semantic matching에 최적화, personalization은 re-ranking 단계에만 반영
         - 반면 추천 시스템은 user-item / item-item 유사도를 통해 exploratory 쿼리에 더 적합
@@ -29,7 +29,7 @@ cssclasses: ""
 
 ## Parallel Fusion Router (PFR)
 
-![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340778.png|589]]
+![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340778.png|650]]
 
 - LLM router가 query + user features를 입력으로 받아 적절한 route를 선택
 - 각 route는 하나 또는 여러 개의 병렬 tool call에 대응
@@ -37,7 +37,7 @@ cssclasses: ""
 ### 두 가지 동작 모드
 
 - **Pre-fusion 모드**: 가능한 route(bundle)를 미리 정의 → LLM이 파라미터만 생성, 출력 토큰 수 최소화 → 빠르고 효율적
-    - -> Spotify는 scalability 요건 충족을 위해 이 모드 채택
+    - -> scalability 요건 충족을 위해 이 모드 채택
 - **Post-fusion 모드**: LLM이 런타임에 동적으로 tool 조합 → 유연하지만 latency 증가
 
 ### 멀티 인텐트 처리
