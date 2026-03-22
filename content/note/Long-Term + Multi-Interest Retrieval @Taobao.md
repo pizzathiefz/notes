@@ -2,8 +2,8 @@
 publish: true
 title: Long-Term + Multi-Interest Retrieval @Taobao
 created: 2025-11-11
-modified: 2025-11-14T15:51:03.000+09:00
-published: 2025-11-14T15:51:03.000+09:00
+modified: 2026-03-22T15:33:40.843+09:00
+published: 2026-03-22T15:33:40.843+09:00
 tags:
   - recsys
   - representation-learning
@@ -60,7 +60,7 @@ cssclasses: ""
 
 
 - offline결과
-![[assets/long-term + multi-interest retrieval @taobao/offline-result.png|380]]
+![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340780.png|380]]
 - online 결과: 5.54% 클릭, 11.01% 주문, 4.03% GMV 상승
 
 - ablation 특이사항
