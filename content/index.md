@@ -8,16 +8,16 @@ cssclasses: ""
 ---
 
 ## 📄
-- [[note/Agentic Search with LLM router @Spotify\|Agentic Search with LLM router @Spotify]]
 - [[note/Top-k retrieval에서 필요한 최소 임베딩 차원\|Top-k retrieval에서 필요한 최소 임베딩 차원]]
+- [[note/LLM으로 item2item 추천 강화 @Alibaba\|LLM으로 item2item 추천 강화 @Alibaba]]
+- [[note/Agentic Search with LLM router @Spotify\|Agentic Search with LLM router @Spotify]]
 - [[note/터미널 세팅\|터미널 세팅]]
+- [[note/LLM Tool Calling 기반 대화형 음악 추천 시스템\|LLM Tool Calling 기반 대화형 음악 추천 시스템]]
 - [[note/Claude Code 여러 계정 전환 (환경변수 설정)\|Claude Code 여러 계정 전환 (환경변수 설정)]]
 - [[note/Multimodal & Personalized 대화형 음악 추천\|Multimodal & Personalized 대화형 음악 추천]]
 - [[note/대화형 추천 시스템을 위한 Collaborative RAG\|대화형 추천 시스템을 위한 Collaborative RAG]]
 - [[note/Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video\|Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video]]
-- [[note/Negative feedback sequence를 활용한 추천\|Negative feedback sequence를 활용한 추천]]
-- [[note/Sequential recommendation에서 negative sampling 전략 비교\|Sequential recommendation에서 negative sampling 전략 비교]]
-- [[note/온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta\|온라인과 오프라인 지표 갭을 줄이는 시뮬레이션 @Meta]]
+- [[note/LLM based Playlist Semantic Search @Amazon Music\|LLM based Playlist Semantic Search @Amazon Music]]
 
  **[more 🕳️](https://pizzathief.pages.dev/note/)**
 
@@ -43,13 +43,13 @@ cssclasses: ""
 
 | File                                                                           | rating | comment                                                                               |
 | ------------------------------------------------------------------------------ | ------ | ------------------------------------------------------------------------------------- |
-| [[film/麻將; Mahjong\|麻將; Mahjong]]                                   | 0      |                                                                                       |
+| [[film/Father Mother Sister Brother\|Father Mother Sister Brother]] | 0      |                                                                                       |
+| [[film/麻將; Mahjong\|麻將; Mahjong]]                                   | 3.5    |                                                                                       |
 | [[film/Sirāt\|Sirāt]]                                               | 4      |                                                                                       |
 | [[film/せかいのおきく; Okiku and the World\|せかいのおきく; Okiku and the World]] | 4      |                                                                                       |
 | [[film/８番出口; Exit 8\|８番出口; Exit 8]]                                 | 2.5    |                                                                                       |
 | [[film/Eternity\|Eternity]]                                         | 3.5    | 아주 뻔한 도착지라도 밟아야 할 곳을 다 밟고 가는 영화를 좋아한다. 사랑은 행복의 절정이 아니라 겹겹이 쌓이는 뒤섞인 순간들이라는 말처럼.        |
 | [[film/American Psycho\|American Psycho]]                           | 3      | 옛날에 봤더라면 더 즐겼을 것 같은데 이게 옛날 영화라서 그렇다기보단 이런 허무주의는 정말 수려한 블랙코미디가 아닌 이상 이제 크게 인상 깊지가 않달까. |
-| [[film/The Housemaid\|The Housemaid]]                               | 3      | 폴피그는 끝부분에 진짜 저렇게 끝낸다고? 싶은 경우가 많은데 그래도 여자를 재밌게 쓰기 때문에 아 그래도 잘 봤습니다 네.                  |
 
  [[yearly/2026 🎬]]  |  [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] 
 

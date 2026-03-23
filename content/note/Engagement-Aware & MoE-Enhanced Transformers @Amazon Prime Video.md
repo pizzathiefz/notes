@@ -29,7 +29,7 @@ cssclasses: ""
 	- **Globally Tailing Negatives**: 전역적으로 인기가 적고 사용자가 상호작용하지 않은 콘텐츠.
 
 
-![[assets/engagement-aware & moe-enhanced transformers @amazon prime video/overview.png|650]]
+![[assets/LLM Tool Calling 기반 대화형 음악 추천 시스템/overview.png|650]]
 
 
 ###  Adaptive Context-aware Mixture of Experts (MoE) Architecture

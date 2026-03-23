@@ -1,9 +1,9 @@
 ---
 publish: true
 title: Agentic Search with LLM router @Spotify
-created: 2026-03-22
-modified: 2026-03-22T15:36:43.490+09:00
-published: 2026-03-22T15:36:43.490+09:00
+created: 2026-02-22
+modified: 2026-03-23T19:05:00.447+09:00
+published: 2026-03-23T19:05:00.447+09:00
 tags:
   - "#recsys"
   - "#search"
@@ -29,7 +29,7 @@ cssclasses: ""
 
 ## Parallel Fusion Router (PFR)
 
-![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340778.png|650]]
+![[assets/Agentic Search with LLM router @Spotify/file-20260322153340778.png|650]]
 
 - LLM router가 query + user features를 입력으로 받아 적절한 route를 선택
 - 각 route는 하나 또는 여러 개의 병렬 tool call에 대응
@@ -69,7 +69,7 @@ cssclasses: ""
 - LLM은 필요할 때만 호출 (external knowledge, complex reasoning, SERP refinement 필요 시)
 
 ## Post-training
-![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340779.png|600]]
+![[assets/Agentic Search with LLM router @Spotify/file-20260322153340779.png|600]]
 
 전통 LLM 프롬프팅 방식은 높은 latency/cost 문제가 있음 → 작은 LLM을 fine-tuning해 효율화
 
@@ -86,7 +86,7 @@ cssclasses: ""
 
 ### 성능 비교 (Teacher LLM 대비 offline 상대적 개선)
 
-![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340780.png|502]]
+![[assets/Agentic Search with LLM router @Spotify/file-20260322153340780.png|502]]
 - Post-training은 품질까지 소폭 향상하면서 latency 60%, cost 99% 감소
 - 동일 모델 대비 prompt 방식보다 post-training이 더 빠른 이유: input context 크기 축소
 
@@ -109,7 +109,7 @@ cssclasses: ""
 - latency, cost 지속 모니터링
 
 ## 결과
-![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340781.png|388]]
+![[assets/Agentic Search with LLM router @Spotify/file-20260322153340781.png|388]]
 
 - 주요 영어권 국가에 production 배포, p75 latency **~450ms** 달성
 - Broad music searches는 AI DJ sub-agent가 on-the-fly 음악 세션 생성으로 처리

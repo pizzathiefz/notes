@@ -31,7 +31,7 @@ cssclasses: ""
 ## Hybrid QR Experience
 
 
-![[note/assets/탐색적 검색을 유도하는 Query Recommendation @Spotify/new-hybrid-search-experience.png|515]]
+![[assets/탐색적 검색을 유도하는 Query Recommendation @Spotify/new-hybrid-search-experience.png|515]]
 - 기존: 키입력마다 즉시 결과 표시 (instant search only)
 - 신규: Query Recommendation(QR)을 즉각 결과와 **나란히** 표시 → Hybrid Search
 

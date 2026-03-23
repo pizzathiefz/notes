@@ -28,7 +28,7 @@ cssclasses: ""
 		- 단위행렬 $I$를 빼줌으로써 self-smilarity항을 제거함(제거하지 않으면 자기 자신과의 유사도가 가장 높으므로 계속 자기복제 형태의 결과물이 됨)
 
 
-![[assets/cf + sentence transformer (beeformer)/framework.png|550]]
+![[assets/LLM으로 item2item 추천 강화 @Alibaba/framework.png|550]]
 
 - beeFormer (본 논문)
 	- ELSA 모델의 학습 절차를 따라하되, $A$  자체를 학습하게 하는 게 아니라 대신 sentence Transformer 모델이 내놓은 임베딩을 가지고 $L = \text{norm}(𝑋_𝑢) − \text{norm}(𝑋_𝑢 (𝐴𝐴^⊤ − I))_2^𝐹$ 를 생성한 뒤 이 모델의 파라미터를 학습함

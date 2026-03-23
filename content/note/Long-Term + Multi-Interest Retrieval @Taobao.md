@@ -60,7 +60,7 @@ cssclasses: ""
 
 
 - offline결과
-![[note/assets/Agentic Search with LLM router @Spotify/file-20260322153340780.png|380]]
+![[assets/Agentic Search with LLM router @Spotify/file-20260322153340780.png|380]]
 - online 결과: 5.54% 클릭, 11.01% 주문, 4.03% GMV 상승
 
 - ablation 특이사항

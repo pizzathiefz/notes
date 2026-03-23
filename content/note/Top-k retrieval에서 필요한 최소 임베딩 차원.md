@@ -2,12 +2,11 @@
 publish: true
 title: Top-k retrieval에서 필요한 최소 임베딩 차원
 created: 2026-03-17
-modified: 2026-03-22T16:02:24.337+09:00
-published: 2026-03-22T16:02:24.337+09:00
+modified: 2026-03-22T16:03:15.484+09:00
+published: 2026-03-22T16:03:15.484+09:00
 tags:
-  - ai-ml
-  - representation-learning
-  - information-retrieval
+  - "#ai-ml"
+  - "#representation-learning"
 cssclasses: ""
 ---
 
@@ -49,7 +48,7 @@ cssclasses: ""
 
 - 어떤 유사도 함수를 쓰든 MED는 m이 아닌 k에 의해 bound가 정해짐
 
-![[note/assets/Top-k retrieval에서 필요한 최소 임베딩 차원/med-bound-for-scoring-functions.png|589]]
+![[assets/Top-k retrieval에서 필요한 최소 임베딩 차원/med-bound-for-scoring-functions.png|589]]
 
 ### Inner product
 
@@ -92,7 +91,7 @@ $$k-1 \leq \text{MED}(m, k; \mathcal{F}_{\cos}) \leq 2k+1$$
 
 ### 실험 결과
 
-![[note/assets/Top-k retrieval에서 필요한 최소 임베딩 차원/file-20260322154929919.png|601]]
+![[assets/Top-k retrieval에서 필요한 최소 임베딩 차원/file-20260322154929919.png|601]]
 
 - k=2, centroid setting에서 m을 늘려가며 최소 차원을 측정
 - 결과: MED-C는 **log-linear** 성장 (empirically $\approx 3.23 \log_2 m$)
