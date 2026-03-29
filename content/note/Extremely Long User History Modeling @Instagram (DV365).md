@@ -53,7 +53,7 @@ cssclasses: ""
 
 ## Model Architecture
 
-![[assets/extremely long user history modeling @instagram (dv365)/model-architecture.png]]
+![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/model-architecture.png]]
 
 ### User Encoder
 - 목표: 피처 엔지니어링 단계에서 생성된 200개의 pooled embedding를 더욱 압축하여, 다운스트림 모델이 사용하기에 효율적인 'DV365 Embedding'을 만들어내는 것

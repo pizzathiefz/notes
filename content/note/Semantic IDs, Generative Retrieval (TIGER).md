@@ -2,18 +2,18 @@
 publish: true
 title: Semantic IDs, Generative Retrieval (TIGER)
 created: 2025-07-12
-modified: 2026-01-24T21:00:46.000+09:00
-published: 2026-01-24T21:00:46.000+09:00
+modified: 2026-03-24T18:48:00.084+09:00
+published: 2026-03-24T18:48:00.084+09:00
 tags:
-  - recsys
-  - llm
-  - generative-recsys
+  - "#recsys"
+  - "#llm"
+  - "#generative-recsys"
 cssclasses: ""
 ---
 
 > [Recommender Systems with Generative Retrieval](https://arxiv.org/abs/2305.05065) (2023)
 
-![[assets/LLM으로 item2item 추천 강화 @Alibaba/example.png|500]]
+![[assets/semantic ids, generative retrieval (tiger)/example.png|503]]
 - 아이디어
 	- 기존 대규모 추천시스템에서는 일반적으로 쿼리와 아이템 임베딩을 잘 생성한 다음 ANN을 통해 주어진 쿼리에 대해 가까운 아이템 후보들을 찾는 방식의 retrieval을 함
 	- 언어 생성 모델처럼 추천할 아이템의 ID를 생성하는 방식의 추천을 하려면?

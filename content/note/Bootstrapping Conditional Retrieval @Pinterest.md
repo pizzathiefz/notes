@@ -56,7 +56,7 @@ cssclasses: ""
 	- WAU (Weekly Active Users): 주간 활성 사용자 수 (핵심 비즈니스 지표)
 	- Infra Cost (Infrastructure Cost): 추천 시스템의 연간 서빙 비용.
 
-![[assets/bootstrapping conditional retrieval @pinterest/online-result.png|425]]
+![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/online-result.png|425]]
 
 - 참여율 INDEX << LR (filter) <<< CR
 - 서빙 비용으로 봤을 때 LR은 필터 때문에 매우 많은 서빙비용을 필요로 함 (ANN할 때 지정한 조건 필터를 만족할 때까지 훨씬 더 많은 후보를 확인해야 하므로)
