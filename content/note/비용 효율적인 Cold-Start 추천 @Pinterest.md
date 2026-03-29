@@ -2,8 +2,8 @@
 publish: true
 title: 비용 효율적인 Cold-Start 추천 @Pinterest
 created: 2026-03-24
-modified: 2026-03-24T18:38:45.229+09:00
-published: 2026-03-24T18:38:45.229+09:00
+modified: 2026-03-29T16:24:41.122+09:00
+published: 2026-03-29T16:24:41.122+09:00
 tags:
   - "#recsys"
   - "#cold-start"
@@ -13,9 +13,14 @@ cssclasses: ""
 
 > [Warmer for Less: A Cost-Efficient Strategy for Cold-Start Recommendations at Pinterest](https://arxiv.org/abs/2512.17277) (2025)
 
+> [!note]  
+> - Cold-start 문제를 feature underfit / score bias / label scarcity 3가지 독립적 원인으로 분리하고 각각을 별도 기법으로 해결함
+> - Extra tower(파라미터 증가) 대신 residual connection(파라미터 < 5%)으로 non-historical feature underfit 해결. 기존 방법보다 훨씬 실용적
+> - MMD penalty로 warm/cold 예측 점수 갭을 13.65% → 0.53%까지 줄임. 추가 파라미터·serving cost 없음
+
 Pinterest Related Pins 서비스에서 cold-start(CS) 아이템 추천 품질을 개선하기 위한 3가지 경량 기법을 제안. 총 파라미터 증가 5% 이내로 fresh Pin 참여도 ~10% 향상, 5.7억 유저에 배포.
 
-## 배경
+## Background
 
 - Pinterest: 5.7억 유저, 매주 15억 Pin 저장
 - Ranking model은 historical user engagement 데이터로 학습 → warm(인기) 아이템에 편향
@@ -24,7 +29,7 @@ Pinterest Related Pins 서비스에서 cold-start(CS) 아이템 추천 품질을
 **핵심 어려움:**
 1. **컴퓨팅 제약**: CS 아이템은 소수이므로, 개선 비용이 낮아야 함
 2. **historical feature 부재**: CS 아이템은 non-historical(content/attribute) feature만 존재하는데, 모델이 이를 덜 중요하게 학습함
-3. **예측 점수 편향**: CS positive 아이템의 점수가 non-CS 대비 8-14% 낮게 예측됨 
+3. **예측 점수 편향**: CS positive 아이템의 점수가 non-CS 대비 8-14% 낮게 예측됨
 4. **레이블 희소성**: CS 아이템이 노출 자체가 적어 학습 신호도 부족
 
 ![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/challenges-plot.png]]
@@ -34,8 +39,13 @@ Pinterest Related Pins 서비스에서 cold-start(CS) 아이템 추천 품질을
 
 ---
 
-## 모델 아키텍처 (Pinterest Related Pins)
+## Method
 
+![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/challenges.png|596]]
+
+![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/overview.png|445]]
+
+### 아키텍처 개요
 
 ![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/model-architecture.png|393]]
 - **입력**: Query Pin features, Candidate Pin features, User features, Transformer-based user sequence embedding
@@ -52,14 +62,6 @@ $$s = \hat{\mathbf{y}} \cdot \mathbf{u}$$
 
 - $\mathbf{u}$: 비즈니스 목적에 따른 task별 utility weight vector
 
----
-
-## 제안 방법
-
-![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/challenges.png|596]]
-
-
-![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/overview.png|445]]
 ### 1. Residual Connection for Non-Historical Features
 
 - **왜**: gradient 분석 결과 non-historical feature 업데이트가 historical에 비해 일관되게 작음. extra embedding tower로 해결하는 기존 방법(ALDI 등)은 파라미터 28% 이상 증가.
@@ -69,7 +71,6 @@ $$\hat{\mathbf{y}} = F([\mathbf{z}; \mathbf{x}^{nh}])$$
 
 - 파라미터 증가: **< 5%** (non-historical feature 차원 축소용 MLP 레이어 하나 추가)
 - auxiliary prediction head나 복잡한 hyperparameter tuning 불필요
-
 
 ### 2. Score Regularization (ScoreReg) via MMD
 
@@ -92,7 +93,6 @@ $$\mathbf{y}_{mixed} = \lambda \cdot \mathbf{y}_i + (1-\lambda) \cdot \mathbf{y}
 - $i \neq j$는 mini-batch에서 무작위 선택 (warm-cold 강제 mixing 안 함 → cold 부족으로 diversity 저하 방지)
 - 원본 샘플 + mixed 샘플을 **함께** 학습 (mixed만 사용 시 성능 저하)
 
-
 ### 4. 전체 학습 목표
 
 $$L_{final} = L_{BCE}(\hat{\mathbf{y}}, \mathbf{y}) + \lambda_1 L_{BCE}(\hat{\mathbf{y}}_{mix}, \mathbf{y}_{mix}) + \lambda_2 L_{MMD}(\hat{\mathbf{y}}, \mathbf{y})$$
@@ -100,17 +100,16 @@ $$L_{final} = L_{BCE}(\hat{\mathbf{y}}, \mathbf{y}) + \lambda_1 L_{BCE}(\hat{\ma
 - $\lambda_1 = 0.2$, $\lambda_2 = 0.1$ (경험적 튜닝)
 - 학습 데이터: 27일, 1 epoch
 
-
 ### 효과
 
 ![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/result.png|635]]
 
 - (a),(b) Residual Connection for Non-Historical Features
-	- non-historical feature 제거 시 ΔPR-AUC 분포가 왼쪽으로 이동 → feature importance 증가
-	- 학습 중 non-historical gradient 비율이 일관되게 증가
+    - non-historical feature 제거 시 ΔPR-AUC 분포가 왼쪽으로 이동 → feature importance 증가
+    - 학습 중 non-historical gradient 비율이 일관되게 증가
 - (c) Score Regularization
-	- positive grid-click 예측 갭: 13.65% → **0.53%** 
-	- positive/negative 모두에서 편향 완화
+    - positive grid-click 예측 갭: 13.65% → **0.53%**
+    - positive/negative 모두에서 편향 완화
 
 
 ![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/result-mixup.png|422]]
@@ -119,10 +118,9 @@ $$L_{final} = L_{BCE}(\hat{\mathbf{y}}, \mathbf{y}) + \lambda_1 L_{BCE}(\hat{\ma
     - low-rank feature space에서는 trivial pattern을 암기해서 generalization을 방해한다는 기존 연구와 일치
 - 하위 ranked Pins에서 효과 집중 → position bias 완화
 
-
 ---
 
-## 실험 결과
+## Experiments
 
 ### Online
 
@@ -135,5 +133,6 @@ cold-start users:
 
 ---
 
-
-- 강조할 점은 세 방법 모두 **plug-and-play**로 기존 모델 아키텍처 거의 수정 없이 추가 가능
+💭
+- 세 기법이 각각 독립적인 원인을 해결하도록 설계되어 ablation이 깔끔하게 나오는 구조가 인상적
+- Manifold Mixup에서 warm-cold 강제 mixing을 안 하는 설계가 흥미로운데, cold-start 개선 효과가 "feature space 다양화"에서 오는 건지 "warm-cold 혼합"에서 오는 건지 ablation이 더 있었으면 좋았을 것
