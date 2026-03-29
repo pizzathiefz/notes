@@ -2,8 +2,8 @@
 publish: true
 title: LLM으로 item2item 추천 강화 @Alibaba
 created: 2026-03-10
-modified: 2026-03-23T19:14:01.066+09:00
-published: 2026-03-23T19:14:01.066+09:00
+modified: 2026-03-29T16:34:08.183+09:00
+published: 2026-03-29T16:34:08.183+09:00
 tags:
   - "#recsys"
   - "#llm"
@@ -13,7 +13,12 @@ cssclasses: ""
 
 > [LLM-I2I: Boost Your Small Item2Item Recommendation Model with Large Language Model ](https://arxiv.org/abs/2512.21595)(2025)
 
-## 배경
+> [!note]
+> 기존 I2I 모델을 교체하지 않고 LLM으로 학습 데이터만 개선해 성능을 끌어올리는 프레임워크. AliExpress 온라인 A/B에서 GMV +1.22%.
+> - Generator + Discriminator 조합으로 sparsity(long-tail)와 noise 두 문제를 동시에 해결. 기존 연구들은 둘 중 하나만 해결했음
+> - LLM 추론은 오프라인에서만 발생 → 기존 I2I 모델(BM25, Swing 등) 그대로 쓰면서 온라인 latency 증가 없음
+
+## Background
 
 - **I2I(Item-to-Item) 추천**은 대규모 실서비스에서 여전히 핵심적인 역할을 담당
     - 경량 모델, 실시간 응답, 낮은 inference 비용이라는 실용적 장점
@@ -30,7 +35,7 @@ cssclasses: ""
 
 ---
 
-## 방법론: LLM-I2I
+## Method
 
 ![[assets/LLM으로 item2item 추천 강화 @Alibaba/framework.png]]
 
@@ -80,16 +85,13 @@ $$L_d = \sum_{u_i \in U} \sum_{Y_k \in Y^+_{u_i} \cup Y^-_{u_i}} \text{loss}\lef
 3. 선별된 합성 데이터 + 원본 실제 데이터 → 최종 학습셋 구성
 4. 기존 I2I 모델 (BM25, BPR, YoutubeDNN, Swing 등)에 적용
 
-
 ![[assets/LLM으로 item2item 추천 강화 @Alibaba/experiment.png|457]]
 
-- (a)합성 데이터 양이 늘어날수록 성능이 처음엔 오르다가 다시 떨어짐 → 적절한 양+품질 균형이 중요
-	- * 단순히 데이터를 많이 늘리는 것만으론 안 되고, Discriminator로 품질 관리가 필수
+- (a) 합성 데이터 양이 늘어날수록 성능이 처음엔 오르다가 다시 떨어짐 → 적절한 양+품질 균형이 중요
+    - * 단순히 데이터를 많이 늘리는 것만으론 안 되고, Discriminator로 품질 관리가 필수
 - (b) Discriminator의 confidence level이 높을수록 Recall@10 성능 향상 → 고신뢰 데이터 선별이 핵심
 
----
-
-## 온라인 서빙 구조
+### 서빙 구조
 
 - 오프라인에서 refined 학습 데이터로 I2I 모델 재학습 → I2I inverted index 업데이트
 - 온라인 서빙 시:
@@ -100,34 +102,34 @@ $$L_d = \sum_{u_i \in U} \sum_{Y_k \in Y^+_{u_i} \cup Y^-_{u_i}} \text{loss}\lef
 
 ---
 
-## 실험
+## Experiments
 
 ### 데이터셋
 - ARD(Amazon Review Dataset): 학술 벤치마크 - Beauty, Sports, Toy
 - AEDS (AliExpress Dataset): 대규모 산업 데이터셋, 전체 아이템의 약 25%가 클릭 1회 이하인 long-tail item
 
-
 ### Results
 
 - ARD에서 Backbone 성능 비교
-	- 비교 대상: BM25, BPR, YoutubeDNN, Swing × {No augmentation, LLM-CF, LLM-I2I}
-	- LLM-I2I가 모든 backbone에서 LLM-CF 대비 일관되게 우월
-	    - LLM-CF는 user-based 증강, LLM-I2I는 item-based 증강 → item-based CF의 일반적 우위와 일치
-	- Swing + LLM-I2I 주요 성과:
-	    - Beauty: Recall@10 **+13.04%**
-	    - Sports: Recall@10 **+15.15%**
-	    - Toys: Recall@10 **+19.97%**
+    - 비교 대상: BM25, BPR, YoutubeDNN, Swing × {No augmentation, LLM-CF, LLM-I2I}
+    - LLM-I2I가 모든 backbone에서 LLM-CF 대비 일관되게 우월
+        - LLM-CF는 user-based 증강, LLM-I2I는 item-based 증강 → item-based CF의 일반적 우위와 일치
+    - Swing + LLM-I2I 주요 성과:
+        - Beauty: Recall@10 **+13.04%**
+        - Sports: Recall@10 **+15.15%**
+        - Toys: Recall@10 **+19.97%**
 - AEDS에서
-	- Swing + LLM-I2I:
-	    - Recall@5 **+18.57%**, Recall@10 **+18.22%**
-	    - NDCG@5 **+16.34%**, NDCG@10 **+16.31%**
-	- BPR + LLM-I2I: Recall@10 **+93.88%** (약한 baseline에서 극적 개선)
+    - Swing + LLM-I2I:
+        - Recall@5 **+18.57%**, Recall@10 **+18.22%**
+        - NDCG@5 **+16.34%**, NDCG@10 **+16.31%**
+    - BPR + LLM-I2I: Recall@10 **+93.88%** (약한 baseline에서 극적 개선)
 - Long-tail Item 성능
-	- AEDS에서 Recall@10 **+60.75%**, NDCG@10 **+85.71%**
-	- 소규모 ARD보다 대규모 AEDS에서 long-tail 개선 효과가 훨씬 큼 (데이터셋 규모가 클수록 long-tail 문제가 심각하고, LLM-I2I의 효과도 더 두드러짐)
-- Ablation 결과 
-	- Generator, long-tail loss, Discriminator 각 컴포넌트 모두 성능에 기여
-	- `w/o Swing` (LLM만 사용): Recall@5가 높지만 Recall@10이 낮음 → LLM 단독으론 diversity 부족, collaborative filtering과의 결합이 중요
+    - AEDS에서 Recall@10 **+60.75%**, NDCG@10 **+85.71%**
+    - 소규모 ARD보다 대규모 AEDS에서 long-tail 개선 효과가 훨씬 큼 (데이터셋 규모가 클수록 long-tail 문제가 심각하고, LLM-I2I의 효과도 더 두드러짐)
+- Ablation 결과
+    - Generator, long-tail loss, Discriminator 각 컴포넌트 모두 성능에 기여
+    - `w/o Swing` (LLM만 사용): Recall@5가 높지만 Recall@10이 낮음 → LLM 단독으론 diversity 부족, collaborative filtering과의 결합이 중요
 - Online A/B Test (AliExpress)
-	- RN(Recall Number) **+6.02%**, GMV **+1.22%** 유의미한 개선
-	- Latency는 거의 증가 없음 (오프라인 index 업데이트 방식이므로)
+    - RN(Recall Number) **+6.02%**, GMV **+1.22%** 유의미한 개선
+    - Latency는 거의 증가 없음 (오프라인 index 업데이트 방식이므로)
+

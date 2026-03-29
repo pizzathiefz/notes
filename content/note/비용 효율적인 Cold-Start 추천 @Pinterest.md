@@ -2,8 +2,8 @@
 publish: true
 title: 비용 효율적인 Cold-Start 추천 @Pinterest
 created: 2026-03-24
-modified: 2026-03-29T16:24:41.122+09:00
-published: 2026-03-29T16:24:41.122+09:00
+modified: 2026-03-29T16:30:25.337+09:00
+published: 2026-03-29T16:30:25.337+09:00
 tags:
   - "#recsys"
   - "#cold-start"
@@ -13,12 +13,11 @@ cssclasses: ""
 
 > [Warmer for Less: A Cost-Efficient Strategy for Cold-Start Recommendations at Pinterest](https://arxiv.org/abs/2512.17277) (2025)
 
-> [!note]  
-> - Cold-start 문제를 feature underfit / score bias / label scarcity 3가지 독립적 원인으로 분리하고 각각을 별도 기법으로 해결함
-> - Extra tower(파라미터 증가) 대신 residual connection(파라미터 < 5%)으로 non-historical feature underfit 해결. 기존 방법보다 훨씬 실용적
-> - MMD penalty로 warm/cold 예측 점수 갭을 13.65% → 0.53%까지 줄임. 추가 파라미터·serving cost 없음
-
-Pinterest Related Pins 서비스에서 cold-start(CS) 아이템 추천 품질을 개선하기 위한 3가지 경량 기법을 제안. 총 파라미터 증가 5% 이내로 fresh Pin 참여도 ~10% 향상, 5.7억 유저에 배포.
+> [!note]
+> Pinterest Related Pins cold-start 아이템 추천 개선을 위한 3가지 경량 기법 제안
+> - 파라미터 +5% 이내로 fresh Pin 참여도 ~10% 향상
+> - cold-start 문제를 feature underfit / score bias / label scarcity로 분리해 각각 독립 기법으로 해결함
+> - 세 기법 모두 plug-and-play. 기존 아키텍처 수정 없이 적용 가능
 
 ## Background
 
@@ -130,9 +129,3 @@ fresh Pins  (<28일내) 참여도:
 cold-start users:
 ![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/online-result-cs-users.png|439]]
 - Homefeed/Search save도 개선 → CS 유저의 활성화가 user sequence를 풍부하게 하는 positive feedback loop
-
----
-
-💭
-- 세 기법이 각각 독립적인 원인을 해결하도록 설계되어 ablation이 깔끔하게 나오는 구조가 인상적
-- Manifold Mixup에서 warm-cold 강제 mixing을 안 하는 설계가 흥미로운데, cold-start 개선 효과가 "feature space 다양화"에서 오는 건지 "warm-cold 혼합"에서 오는 건지 ablation이 더 있었으면 좋았을 것
