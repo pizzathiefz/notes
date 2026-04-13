@@ -38,7 +38,7 @@ cssclasses: ""
 	- **Fast Features**
 		- 사용자의 최근 행동 및 순간적인 관심을 반영하는 특성 (**Sequential한 입력**)
 			- 최근 들은 곡들의 시퀀스(그 곡들의 특징 벡터)
-- 전체적인 구조는 일반적인 [[note/Variational Autoencoder]] 인코더 + 디코더
+- 전체적인 구조는 일반적인 [[wiki/Variational Autoencoder]] 인코더 + 디코더
 	- Slow Features와 Fast Features를 각각 두 개의 다른 인코더로 나눠서 처리하고 그 두 개의 인코더에서 얻은 latent vector를 결합(concat)해서 최종적인 유저 representation을 얻음
 	- 디코더는 MLP 층으로 인코더가 얻은 임베딩을 사용하여 사용자가 다음에 들을 곡을 예측
 - 일반 VAE랑 다른 점

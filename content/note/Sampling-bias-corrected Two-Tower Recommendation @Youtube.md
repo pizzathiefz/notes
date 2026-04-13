@@ -26,6 +26,26 @@ cssclasses: ""
 - 사용자/context -> User Tower
 - 아이템 -> Item Tower
 
+## 추천 시스템 Retrieval 단계에서의 역할
+
+YouTube DNN (Covington et al., 2016)에서 산업 표준이 된 두 단계 아키텍처:
+- **Retrieval**: 수십억 아이템에서 수백~수천 개 후보 빠르게 선택 (Recall@k 최대화)
+- **Ranking**: 소수 최종 후보를 예측 보상 확률로 정렬
+
+Two-Tower는 Retrieval 단계의 표준 구조다. 각 탑은 연속 은닉층에서 유닛 수가 절반씩 감소하는 구조이며, 정식 정의는:
+
+- 쿼리 인코더: $u : \mathcal{X} \times \mathbb{R}^d \rightarrow \mathbb{R}^k$
+- 아이템 인코더: $v : \mathcal{Y} \times \mathbb{R}^d \rightarrow \mathbb{R}^k$
+- 점수 함수: $s(x, y) = \langle u(x, \theta),\, v(y, \theta) \rangle$
+
+학습 목표는 positive $(x_i, y_i)$ 쌍을 임베딩 공간에서 가깝게, negative 쌍을 멀리 배치하는 것 → [[wiki/Negative Sampling]] 참고.
+
+## 변형 및 확장
+
+- **다중 임베딩 헤드**: 쿼리 탑이 복수의 임베딩을 출력해 다의어 쿼리를 처리 (JD.com의 DPSR)
+- **개인화 검색**: 소셜 그래프 임베딩 등 사회적 특성 추가 (Facebook 인물 검색)
+
+
 - [[note/DNN Recommendation @Youtube]]에서 제시된 retrieval 방식과 거의 유사함 (dot product + negative sampling + softmax)
 - item (video id, channel id) -> embedding, hashing, average
 - user (최근 본 비디오 id) -> embedding average
@@ -40,6 +60,28 @@ cssclasses: ""
 - desired items(초록색): 이번 mini-batch에 포함된 **positive item**들
 - sampled negative items(파란색): 해당 쿼리와 상호작용하지 않은 다른 아이템들 중 샘플링된 negative item들
 	- 위 그림에서는 다른 쿼리의 positive만 negative로 샘플링하고 있음 -> hard negatives
+
+## 선택 편향 (Selection Bias)
+
+BNS의 핵심 문제: **인기 아이템이 미니배치에 더 자주 등장** → 아이템 선택 확률이 Unigram 분포를 따름
+
+- 인기 아이템이 negative로 과도하게 처리됨 → 롱테일 아이템과의 구분 능력 약화
+- NLP 유비: Zipf 법칙처럼 인기 아이템의 빈도가 순위에 반비례해 집중됨
+
+### logQ 보정 (Yi et al., 2019)
+
+점수에서 샘플링 확률의 로그를 빼 편향을 보정:
+
+$s^c(x_i, y_j) = s(x_i, y_j) - \log Q(j)$$
+
+여기서 $Q(j) = \frac{\text{count}(j)}{\sum_k \text{count}(k)}$ (아이템 $j$의 Unigram 확률)
+
+인기 아이템일수록 $\log Q(j)$ 값이 커서 점수가 낮아지고, 롱테일 아이템은 상대적으로 점수가 올라가 편향이 완화된다.
+
+## [[wiki/Negative Sampling]] 맥락에서의 위치
+
+BNS는 산업에서 가장 널리 쓰이나 편향 보정 없이는 단독 사용에 한계가 있다. 랜덤 샘플을 보완하는 [[wiki/Negative Sampling#Mixed Negative Sampling (MNS)\|MNS]]나 [[wiki/Hard Negative Mining]]과 조합하는 것이 일반적이다.
+
 
 
 - 여기서도 positive item들만 사용

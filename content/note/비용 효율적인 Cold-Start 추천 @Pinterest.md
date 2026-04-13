@@ -5,8 +5,8 @@ created: 2026-03-24
 modified: 2026-03-29T16:30:25.337+09:00
 published: 2026-03-29T16:30:25.337+09:00
 tags:
-  - "#recsys"
-  - "#cold-start"
+  - recsys
+  - cold-start
 cssclasses: ""
 ---
 

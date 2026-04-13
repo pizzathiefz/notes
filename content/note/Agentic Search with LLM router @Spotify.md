@@ -5,8 +5,8 @@ created: 2026-02-22
 modified: 2026-03-29T16:52:01.537+09:00
 published: 2026-03-29T16:52:01.537+09:00
 tags:
-  - "#recsys"
-  - "#search"
+  - recsys
+  - search
 cssclasses: ""
 ---
 

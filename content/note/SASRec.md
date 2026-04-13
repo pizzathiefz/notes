@@ -38,7 +38,7 @@ cssclasses: ""
 -  shared된 item embedding이 있음
 - transformer block의 마지막 아이템의 vector와 item embedding vector의 dot product를 통해서 positive sample과 negative sample에 대해 아이템별 score를 계산
 	- 이때 1개의 negative sample 사용
-	- Sigmoid + [[note/Binary Cross Entropy (BCE) Loss]] 사용 (`BCEWithLogitsLoss`)
+	- Sigmoid + [[wiki/Binary Cross Entropy (BCE) Loss]] 사용 (`BCEWithLogitsLoss`)
 
 # Experiments
 - 데이터

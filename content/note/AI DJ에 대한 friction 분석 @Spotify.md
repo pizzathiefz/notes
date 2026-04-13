@@ -2,8 +2,8 @@
 publish: true
 title: AI DJ에 대한 friction 분석 @Spotify
 created: 2026-03-30
-modified: 2026-03-30T19:58:39.955+09:00
-published: 2026-03-30T19:58:39.955+09:00
+modified: 2026-04-12T12:23:05.279+09:00
+published: 2026-04-12T12:23:05.279+09:00
 tags:
   - "#recsys"
 cssclasses: ""
@@ -16,7 +16,7 @@ cssclasses: ""
 ## Background
 
 - **Personalization paradox**: 유저 연결을 강화하려고 설계된 기능이 오히려 소외를 유발하는 현상
-    - Enterprise GenAI 지출: 2027년 $143B, 2034년 $1T 이상 전망
+    - Enterprise GenAI 지출: 2027년 `$`143B, 2034년 `$`1T 이상 전망
     - 76%의 소비자가 일반적 인터랙션에 불만족, 78%는 개인화 콘텐츠가 재구매 의향을 높인다고 응답
     - Personalization을 잘하는 기업은 해당 활동에서 40% 더 많은 수익, 최대 8x ROI
     - 63%의 소비자는 단 한 번의 나쁜 경험 후 경쟁사로 이탈 의향 (Zendesk 2025)

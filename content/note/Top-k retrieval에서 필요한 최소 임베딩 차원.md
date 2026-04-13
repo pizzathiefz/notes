@@ -5,8 +5,8 @@ created: 2026-03-17
 modified: 2026-03-29T16:40:54.225+09:00
 published: 2026-03-29T16:40:54.225+09:00
 tags:
-  - "#ai-ml"
-  - "#representation-learning"
+  - ai-ml
+  - representation-learning
 cssclasses: ""
 ---
 

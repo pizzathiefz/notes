@@ -51,7 +51,7 @@ cssclasses: ""
 	- Future Window Data (Positive Examples)
 		- 바로 다음 행동만 예측하는 것이 아닌 임베딩 생성 시점 이후 🌟 **미래의 28일 동안의 긍정적인 상호작용을 예측하도록 학습**하는 것이 Pinnerformer의 핵심적인 특징
 	- Negative Sampling
-		- [[note/In-batch Negative Sampling]] 과 전체 corpus에서의 단순 Random negative sampling 를 섞어서 씀 
+		- [[wiki/In-batch Negative Sampling]] 과 전체 corpus에서의 단순 Random negative sampling 를 섞어서 씀 
 			- 전자는 인기 아이템이 페널티받기 쉽고 후자는 너무 쉬운 negative
 	- Pin MLP
 		- 긍정/부정 샘플 모두 PinSage 임베딩을 기반으로 MLP를 통과하여 유저 임베딩과 같은 공간으로 align됨

@@ -61,7 +61,7 @@ cssclasses: ""
 - Condition Construction
 	- 사용자가 명시적으로 팔로우하는 토픽과 같은 신호(explicit signals)를 직접 임베딩으로 변환
 		- 이 조건 임베딩은 사용자 타워(user tower) 내의 피처 교차(feature crossing) 레이어를 거쳐, 사용자와 조건 간의 고차원 상호작용을 학습 -> 조건부 사용자 임베딩
-	- item tower는 일반적인 [[note/Two-Tower Model]]과 동일
+	- item tower는 일반적인 [[wiki/Two-Tower Model]]과 동일
 - Condition Association
 	- 데이터 로깅(data logging) 시점에 이루어짐!
 		- 사용자가 특정 아이템에 상호작용했을 때, 그 아이템을 추천한 소스 관심사(source interest)(예: 사용자가 팔로우하는 어떤 토픽 때문에 이 아이템을 보게 되었는지)가 기록

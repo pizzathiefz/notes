@@ -24,6 +24,7 @@ cssclasses: ""
 
 
 
+
 # PPNP
 = **Personalized Propagation of Neural Predictions**
 
@@ -66,6 +67,7 @@ cssclasses: ""
 	- $\mathbf{\pi}_{ppr}(x) = (1 - \alpha) P^T \mathbf{\pi}_{ppr}(x) + \alpha \mathbf{s}_x$
 		- 이때 이 식을 잘 정리하면, $\mathbf{\pi}_{ppr}(x) = \alpha (I_n - (1 - \alpha) P^T)^{-1} \mathbf{s}_x$ 이런 식으로 역행렬을 통해 (closed-form solution) $\mathbf{\pi}$를 바로 구해버릴 수도 있음 (사실상 power iteration을 무한히 반복했을 때의 최종 결과)
 		- 단 대규모 그래프에서는 역행렬 계산이 비용과 메모리가 매우 빡세서 역시 power iteration으로 가는 게 낫다
+
 
 - PPNP는 사실상 propagation 단계에서 personalized page rank를 그대로 사용함
 	- prediction 단계에서 생성된 초기 예측 $H$ ($H_{i,j}$는 노드 $i$가 클래스 $j$에 속할 예측 점수)

@@ -5,8 +5,8 @@ created: 2026-04-01
 modified: 2026-04-02T22:54:58.141+09:00
 published: 2026-04-02T22:54:58.141+09:00
 tags:
-  - "#recsys"
-  - "#generative-recsys"
+  - recsys
+  - generative-recsys
 cssclasses: ""
 ---
 

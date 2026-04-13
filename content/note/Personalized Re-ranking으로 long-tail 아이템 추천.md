@@ -15,7 +15,8 @@ cssclasses: ""
 
 xQuAD에 영감을 받음 ->❓
 
->  **Explicit Query Aspect Diversification**
+
+> Explicit Query Aspect Diversification
 
 - 정보 검색(Information Retrieval, IR) 분야에서 **검색 결과의 다양성**을 확보하기 위해 제안된 알고리즘
 - 기본 아이디어
@@ -23,6 +24,7 @@ xQuAD에 영감을 받음 ->❓
 	- 특정 의도에만 치우치지 않고 여러 의도를 균형 있게 커버하도록 re-ranking한다
 	- 새로운 문서를 선택할 때, relavance와 diversity를 동시에 고려하는 목적 함수를 사용하여 이미 선택된 결과들이 충분히 다루지 못한 의도를 커버하는 문서를 우선 배치 ( `(1-lambda) * relevance(d) + lambda * diversity(d)` 이런 식임)
 - 단점: 의도(aspect) 분포를 미리 가정하거나 추론해야 하므로, 실제 시스템 적용 시 **aspect 추정 정확도**에 성능이 크게 좌우
+
 
 - 롱테일 아이템의 발견은 비즈니스에 중요하며, 사용자의 다양한 취향을 만족시키고 새로운 아이템 탐색을 촉진하는 데 필수적
 - 기존 추천 알고리즘의 output에 적용할 수 있는 post-processing 단계로 정확도를 허용 가능한 수준으로 유지하면서 롱테일 아이템 노출을 증가시키는 것을 목표로 함
