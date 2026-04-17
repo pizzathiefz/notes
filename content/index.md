@@ -24,16 +24,16 @@ cssclasses: ""
 <br>
 
 ## 📚
+- [[book/삼체 2부 - 암흑의 세계\|삼체 2부 - 암흑의 세계]]
 - [[book/공통된 것 없는 공동체\|공통된 것 없는 공동체]]
+- [[book/A가 X에게\|A가 X에게]]
+- [[book/도서관에는 사람이 없는 편이 좋다\|도서관에는 사람이 없는 편이 좋다]]
 - [[book/축복받은 집\|축복받은 집]]
 - [[book/어번던스\|어번던스]]
 - [[book/홍학의 자리\|홍학의 자리]]
 - [[book/오래된 세계의 농담\|오래된 세계의 농담]]
 - [[book/귀신들의 땅\|귀신들의 땅]]
 - [[book/삼체 1부 - 삼체문제\|삼체 1부 - 삼체문제]]
-- [[book/그만 배우기의 기술\|그만 배우기의 기술]]
-- [[book/소유하기, 소유되기\|소유하기, 소유되기]]
-- [[book/결혼식 가는 길\|결혼식 가는 길]]
 
  [[yearly/2026 📚]]  |  [[yearly/2025 📚]] |  [[yearly/2024 📚]] | [[yearly/2023 📚]] | [[yearly/2022 📚]] | [[yearly/2021 📚]] | [[yearly/2020 📚]] | [[yearly/2019 📚]] | [[yearly/2018 📚]] 
 
@@ -41,15 +41,15 @@ cssclasses: ""
 
 ## 🎬 
 
-| File                                                                                 | rating | comment                                                                            |
-| ------------------------------------------------------------------------------------ | ------ | ---------------------------------------------------------------------------------- |
-| [[film/Avatar-Fire and Ash\|Avatar-Fire and Ash]]                         | 2.5    |                                                                                    |
-| [[film/A Big Bold Beautiful Journey\|A Big Bold Beautiful Journey]]       | 2.5    |                                                                                    |
-| [[film/Hamnet\|Hamnet]]                                                   | 3      |                                                                                    |
-| [[film/紅の豚; Porco Rosso\|紅の豚; Porco Rosso]]                               | 3      |                                                                                    |
-| [[film/Send Help\|Send Help]]                                             | 3.5    |                                                                                    |
-| [[film/28 Years Later: The Bone Temple\|28 Years Later: The Bone Temple]] | 3      | 어떤 장르적인 야심이 살짝 보이는데 그건 3편까지 가야 판단을 하겠고 일단 락 공연을 너무 맛있게 말아줘서 어이가 없음.                |
-| [[film/Father Mother Sister Brother\|Father Mother Sister Brother]]       | 3.5    | 마지막 에피소드가 일견 너무 평화로워 둔하고 지루해 보일 수도 있지만 어쩌면 그런 것들이 결국 부모가 죽은 다음에 오는 것이라면, 그게 핵심이라면. |
+| File                                                                           | rating | comment                                                                                   |
+| ------------------------------------------------------------------------------ | ------ | ----------------------------------------------------------------------------------------- |
+| [[film/Dýrið; Lamb\|Dýrið; Lamb]]                                   | 0      |                                                                                           |
+| [[film/Die My Love\|Die My Love]]                                   | 0      |                                                                                           |
+| [[film/Avatar-Fire and Ash\|Avatar-Fire and Ash]]                   | 2.5    | 장황하고 이제는 기술조차 놀랍지 않다. 근데 뭘 기대했던가?                                                         |
+| [[film/A Big Bold Beautiful Journey\|A Big Bold Beautiful Journey]] | 2.5    | 이 영화가 보여주는 연애의 본질은 그냥 너무 자명하고 뭐 대단한 통찰도 아닌지라 열리는 순간이동 문짝 같은 아이디어를 추가한대도 그렇게 새롭게 느껴지지 않는다. |
+| [[film/Hamnet\|Hamnet]]                                             | 3      | 현대였으면 그냥 둘이 상담 받았을 텐데 그래 뭐 원래 예술이 심리치료지.. "대자연"과 가까운 "마녀" 여성 캐릭터는 좀 올드하다.                 |
+| [[film/紅の豚; Porco Rosso\|紅の豚; Porco Rosso]]                         | 3      | 전체주의와 로망스가 공존하는 시대의 유럽을 배경으로 한 90년대 일본 시점의 영화라는 게 시대가 흐르면 좀 웃겨지는 구석이 있다.                  |
+| [[film/Send Help\|Send Help]]                                       | 3.5    | 로맨스 될까봐 매순간 너무 무서웠는데 다행히 그때마다 아슬아슬하게 잘 꺾어줌.                                               |
 
  [[yearly/2026 🎬]]  |  [[yearly/2025 🎬]] | [[yearly/2024 🎬]] | [[yearly/2023 🎬]] | [[yearly/2022 🎬]] | [[yearly/2021 🎬]] | [[yearly/2020 🎬]] | [[yearly/2019 🎬]] | [[yearly/2018 🎬]] 
 

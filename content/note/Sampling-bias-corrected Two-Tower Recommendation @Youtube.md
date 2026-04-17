@@ -78,6 +78,15 @@ $s^c(x_i, y_j) = s(x_i, y_j) - \log Q(j)$$
 
 인기 아이템일수록 $\log Q(j)$ 값이 커서 점수가 낮아지고, 롱테일 아이템은 상대적으로 점수가 올라가 편향이 완화된다.
 
+## 요청 정렬 데이터에서의 거짓 음성 (False Negative)
+
+학습 데이터를 [[wiki/Request-level Deduplication]] 목적으로 요청(request) 단위로 정렬하면 IID 가정이 깨지면서 **거짓 음성이 급증**한다.
+
+- IID 배치: 거짓 음성 ~0% (서로 다른 사용자의 아이템이 섞임)
+- 요청 정렬 배치: 같은 배치 안에 동일 사용자의 다른 아이템들이 집중 → 실제로는 positive일 가능성이 높은 항목이 negative로 취급됨 → 거짓 음성 ~30%
+
+**해결책: user-level masking** — 동일 사용자(요청)에서 온 아이템은 negative 후보에서 제외하고, 다른 사용자의 아이템만 negative로 사용. logQ 보정([[wiki/In-batch Negative Sampling#logQ 보정 (Yi et al., 2019)\|logQ 보정]])은 별도로 유지.
+
 ## [[wiki/Negative Sampling]] 맥락에서의 위치
 
 BNS는 산업에서 가장 널리 쓰이나 편향 보정 없이는 단독 사용에 한계가 있다. 랜덤 샘플을 보완하는 [[wiki/Negative Sampling#Mixed Negative Sampling (MNS)\|MNS]]나 [[wiki/Hard Negative Mining]]과 조합하는 것이 일반적이다.

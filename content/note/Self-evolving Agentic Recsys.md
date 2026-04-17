@@ -5,8 +5,8 @@ created: 2026-04-13
 modified: 2026-04-13T23:12:00.498+09:00
 published: 2026-04-13T23:12:00.498+09:00
 tags:
-  - "#recsys"
-  - "#multi-agent"
+  - recsys
+  - multi-agent
 cssclasses: ""
 ---
 
