@@ -4,7 +4,6 @@ title: IT 좀 아는 사람
 created: 2021-04-06
 modified: 2026-02-18T18:09:37.222+09:00
 published: 2026-02-18T18:09:37.222+09:00
-cssclasses: ""
 author:
   - 닐 메타
   - 아디티야 아가쉐
@@ -16,6 +15,4 @@ category:
 original title: Swipe To Unlock (2017)
 ---
 
-
 💬 걍 원래 아는 것도 많았지만 어쨌든 휙휙 읽기 좋다. 왜 ㅇㅇ가 ㅇㅇ를 인수했는가? 요런 부분들이 특히 재밌었음!
-

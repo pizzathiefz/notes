@@ -4,7 +4,6 @@ title: 아무튼, SF게임
 created: 2024-07-14
 modified: 2026-02-18T18:09:37.200+09:00
 published: 2026-02-18T18:09:37.200+09:00
-cssclasses: ""
 author:
   - 김초엽
 publisher: 위고
