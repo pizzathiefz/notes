@@ -1,3 +1,27 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+.content-meta {
+  font-style: italic;
+  color: var(--gray);
+  background-color: var(--highlight);
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.search > .search-button {
+  background-color: color-mix(in srgb, var(--lightgray) 60%, var(--light));
+  border: none;
+  justify-content: space-between;
+
+  & > p {
+    color: var(--darkgray);
+  }
+}
+
+ul.tags {
+  justify-content: flex-end;
+}

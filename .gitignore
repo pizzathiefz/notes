@@ -10,4 +10,5 @@ private/
 .replit
 replit.nix
 .quartz/
+local-plugins/*/node_modules
 quartz/cli/tui/dist/
