@@ -2,8 +2,8 @@
 publish: true
 title: 모바일 Claude에서 Obsidian 볼트 연동 설정
 created: 2026-05-02
-modified: 2026-05-02T21:26:07.267+09:00
-published: 2026-05-02T21:26:07.267+09:00
+modified: 2026-05-02T21:27:57.735+09:00
+published: 2026-05-02T21:27:57.735+09:00
 tags:
   - misc
 ---
@@ -17,7 +17,7 @@ tags:
 3. **Cloudflare Named Tunnel** → 로컬 MCP 서버를 고정 퍼블릭 URL로 노출
 
 - 다른 옵션들
-  - 단순 프록시나 임시 Cloudflare Tunnel은 MCP 프로토콜 변환이 안 되거나 재시작 시 URL이 바뀌는 문제가 있어서 채택하지 않음
+  - 단순 프록시나 임시 Cloudflare Tunnel은 MCP 프로토콜 변환이 안 되거나 재시작 시 URL이 바뀌는 문제가 있어 채택하지 않음
   - 기존에 쓰던  https://github.com/jacksteamdev/obsidian-mcp-tools 는 데스크탑 전용
 
 ## 구성 요소
