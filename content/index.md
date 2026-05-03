@@ -8,6 +8,7 @@ published: 2026-02-19T13:01:13.518+09:00
 
 ## 📄
 
+- [[note/Semi-personalization for Cold User @Deezer.md|Semi-personalization for Cold User @Deezer]]
 - [[note/모바일 Claude에서 Obsidian 볼트 연동 설정.md|모바일 Claude에서 Obsidian 볼트 연동 설정]]
 - [[note/Self-evolving Agentic Recsys.md|Self-evolving Agentic Recsys]]
 - [[note/ID-Multimodal 표현 사이의 alignment & balancing (AB-Rec) @Kuaishou.md|ID-Multimodal 표현 사이의 alignment & balancing (AB-Rec) @Kuaishou]]
@@ -17,7 +18,6 @@ published: 2026-02-19T13:01:13.518+09:00
 - [[note/비용 효율적인 Cold-Start 추천 @Pinterest.md|비용 효율적인 Cold-Start 추천 @Pinterest]]
 - [[note/Top-k retrieval에서 필요한 최소 임베딩 차원.md|Top-k retrieval에서 필요한 최소 임베딩 차원]]
 - [[note/LLM으로 item2item 추천 강화 @Alibaba.md|LLM으로 item2item 추천 강화 @Alibaba]]
-- [[note/Agentic Search with LLM router @Spotify.md|Agentic Search with LLM router @Spotify]]
 
 **[more 🕳️](https://pizzathief.pages.dev/note/)**
 
@@ -42,15 +42,15 @@ published: 2026-02-19T13:01:13.518+09:00
 
 ## 🎬
 
-| File                                                                                       | rating | comment                                                                             |
-| ------------------------------------------------------------------------------------------ | ------ | ----------------------------------------------------------------------------------- |
-| [[film/Affeksjonsverdi; Sentimental Value.md\|Affeksjonsverdi; Sentimental Value]] | 0      |                                                                                     |
-| [[film/Dýrið; Lamb.md\|Dýrið; Lamb]]                                               | 3      | 결말까지 진짜 신화적인데 관객이 꽤 많은 것을 읽거나 아무것도 못 얻거나 둘 중 하나라는 점까지.                              |
-| [[film/Die My Love.md\|Die My Love]]                                               | 3.5    | 파괴에 가까운 갈등을 봉합하려 들지 않기. 미친 것 같은 여자를 그냥 미친 대로 두고 불 지르기.                              |
-| [[film/Avatar-Fire and Ash.md\|Avatar-Fire and Ash]]                               | 2.5    | 장황하고 이제는 기술조차 놀랍지 않다. 근데 뭘 기대했던가?                                                   |
-| [[film/A Big Bold Beautiful Journey.md\|A Big Bold Beautiful Journey]]             | 2.5    | 이 영화가 보여주는 연애의 본질은 너무 자명하고 그닥 대단한 통찰도 아닌지라 순간이동 문짝 같은 아이디어를 추가한대도 그렇게 새롭게 느껴지지 않는다. |
-| [[film/Hamnet.md\|Hamnet]]                                                         | 3      | 현대였으면 그냥 둘이 상담 받았을 텐데 그래 뭐 원래 예술이 심리치료지.. "대자연"과 가까운 "마녀" 여성 캐릭터는 좀 올드하다.           |
-| [[film/紅の豚; Porco Rosso.md\|紅の豚; Porco Rosso]]                                     | 3      | 전체주의와 로망스가 공존하는 시대의 유럽을 배경으로 한 90년대 일본 시점의 영화라는 게 시대가 흐르면 좀 웃겨지는 구석이 있다.            |
+| File                                                                                         | rating | comment                                                |
+| -------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------ |
+| [[film/Louis Theroux-Inside the Manosphere.md\|Louis Theroux-Inside the Manosphere]] | 0      |                                                        |
+| [[film/세계의 주인.md\|세계의 주인]]                                                           | 0      |                                                        |
+| [[film/Orlando.md\|Orlando]]                                                         | 0      |                                                        |
+| [[film/Affeksjonsverdi; Sentimental Value.md\|Affeksjonsverdi; Sentimental Value]]   | 4      | "나도 참 예민하고 너도 그렇지"                                     |
+| [[film/Dýrið; Lamb.md\|Dýrið; Lamb]]                                                 | 3      | 결말까지 진짜 신화적인데 관객이 꽤 많은 것을 읽거나 아무것도 못 얻거나 둘 중 하나라는 점까지. |
+| [[film/Die My Love.md\|Die My Love]]                                                 | 3.5    | 파괴에 가까운 갈등을 봉합하려 들지 않기. 미친 것 같은 여자를 그냥 미친 대로 두고 불 지르기. |
+| [[film/Avatar-Fire and Ash.md\|Avatar-Fire and Ash]]                                 | 2.5    | 장황하고 이제는 기술조차 놀랍지 않다. 근데 뭘 기대했던가?                      |
 
 [[2026 🎬]]  |  [[2025 🎬]] | [[2024 🎬]] | [[2023 🎬]] | [[2022 🎬]] | [[2021 🎬]] | [[2020 🎬]] | [[2019 🎬]] | [[2018 🎬]]
 
