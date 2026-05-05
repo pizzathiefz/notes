@@ -2,8 +2,8 @@
 publish: true
 title: Generative Recommendation은 어떻게 일반화를 잘하는가
 created: 2026-04-01
-modified: 2026-04-02T22:54:58.141+09:00
-published: 2026-04-02T22:54:58.141+09:00
+modified: 2026-05-05T13:54:57.044+09:00
+published: 2026-05-05T13:54:57.044+09:00
 tags:
   - recsys
   - generative-recsys
@@ -30,7 +30,7 @@ tags:
 
 ### 분류 프레임워크: Item Transition 기반
 
-- **Item Transition**: $\[i\_s \to i\_t]$, 유저 히스토리에서 $i\_s$에서 $i\_t$로의 방향성 있는 쌍
+- **Item Transition**: $\left\[i\_s \to i\_t\right]$, 유저 히스토리에서 $i\_s$에서 $i\_t$로의 방향성 있는 쌍
   - Hop count: $i\_s$와 $i\_t$ 사이의 거리. $s = t-1$이면 1-hop
   - A->B->C 순으로 소비했을 때 A->C는 2-hop transition
 - 각 테스트 인스턴스 $(u, i\_t)$를 training data 내 transition 패턴 유무로 분류
@@ -47,9 +47,9 @@ $$\mathcal{D}_\text{mem} \iff \exists u' \in \mathcal{D}_\text{train} \text{ s.t
 
 memorization이 아닌 경우에만 해당:
 
-- **Transitivity**: 중간 item $x$를 통해 $\[i\_{t-1} \to x]$와 $\[x \to i\_t]$가 각각 training에 존재 (다른 유저)
+- **Transitivity**: 중간 item $x$를 통해 $\left\[i\_{t-1} \to x\right]$와 $\left\[x \to i\_t\right]$가 각각 training에 존재 (다른 유저)
   - 두 개의 학습 예시를 조합해야 함
-- **Symmetry**: 역방향 $\[i\_t \to i\_{t-1}]$이 training에 존재
+- **Symmetry**: 역방향 $\left\[i\_t \to i\_{t-1}\right]$이 training에 존재
   - 단일 학습 예시에서 역관계를 추론해야 함
 - **2nd-Order Symmetry**: 중간 item $x$를 통한 복잡한 대칭 관계 (common cause / common effect / reverse path)
 
@@ -59,7 +59,7 @@ memorization이 아닌 경우에만 해당:
 
 - "multi-hop memorization"은 사실 memorization이 아닌 generalization의 일종 → 불필요한 중간 item을 건너뛰는 능력, 다른 길이의 시퀀스에서 패턴을 끌어오는 능력이 필요하기 때문
 
-- **Substitutability**: $k \geq 2$인 k-hop transition $\[i\_{t-k} \to \cdots \to i\_t]$가 training에 존재
+- **Substitutability**: $k \geq 2$인 k-hop transition $\left\[i\_{t-k} \to \cdots \to i\_t\right]$가 training에 존재
   - Transitivity와의 차이는 같은 유저 시퀀스 안에 있는 Multi-hop sequence라는 점
 
 #### Uncategorized
