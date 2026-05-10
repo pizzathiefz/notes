@@ -2,11 +2,12 @@
 publish: true
 title: Semi-personalization for Cold User @Deezer
 created: 2026-05-03
-modified: 2026-05-05T14:12:47.488+09:00
-published: 2026-05-05T14:12:47.488+09:00
+modified: 2026-05-09T14:10:47.240+09:00
+published: 2026-05-09T14:10:47.240+09:00
 tags:
   - recsys
   - cold-start
+  - music-rec
 ---
 
 > [A Semi-Personalized System for User Cold Start Recommendation on Music Streaming Apps](https://arxiv.org/abs/2106.03819) (2021)

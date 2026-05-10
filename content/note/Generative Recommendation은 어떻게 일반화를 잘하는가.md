@@ -2,8 +2,8 @@
 publish: true
 title: Generative Recommendation은 어떻게 일반화를 잘하는가
 created: 2026-04-01
-modified: 2026-05-05T14:20:43.008+09:00
-published: 2026-05-05T14:20:43.008+09:00
+modified: 2026-05-05T14:54:55.960+09:00
+published: 2026-05-05T14:54:55.960+09:00
 tags:
   - recsys
   - generative-recsys
@@ -39,7 +39,7 @@ tags:
 
 #### Memorization
 
-$$\mathcal{D}_\text{mem} \iff \exists u' \in \mathcal{D}_\text{train} \text{ s.t. } \[i\_{t-1} \to i\_t] \subseteq u'$$
+$$\mathcal{D}_\text{mem} \iff \exists u' \in \mathcal{D}_\text{train} \text{ s.t. } \lbrack i\_{t-1} \to i\_t \rbrack \subseteq u'$$
 
 - 1-hop transition이 training에 등장했으면 → 단순 암기로 맞출 수 있음
 
@@ -73,10 +73,10 @@ memorization이 아닌 경우에만 해당:
 
 GR 모델이 왜 item-level generalization에서 강한가를 설명하기 위해 토큰 레벨로 분석 단위를 내림.
 
-- **Token Prefix**: $\text{pref}\_n(i) = \[z\_1, \ldots, z\_n]$ — semantic ID의 앞 $n$개 토큰
+- **Token Prefix**: $\text{pref}\_n(i) = \lbrack z\_1, \ldots, z\_n \rbrack$ — semantic ID의 앞 $n$개 토큰
 - **Prefix N-Gram Memorization**: 정확한 item transition은 아니더라도, 두 item의 n-gram prefix transition이 training에 존재하면 token-level memorization으로 간주
 
-$$\exists u' \in \mathcal{D}_\text{train},\ \exists s \geq 2 \text{ s.t. } \[j_{s-1} \to j\_s] \subseteq u',\quad \text{pref}_n(i_{t-1}) = \text{pref}_n(j_{s-1}),\quad \text{pref}\_n(i\_t) = \text{pref}\_n(j\_s)$$
+$$\exists u' \in \mathcal{D}_\text{train},\ \exists s \geq 2 \text{ s.t. } \lbrack j_{s-1} \to j\_s \rbrack \subseteq u',\quad \text{pref}_n(i_{t-1}) = \text{pref}_n(j_{s-1}),\quad \text{pref}\_n(i\_t) = \text{pref}\_n(j\_s)$$
 
 - Semantic ID는 계층적(coarse-to-fine) 의미 정보를 인코딩 → prefix가 같은 item들은 의미적으로 유사 → item이 다르더라도 prefix가 일치하면, GR 모델은 해당 prefix transition을 "암기"해서 새 item 조합에 적용 가능
 

@@ -2,8 +2,8 @@
 publish: true
 title: Engagement-Aware & MoE-Enhanced Transformers @Amazon Prime Video
 created: 2026-01-09
-modified: 2026-01-13T22:35:56.000+09:00
-published: 2026-01-13T22:35:56.000+09:00
+modified: 2026-05-10T22:55:14.357+09:00
+published: 2026-05-10T22:55:14.357+09:00
 tags:
   - recsys
   - sequential-rec
@@ -28,7 +28,7 @@ tags:
   - **Globally Trending Negatives**: 전역적으로 인기가 많지만 사용자가 상호작용하지 않은 콘텐츠.
   - **Globally Tailing Negatives**: 전역적으로 인기가 적고 사용자가 상호작용하지 않은 콘텐츠.
 
-![[assets/비용 효율적인 Cold-Start 추천 @Pinterest/overview.png|650]]
+![[assets/Contrastive Learning이 Mean Pooling에 강한 이유/overview.png|650]]
 
 ### Adaptive Context-aware Mixture of Experts (MoE) Architecture
 
