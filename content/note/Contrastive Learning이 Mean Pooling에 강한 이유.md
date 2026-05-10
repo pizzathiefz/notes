@@ -2,8 +2,8 @@
 publish: true
 title: Contrastive Learning이 Mean Pooling에 강한 이유
 created: 2026-05-09
-modified: 2026-05-10T22:56:35.899+09:00
-published: 2026-05-10T22:56:35.899+09:00
+modified: 2026-05-10T23:06:49.528+09:00
+published: 2026-05-10T23:06:49.528+09:00
 tags:
   - contrastive-learning
   - representation-learning
@@ -43,12 +43,12 @@ tags:
 
 $$\text{SOCM}(d\_\mu, d\_\Sigma) := (1 - d\_\mu) d\_\Sigma$$
 
-- $d\_\mu$: 1차 통계 거리 (scaled squared Euclidean distance, $\in \[0,1]$)
+- $d\_\mu$: 1차 통계 거리 (scaled squared Euclidean distance, $\in \lbrack 0,1 \rbrack$)
   - "mean-pool했을 때 얼마나 비슷해지는가"
 
 $$d\_\mu := |\mu(X\_1) - \mu(X\_2)|\_2^2 / 4$$
 
-- $d\_\Sigma$: 2차 통계 거리 (scaled Bures-Wasserstein distance, $\in \[0,1]$)
+- $d\_\Sigma$: 2차 통계 거리 (scaled Bures-Wasserstein distance, $\in \lbrack 0,1 \rbrack$)
   - "얼마나 다른 텍스트인가"
 
 $$d\_\Sigma := \frac{\text{tr}(\Sigma(X\_1) + \Sigma(X\_2)) - 2\left(\Sigma(X\_1)^{1/2}\Sigma(X\_2)\Sigma(X\_1)^{1/2}\right)^{1/2}}{4}$$

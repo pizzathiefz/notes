@@ -8,6 +8,7 @@ published: 2026-02-19T13:01:13.518+09:00
 
 ## 📄
 
+- [[note/SFT 할루시네이션의 원인과 self-distillation 완화법.md|SFT 할루시네이션의 원인과 self-distillation 완화법]]
 - [[note/Contrastive Learning이 Mean Pooling에 강한 이유.md|Contrastive Learning이 Mean Pooling에 강한 이유]]
 - [[note/Meta-Learning + Fuzzy Logic 기반 Cold Start 추천.md|Meta-Learning + Fuzzy Logic 기반 Cold Start 추천]]
 - [[note/Semi-personalization for Cold User @Deezer.md|Semi-personalization for Cold User @Deezer]]
@@ -17,7 +18,6 @@ published: 2026-02-19T13:01:13.518+09:00
 - [[note/Generative Retrieval for Podcast Discovery @Spotify.md|Generative Retrieval for Podcast Discovery @Spotify]]
 - [[note/Generative Recommendation은 어떻게 일반화를 잘하는가.md|Generative Recommendation은 어떻게 일반화를 잘하는가]]
 - [[note/AI DJ에 대한 friction 분석 @Spotify.md|AI DJ에 대한 friction 분석 @Spotify]]
-- [[note/비용 효율적인 Cold-Start 추천 @Pinterest.md|비용 효율적인 Cold-Start 추천 @Pinterest]]
 
 **[more 🕳️](https://pizzathief.pages.dev/note/)**
 

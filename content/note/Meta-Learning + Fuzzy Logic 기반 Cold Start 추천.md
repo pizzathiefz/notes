@@ -2,8 +2,8 @@
 publish: true
 title: Meta-Learning + Fuzzy Logic 기반 Cold Start 추천
 created: 2026-05-05
-modified: 2026-05-09T15:28:06.235+09:00
-published: 2026-05-09T15:28:06.235+09:00
+modified: 2026-05-10T23:06:41.196+09:00
+published: 2026-05-10T23:06:41.196+09:00
 tags:
   - cold-start
   - music-rec
@@ -40,7 +40,7 @@ tags:
 
 ---
 
-### 3.2 Meta-Learning Framework (MAML 기반)
+### Meta-Learning Framework (MAML 기반)
 
 ![[assets/Meta-Learning + Fuzzy Logic 기반 Cold Start 추천/maml.png|393]]
 
@@ -60,13 +60,13 @@ tags:
 
 ---
 
-### 3.3 Fuzzy Logic Integration
+### Fuzzy Logic Integration
 
 ![[assets/Meta-Learning + Fuzzy Logic 기반 Cold Start 추천/fuzzy-logic.png|460]]
 
 - 선호도를 binary가 아니라 fuzzy membership degree로 표현
-- $K$개의 선호 차원(장르 친화도, 음향 선호도 등)에 대한 멤버십 함수 $\mu\_k: \mathbb{R}^d \to \[0,1]$
-- 유저 퍼지 프로파일: $P\_u = \[\omega\_{u,1}, \omega\_{u,2}, ..., \omega\_{u,K}]$ (차원별 중요도)
+- $K$개의 선호 차원(장르 친화도, 음향 선호도 등)에 대한 멤버십 함수 $\mu\_k: \mathbb{R}^d \to \lbrack 0,1 \rbrack$
+- 유저 퍼지 프로파일: $P\_u = \lbrack \omega\_{u,1}, \omega\_{u,2}, ..., \omega\_{u,K} \rbrack$ (차원별 중요도)
 - 퍼지 선호도 점수:
   $$\hat{r}^F\_{u,i} = \sum\_{k=1}^K \omega\_{u,k} \cdot \mu\_k(f\_i)$$
 - 멤버십 함수 초기화 (Bell 함수 형태):
@@ -76,7 +76,7 @@ tags:
 
 ---
 
-### 3.4 Prototype-Based Architecture
+### Prototype-Based Architecture
 
 ![[assets/Meta-Learning + Fuzzy Logic 기반 Cold Start 추천/hybrid-with-prototype.png]]
 
@@ -96,7 +96,7 @@ tags:
 
 ---
 
-### 3.5 학습 과정
+### 학습 과정
 
 1. **Pretraining**: 아이템 피처 네트워크, fuzzy c-means로 프로토타입 초기화, 충분한 히스토리 보유 유저로 퍼지 멤버십 함수 사전학습
 2. **Meta-Training**: MAML 프레임워크로 support set → 적응 → query set 평가
