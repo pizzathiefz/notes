@@ -2,8 +2,8 @@
 publish: true
 title: A가 X에게
 created: 2026-04-17
-modified: 2026-05-02T23:21:29.470+09:00
-published: 2026-05-02T23:21:29.470+09:00
+modified: 2026-05-17T13:34:43.304+09:00
+published: 2026-05-17T13:34:43.304+09:00
 socialImage: https://image.aladin.co.kr/product/451/79/cover500/8930103502_1.jpg
 author:
   - 존 버거
@@ -12,6 +12,7 @@ year of publication: 2009
 category: 소설
 original title: "From A to X: A Story in Letters (2008)"
 cover: https://image.aladin.co.kr/product/451/79/cover500/8930103502_1.jpg
+rating: "0"
 ---
 
 🔖 모든 사랑은 반복을 좋아해요. 그것은 시간을 거부하는 것이니까요. 당신과 내가 하는 것처럼 말이에요.
